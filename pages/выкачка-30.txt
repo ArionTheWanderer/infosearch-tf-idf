@@ -1,0 +1,256 @@
+
+
+
+
+
+Л. Н. Толстой. Война и мир. Текст произведения. Том первый. Часть вторая. V
+
+
+
+
+
+.hdr {border-bottom:2px solid #7f7f96;background-color:#e6e0d3;background-image:url(/i/dark_bg_oldpaper.gif);background-position-x:right;text-align:right;height:3.6em;position:relative;display:flex;justify-content:flex-end;align-items:flex-end}
+.qson {white-space:nowrap;margin:0em;padding:0.1em 0em;font-size:100%}
+#lmini {display:none;width:4.9em;height:2.5em;position:absolute}
+#lmaxi {width:12em;height:3.6em;position:absolute}
+#lmidi {width:12em;height:3.6em;position:absolute}
+#smg {display:inline-block;width:1em;height:1.2em;vertical-align:middle;margin-bottom:0em}
+.ma {padding:0.5em 1em;border:1px solid #7f7f96;display:inline-block;height:1.2em;border-bottom:0px}
+.l {margin:0em;top:0;left:0;padding:0em;position:relative;width:100%;display:flex;align-items:stretch}
+#lft {padding:1em 2em;}
+.ang0 {position:relative;width:.6em;height:1.2em}
+.ang {position:absolute;border:.6em solid transparent;width:0px;height:0px}
+.la1 {border-right-color:#222;border-left-width:0px}
+.la2 {left:2px;border-right-color:#e3e0d7;border-left-width:0px}
+.ra1 {left:2px;border-left-color:#222;border-right-width:0em;margin-left:0.46em}
+.ra2 {border-left-color:#e3e0d7;border-right-width:0px;margin-left:0.46em}
+.ha {border-top: 2px solid black;margin-top:-1px}
+.me {text-decoration:underline;color:#006}
+.me:hover {cursor:pointer}
+.sb {background-color:#d6d0c3;display:flex;align-items:center;padding:0em 1em;border:1px solid #7f7f96;border-left:0px}
+.sb:hover {cursor:pointer}
+
+
+
+window.yaContextCb=window.yaContextCb||[]
+
+
+
+
+
+
+
+
+
+lgl=1;
+function ge(e){return document.getElementById(e);}
+function ow(e){return e.offsetWidth}
+function oh(e){return e.offsetHeight}
+function showLogin(){var lf=ge("loginFrame");var cw=lf.contentWindow;if(cw.location.pathname!="/loginFrame.phtml"){cw.location.assign("/loginFrame.phtml");}lf.style.display="block";ge("shdw").style.display="block";cw.focus();}
+function Logout(){
+ var r=new XMLHttpRequest();
+ r.open('POST', '/userlogout.phtml', true);
+ r.send();
+ r.onreadystatechange=function() {
+  if (r.readyState === 4) {	
+   if (r.status >= 200 && r.status < 300)
+    document.location.reload(true);
+  }
+ }
+}
+poems=[];lbs=[];lbcs=[];rbs=[];rbcs=[];
+function toggle_sf(){qs_e=ge('qs1');hdr_e=ge('hdr');qi_e=ge('qi1');if (qs_e.className=='qson') {qs_e.className = "qsoff";hdr_e.className="hdr2";qi1.focus()}else{qs_e.className = "qson";hdr_e.className="hdr";}}
+window.addEventListener("click",function(e){
+qs_e=ge('qs1');hdr_e=ge('hdr');qi_e=ge('qi1');thm_e=ge("thm");am1_e=ge("am1");sldr_e=ge("sldr1");
+eid=document.elementFromPoint(e.clientX, e.clientY).id;
+if(am1_e!==null)if(eid!=="am1"&&am1_e.className=="am1min"&&eid!="amm"&&eid!="mmm")am1_e.className="am1";
+if(thm_e!==null)if(eid!=="thm"&&thm_e.className=="thmmin")thm_e.className="thm";
+if(sldr_e!==null){
+	if(eid=="sldr1")showThemes();
+}
+if(eid=="lio"){var m=ge("lio");if(m.innerHTML=="Вход")showLogin();else Logout();}
+if(eid=="sb"||eid=="sb1"){document.forms.sf2.submit();}
+},true);
+
+
+
+ 
+  
+   
+    
+    
+    
+   
+	
+ 
+ 
+  
+	
+	
+	
+
+
+
+
+Авторы
+&nbsp;
+
+
+
+
+
+
+
+if (ge('lft0').offsetWidth > 599) {
+	ge('tyad').style.display="block";
+		window.yaContextCb.push(()=>{
+		Ya.Context.AdvManager.render({
+		    renderTo: 'ty',
+		    blockId: 'R-A-447573-2'
+		  })
+		})
+}
+
+
+
+
+	
+	
+Л. Н. Толстой. Война и мир. Том первый. Часть вторая
+V
+Вечером того же дня на квартире Денисова шел оживленный разговор офицеров эскадрона.
+&mdash; А я говорю вам, Ростов, что вам надо извиниться перед полковым командиром, &mdash; говорил, обращаясь к пунцово-красному, взволнованному Ростову, высокий штаб-ротмистр, с седеющими волосами, огромными усами и крупными чертами морщинистого лица.
+Штаб-ротмистр Кирстен был два раза разжалован в солдаты за дела чести и два раза выслуживался.
+&mdash; Я никому не позволю себе говорить, что я лгу! &mdash; вскрикнул Ростов. &mdash; Он сказал то, что я лгу, а я сказал ему, что он лжет. Так с тем и останется. На дежурство может меня назначать хоть каждый день и под арест сажать, а извиняться меня никто не заставит, потому что ежели он как полковой командир считает недостойным себя дать мне удовлетворение, так...
+&mdash; Да вы постойте, батюшка; вы послушайте меня, &mdash; перебил штаб-ротмистр своим басистым голосом, спокойно разглаживая свои длинные усы. &mdash; Вы при других офицерах говорите полковому командиру, что офицер украл...
+&mdash; Я не виноват, что разговор зашел при других офицерах. Может быть, не надо было говорить при них, да я не дипломат. Я затем в гусары и пошел, думал, что здесь не нужно тонкостей, а он мне говорит, что я лгу... так пусть даст мне удовлетворение...
+&mdash; Это все хорошо, никто не думает, что вы трус, да не в том дело. Спросите у Денисова, похоже это на что-нибудь, чтобы юнкер требовал удовлетворения у полкового командира?
+Денисов, закусив ус, с мрачным видом слушал разговор, видимо, не желая вступать в него. На вопрос штаб-ротмистра он отрицательно покачал головой.
+&mdash; Вы при офицерах говорите полковому командиру про эту пакость, &mdash; продолжал штаб-ротмистр. &mdash; Богданыч (Богданычем называли полкового командира) вас осадил.
+&mdash; Не осадил, а сказал, что я неправду говорю.
+&mdash; Ну да, и вы наговорили ему глупостей, и надо извиниться.
+&mdash; Ни за что! &mdash; крикнул Ростов.
+&mdash; Не думал я этого от вас, &mdash; серьезно и строго сказал штаб-ротмистр. &mdash; Вы не хотите извиниться, а вы, батюшка, не только перед ним, а перед всем полком, перед всеми нами, вы кругом виноваты. А вот как: кабы вы подумали да посоветовались, как обойтись с этим делом, а то вы прямо, да при офицерах, и бухнули. Что теперь делать полковому командиру? Надо отдать под суд офицера и замарать весь полк? Из-за одного негодяя весь полк осрамить? Так, что ли, по-вашему? А по-нашему, не так. И Богданыч молодец, он вам сказал, что вы неправду говорите. Неприятно, да что делать, батюшка, сами наскочили. А теперь, как дело хотят замять, так вы из-за фанаберии какой-то не хотите извиниться, а хотите все рассказать. Вам обидно, что вы подежурите, да что вам извиниться перед старым и честным офицером! Какой бы там ни был Богданыч, а все честный и храбрый полковник, так вам обидно, а замарать полк вам ничего! &mdash; Голос штаб-ротмистра начинал дрожать. &mdash; Вы, батюшка, в полку без году неделя; нынче здесь, завтра перешли куда в адъютантики; вам наплевать, что говорить будут: &laquo;Между Павлоградскими офицерами воры!&raquo; А нам не все равно. Так, что ли, Денисов? Не все равно?
+Денисов все молчал и не шевелился, изредка взглядывая своими блестящими черными глазами на Ростова.
+&mdash; Вам своя фанаберия дорога&#769;, извиниться не хочется, &mdash; продолжал штаб-ротмистр, &mdash; а нам, старикам, как мы выросли, да и умереть, Бог даст, приведется в полку, так нам честь полка дорога, и Богданыч это знает. Ох, как дорога, батюшка! А это нехорошо, нехорошо! Там обижайтесь или нет, а я всегда правду-матку скажу. Нехорошо!
+И штаб-ротмистр встал и отвернулся от Ростова.
+&mdash; Пг'авда, чег'т возьми! &mdash; закричал, вскакивая, Денисов. &mdash; Ну, Г'остов, ну!
+Ростов, краснея и бледнея, смотрел то на одного, то на другого офицера.
+&mdash; Нет, господа, нет... вы не думайте... я очень понимаю, вы напрасно обо мне думаете так... я... для меня... я за честь полка... да что? это на деле я покажу, и для меня честь знамени... ну, все равно, правда, я виноват!.. &mdash; Слезы стояли у него в глазах. &mdash; Я виноват, кругом виноват!.. Ну, что вам еще?..
+&mdash; Вот это так, граф! &mdash; поворачиваясь, крикнул штаб-ротмистр, ударяя его большою рукою по плечу.
+&mdash; Я тебе говог'ю, &mdash; закричал Денисов, &mdash; он малый славный.
+&mdash; Так-то лучше, граф, &mdash; повторил штаб-ротмистр, как будто за его признание начиная величать его титулом. &mdash; Подите и извинитесь, ваше сиятельство, да-с.
+&mdash; Господа, все сделаю, никто от меня слова не услышит, &mdash; умоляющим голосом проговорил Ростов, &mdash; но извиниться не могу, ей-богу, не могу, как хотите! Как я буду извиняться, точно маленький, прощенья просить?
+Денисов засмеялся.
+&mdash; Вам же хуже. Богданыч злопамятен, поплатитесь за упрямство, &mdash; сказал Кирстен.
+&mdash; Ей-богу, не упрямство! Я не могу вам описать, какое чувство, не могу...
+&mdash; Ну, ваша воля, &mdash; сказал штаб-ротмистр. &mdash; Что же, мерзавец-то этот куда делся? &mdash; спросил он у Денисова.
+&mdash; Сказался больным, завтг'а велено пг'иказом исключить, &mdash; проговорил Денисов.
+&mdash; Это болезнь, иначе нельзя объяснить, &mdash; сказал штаб-ротмистр.
+&mdash; Уж там болезнь не болезнь, а не попадайся он мне на глаза &mdash; убью! &mdash; кровожадно прокричал Денисов.
+В комнату вошел Жерков.
+&mdash; Ты как? &mdash; обратились вдруг офицеры к вошедшему.
+&mdash; Поход, господа. Мак в плен сдался, и с армией, со всем.
+&mdash; Врешь!
+&mdash; Сам видел.
+&mdash; Как? Мака живого видел? с руками, с ногами?
+&mdash; Поход! Поход! Дать ему бутылку за такую новость. Ты как же сюда попал?
+&mdash; Опять в полк выслали, за черта, за Мака. Австрийский генерал пожаловался. Я его поздравил с приездом Мака... Ты что, Ростов, точно из бани?
+&mdash; Тут, брат, у нас такая каша второй день.
+Вошел полковой адъютант и подтвердил известие, привезенное Жерковым. Назавтра велено было выступать.
+&mdash; Поход, господа!
+&mdash; Ну, и слава Богу, засиделись.
+
+IV30/361VIо тексте/оглавление
+
+
+
+
+
+
+
+ pagecontext="text1";
+
+&copy; Это произведение перешло в общественное достояние. Произведение написано автором, умершим более семидесяти лет назад, и опубликовано прижизненно, либо посмертно, но с момента публикации также прошло более семидесяти лет. Оно может свободно использоваться любым лицом без чьего-либо согласия или разрешения и без выплаты авторского вознаграждения.
+
+
+
+
+
+
+
+ var user = Object();
+user.paid = false;wx=ow(ge('in'));
+displayAd(wx, 610, 'r_top','right-rectangle-stick-1');
+
+
+function gr(e){return e.getBoundingClientRect();}
+
+
+
+
+ 
+  
+	 
+   
+
+   hx=oh(ge('lft'));
+	 displayAd(wx,hx-660,'r_bot','btmad');
+ 
+	
+ 
+
+
+
+
+
+
+
+
+
+Email: otklik@ilibrary.ruО библиотекеРеклама на сайте
+&copy;1996&#151;2022 Алексей Комаров. Подборка&nbsp;произведений, оформление, программирование.
+
+
+
+")
+//-->
+
+(function(w, c) { (w[c] = w[c] || []).push(function() { try { w.yaCounter5179000 = new Ya.Metrika({id:5179000, enableAll: true, webvisor:true}); } catch(e) { } }); })(window, "yandex_metrika_callbacks");
+
+var bscript=document.createElement('script');
+if (lgl==2) bscript.src="/rightbanners_rox3_1.js"; else bscript.src="/rightbanners3_2.js";
+document.head.appendChild(bscript);
+
+function setAd(){
+t_e=ge("text");var ty_e=ge("tyad");
+if(ty_e){if (ow(t_e)>=600)ty_e.style.display="block";else ty_e.style.display="none";}
+}
+function setPoems(){
+t_e=ge("text");
+if(typeof t_e !== 'undefined'){
+var tw=ow(t_e);
+var ss='';
+if(tw>240)for(var i in poems){
+var vls=poems[i].getElementsByClassName("vl");
+var vlim=16;var rsq=0;var lsq=0;var vlmax=0;var invr=0;var invl=0;
+if(vls.lengthvlmax)vlmax=vlw;}
+for(var j=0;jvlmax/3)rsq+=ow(poems[i])-vlw;else invr++;pdl=getComputedStyle(vls[j]).paddingLeft;pdl=parseFloat(pdl.slice(0,-2));if(pdltw)width1=tw-vlmax;
+var pmid='#'+poems[i].id;
+ss+=pmid+' div,'+pmid+' h1,'+pmid+' h2,'+pmid+' h3,'+pmid+' h4,'+pmid+' h5 {margin-left:-'+width1+'px;}'+pmid+' .pmm {padding-left:'+width1+'px;margin:0em}'+pmid+' .pm {padding-left:'+width1+'px}';
+}
+pss=document.createElement('style');
+pss.innerHTML=ss;
+document.querySelector('head').appendChild(pss);
+}
+}
+function cleanRules(){if(typeof t_e !=='undefined'){if(ow(ge("text"))>240)pss.parentNode.removeChild(pss);}}
+tbd_e=ge("tbd");
+bnbg_e=ge("bnbg");
+function setArrows(){
+for(var i in lbs){yf=oh(lbcs[i])/oh(lbs[i])*1.2;xf=1+yf/5;lbs[i].style.transform='scale('+xf+','+yf+')';}
+for(var i in rbs){yf=oh(rbcs[i])/oh(rbs[i])*1.2;xf=1+yf/5;rbs[i].style.transform='scale('+xf+','+yf+')';}
+if(bnbg_e != null)if(gr(tbd_e).bottom
+
+
+

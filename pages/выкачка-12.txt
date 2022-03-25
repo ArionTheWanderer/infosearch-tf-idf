@@ -1,0 +1,276 @@
+
+
+
+
+
+Л. Н. Толстой. Война и мир. Текст произведения. Том первый. Часть первая. XII
+
+
+
+
+
+.hdr {border-bottom:2px solid #7f7f96;background-color:#e6e0d3;background-image:url(/i/dark_bg_oldpaper.gif);background-position-x:right;text-align:right;height:3.6em;position:relative;display:flex;justify-content:flex-end;align-items:flex-end}
+.qson {white-space:nowrap;margin:0em;padding:0.1em 0em;font-size:100%}
+#lmini {display:none;width:4.9em;height:2.5em;position:absolute}
+#lmaxi {width:12em;height:3.6em;position:absolute}
+#lmidi {width:12em;height:3.6em;position:absolute}
+#smg {display:inline-block;width:1em;height:1.2em;vertical-align:middle;margin-bottom:0em}
+.ma {padding:0.5em 1em;border:1px solid #7f7f96;display:inline-block;height:1.2em;border-bottom:0px}
+.l {margin:0em;top:0;left:0;padding:0em;position:relative;width:100%;display:flex;align-items:stretch}
+#lft {padding:1em 2em;}
+.ang0 {position:relative;width:.6em;height:1.2em}
+.ang {position:absolute;border:.6em solid transparent;width:0px;height:0px}
+.la1 {border-right-color:#222;border-left-width:0px}
+.la2 {left:2px;border-right-color:#e3e0d7;border-left-width:0px}
+.ra1 {left:2px;border-left-color:#222;border-right-width:0em;margin-left:0.46em}
+.ra2 {border-left-color:#e3e0d7;border-right-width:0px;margin-left:0.46em}
+.ha {border-top: 2px solid black;margin-top:-1px}
+.me {text-decoration:underline;color:#006}
+.me:hover {cursor:pointer}
+.sb {background-color:#d6d0c3;display:flex;align-items:center;padding:0em 1em;border:1px solid #7f7f96;border-left:0px}
+.sb:hover {cursor:pointer}
+
+
+
+window.yaContextCb=window.yaContextCb||[]
+
+
+
+
+
+
+
+
+
+lgl=1;
+function ge(e){return document.getElementById(e);}
+function ow(e){return e.offsetWidth}
+function oh(e){return e.offsetHeight}
+function showLogin(){var lf=ge("loginFrame");var cw=lf.contentWindow;if(cw.location.pathname!="/loginFrame.phtml"){cw.location.assign("/loginFrame.phtml");}lf.style.display="block";ge("shdw").style.display="block";cw.focus();}
+function Logout(){
+ var r=new XMLHttpRequest();
+ r.open('POST', '/userlogout.phtml', true);
+ r.send();
+ r.onreadystatechange=function() {
+  if (r.readyState === 4) {	
+   if (r.status >= 200 && r.status < 300)
+    document.location.reload(true);
+  }
+ }
+}
+poems=[];lbs=[];lbcs=[];rbs=[];rbcs=[];
+function toggle_sf(){qs_e=ge('qs1');hdr_e=ge('hdr');qi_e=ge('qi1');if (qs_e.className=='qson') {qs_e.className = "qsoff";hdr_e.className="hdr2";qi1.focus()}else{qs_e.className = "qson";hdr_e.className="hdr";}}
+window.addEventListener("click",function(e){
+qs_e=ge('qs1');hdr_e=ge('hdr');qi_e=ge('qi1');thm_e=ge("thm");am1_e=ge("am1");sldr_e=ge("sldr1");
+eid=document.elementFromPoint(e.clientX, e.clientY).id;
+if(am1_e!==null)if(eid!=="am1"&&am1_e.className=="am1min"&&eid!="amm"&&eid!="mmm")am1_e.className="am1";
+if(thm_e!==null)if(eid!=="thm"&&thm_e.className=="thmmin")thm_e.className="thm";
+if(sldr_e!==null){
+	if(eid=="sldr1")showThemes();
+}
+if(eid=="lio"){var m=ge("lio");if(m.innerHTML=="Вход")showLogin();else Logout();}
+if(eid=="sb"||eid=="sb1"){document.forms.sf2.submit();}
+},true);
+
+
+
+ 
+  
+   
+    
+    
+    
+   
+	
+ 
+ 
+  
+	
+	
+	
+
+
+
+
+Авторы
+&nbsp;
+
+
+
+
+
+
+
+if (ge('lft0').offsetWidth > 599) {
+	ge('tyad').style.display="block";
+		window.yaContextCb.push(()=>{
+		Ya.Context.AdvManager.render({
+		    renderTo: 'ty',
+		    blockId: 'R-A-447573-2'
+		  })
+		})
+}
+
+
+
+
+	
+	
+Л. Н. Толстой. Война и мир. Том первый. Часть первая
+XII
+&mdash; Mon cher Boris&nbsp;1, &mdash; сказала княгиня Анна Михайловна сыну, когда карета графини Ростовой, в которой они сидели, проехала по устланной соломой улице и въехала на широкий двор графа Кирилла Владимировича Безухова. &mdash; Mon cher Boris, &mdash; сказала мать, выпрастывая руку из-под старого салопа и робким и ласковым движением кладя ее на руку сына, &mdash; будь ласков, будь внимателен. Граф Кирилл Владимирович все-таки тебе крестный отец, и от него зависит твоя будущая судьба. Помни это, mon cher&nbsp;2, будь мил, как ты умеешь быть...
+&mdash; Ежели бы я знал, что из этого выйдет что-нибудь, кроме унижения... &mdash; отвечал сын холодно. &mdash; Но я обещал вам и делаю это для вас.
+Несмотря на то, что чья-то карета стояла у подъезда, швейцар, оглядев мать с сыном (которые, не приказывая докладывать о себе, прямо вошли в стеклянные сени между рядами статуй в нишах), значительно посмотрев на старенький салоп, спросил, кого им угодно, княжон или графа, и, узнав, что графа, сказал, что их сиятельству нынче хуже и их сиятельство никого не принимают.
+&mdash; Мы можем уехать, &mdash; сказал сын по-французски.
+&mdash; Mon ami!&nbsp;3 &mdash; сказала мать умоляющим голосом, опять дотрагиваясь до руки сына, как будто это прикосновение могло успокоивать или возбуждать его.
+Борис замолчал и, не снимая шинели, вопросительно смотрел на мать.
+&mdash; Голубчик, &mdash; нежным голоском сказала Анна Михайловна, обращаясь к швейцару, &mdash; я знаю, что граф Кирилл Владимирович очень болен... я затем и приехала... я родственница... Я не буду беспокоить, голубчик... А мне бы только надо увидать князя Василия Сергеевича: ведь он здесь стоит. Доложи, пожалуйста.
+Швейцар угрюмо дернул снурок наверх и отвернулся.
+&mdash; Княгиня Друбецкая к князю Василию Сергеевичу, &mdash; крикнул он сбежавшему сверху и из-под выступа лестницы выглядывавшему официанту в чулках, башмаках и фраке.
+Мать расправила складки своего крашеного шелкового платья, посмотрелась в цельное венецианское зеркало в стене и бодро, в своих стоптанных башмаках, пошла вверх по ковру лестницы.
+&mdash; Mon cher, vous m'avez promis&nbsp;4, &mdash; обратилась она опять к сыну, прикосновением руки возбуждая его.
+Сын, опустив глаза, спокойно шел за нею.
+Они вошли в залу, из которой одна дверь вела в покои, отведенные князю Василью.
+В то время как мать с сыном, выйдя на середину комнаты, намеревались спросить дорогу у вскочившего при их входе старого официанта, у одной из дверей повернулась бронзовая ручка, и князь Василий в бархатной шубке, с одною звездой, по-домашнему, вышел, провожая красивого черноволосого мужчину. Мужчина этот был знаменитый петербургский доктор Lorrain.
+&mdash; C'est donc positif?&nbsp;5 &mdash; говорил князь.
+&mdash; Mon prince, &laquo;errare humanum est&raquo;, mais...&nbsp;6 &mdash; отвечал доктор, грассируя и произнося латинские слова французским выговором.
+&mdash; C'est bien, c'est bien...&nbsp;7
+Заметив Анну Михайловну с сыном, князь Василий поклоном отпустил доктора и молча, но с вопросительным видом подошел к ним. Сын заметил, как вдруг глубокая горесть выразилась в глазах его матери, и слегка улыбнулся.
+&mdash; Да, в каких грустных обстоятельствах пришлось нам свидеться, князь... Ну, что наш дорогой больной? &mdash; сказала она, как будто не замечая холодного, оскорбительного, устремленного на нее взгляда.
+Князь Василий вопросительно, до недоумения, посмотрел на нее, потом на Бориса, Борис учтиво поклонился. Князь Василий, не отвечая на поклон, отвернулся к Анне Михайловне и на ее вопрос отвечал движением головы и губ, которое означало самую плохую надежду для больного.
+&mdash; Неужели? &mdash; воскликнула Анна Михайловна. &mdash; Ах, это ужасно! Страшно подумать... Это мой сын, &mdash; прибавила она, указывая на Бориса. &mdash; Он сам хотел благодарить вас.
+Борис еще раз учтиво поклонился.
+&mdash; Верьте, князь, что сердце матери никогда не забудет того, что вы сделали для нас.
+Я рад, что смог сделать вам приятное, любезная моя Анна Михайловна, &mdash; сказал князь Василий, оправляя жабо и в жесте и голосе проявляя здесь, в Москве, пред покровительствуемою Анною Михайловной еще гораздо бо&#769;льшую важность, чем в Петербурге, на вечере у Annette Шерер.
+&mdash; Старайтесь служить хорошо и быть достойным, &mdash; прибавил он, строго обращаясь к Борису. &mdash; Я рад... Вы здесь в отпуску? &mdash; продиктовал он своим бесстрастным тоном.
+&mdash; Жду приказа, ваше сиятельство, чтоб отправиться по новому назначению, &mdash; отвечал Борис, не выказывая ни досады за резкий тон князя, ни желания вступить в разговор, но так спокойно и почтительно, что князь пристально поглядел на него.
+&mdash; Вы живете с матушкой?
+&mdash; Я живу у графини Ростовой, &mdash; сказал Борис, опять прибавив, &mdash; ваше сиятельство.
+&mdash; Это тот Илья Ростов, который женился на Nathalie Шиншиной, &mdash; сказала Анна Михайловна.
+&mdash; Знаю, знаю, &mdash; сказал князь Василий своим монотонным голосом. &mdash; Je n'ai jamais pu concevoir comment Nathalie s'est d&eacute;cid&eacute;e &agrave; &eacute;pouser cet ours mal l&eacute;ch&eacute;! Un personnage compl&egrave;tement stupide et ridicule. Et joueur &agrave; ce qu'on dit&nbsp;8.
+&mdash; Mais tr&egrave;s brave homme, mon prince&nbsp;9, &mdash; заметила Анна Михайловна, трогательно улыбаясь, как будто и она знала, что граф Ростов заслуживал такого мнения, но просила пожалеть бедного старика.
+&mdash; Что говорят доктора? &mdash; спросила княгиня, помолчав немного и опять выражая большую печаль на своем исплаканном лице.
+&mdash; Мало надежды, &mdash; сказал князь.
+&mdash; А мне так хотелось еще раз поблагодарить дядю за все его благодеяния мне и Боре. C'est son filleul&nbsp;10, &mdash; прибавила она таким тоном, как будто это известие должно было крайне обрадовать князя Василия.
+Князь Василий задумался и поморщился. Анна Михайловна поняла, что он боялся найти в ней соперницу по завещанию графа Безухова. Она поспешила успокоить его.
+&mdash; Ежели бы не моя истинная любовь и преданность дяде, &mdash; сказала она, с особенною уверенностию и небержностию выговаривая это слово, &mdash; я знаю его характер, благородный, прямой, но ведь одни княжны при нем... Они еще молоды... &mdash; Она наклонила голову и прибавила шепотом: &mdash; Исполнил ли он последний долг, князь? Как драгоценны эти последние минуты! Ведь хуже быть не может; его необходимо приготовить, ежели он так плох. Мы, женщины, князь, &mdash; она нежно улыбнулась, &mdash; всегда знаем, как говорить эти вещи. Необходимо видеть его. Как бы тяжело это ни было для меня, но я привыкла уже страдать.
+Князь, видимо, понял, и понял, как и на вечере у Annette Шерер, что от Анны Михайловны трудно отделаться.
+&mdash; Не было бы тяжело ему свидание, ch&egrave;re Анна Михайловна, &mdash; сказал он. &mdash; Подождем до вечера, доктора обещали кризис.
+&mdash; Но нельзя ждать, князь, в эти минуты. Pensez, il у va du salut de son &acirc;me... Ah! c'est terrible, les devoirs d'un chr&eacute;tien...&nbsp;11
+Из внутренних комнат отворилась дверь, и вышла одна из княжон &mdash; племянниц графа, с угрюмым и холодным лицом и поразительно несоразмерною по ногам длинною талией.
+Князь Василий обернулся к ней.
+&mdash; Ну, что он?
+&mdash; Все то же. И как вы хотите, этот шум... &mdash; сказала княжна, оглядывая Анну Михайловну, как незнакомую.
+&mdash; Ah, ch&egrave;re, je ne vous reconnaissais pas&nbsp;12, &mdash; с счастливою улыбкой сказала Анна Михайловна, легкою иноходью подходя к племяннице графа. &mdash; Je viens d'arriver et je suis &agrave; vous pour vous aider &agrave; soigner mon oncle. J'imagine combien vous avez souffert&nbsp;13, &mdash; прибавила она, с участием закатывая глаза.
+Княжна ничего не ответила, даже не улыбнулась и тотчас же вышла. Анна Михайловна сняла перчатки и в завоеванной позиции расположилась на кресле, пригласив князя Василия сесть подле себя.
+&mdash; Борис! &mdash; сказала она сыну и улыбнулась. &mdash; Я пройду к графу, к дяде, а ты поди к Пьеру, mon ami, покамест, да не забудь передать ему приглашение от Ростовых. Они зовут его обедать. Я думаю, он не поедет? &mdash; обратилась она к князю.
+&mdash; Напротив, &mdash; сказал князь, видимо сделавшийся не в духе. &mdash; Je serais tr&egrave;s content si vous me d&eacute;barrassez de ce jeune homme...&nbsp;14 Сидит тут. Граф ни разу не спросил про него.
+Он пожал плечами. Официант повел молодого человека вниз и вверх по другой лестнице к Петру Кирилловичу.
+
+1
+Боренька.2
+милый дружок.3
+Мой дружок!4
+Мой друг, ты мне обещал.5
+И это верно?6
+Князь, &laquo;человеку свойственно ошибаться&raquo;...7
+Хорошо, хорошо...8
+Я никогда не мог понять, как Натали решилась выйти замуж за этого грязного медведя. Совершенно глупая и смешная особа. К тому же игрок, говорят.9
+Но добрый человек, князь.10
+Это его крестник.11
+Подумайте, дело идет о спасении его души. Ах! Это ужасно, долг христианина...12
+Ах, милая, я вас и не узнала.13
+Я приехала помогать вам ходить за дядюшкой. Воображаю, как вы настрадались.14
+Я был бы очень рад, если бы вы меня избавили от этого молодого человека.XI12/361XIIIо тексте/оглавление
+
+
+
+
+
+
+
+ pagecontext="text1";
+
+&copy; Это произведение перешло в общественное достояние. Произведение написано автором, умершим более семидесяти лет назад, и опубликовано прижизненно, либо посмертно, но с момента публикации также прошло более семидесяти лет. Оно может свободно использоваться любым лицом без чьего-либо согласия или разрешения и без выплаты авторского вознаграждения.
+
+
+
+
+
+
+
+ var user = Object();
+user.paid = false;wx=ow(ge('in'));
+displayAd(wx, 610, 'r_top','right-rectangle-stick-1');
+
+
+function gr(e){return e.getBoundingClientRect();}
+
+
+
+
+ 
+  
+	 
+   
+
+   hx=oh(ge('lft'));
+	 displayAd(wx,hx-660,'r_bot','btmad');
+ 
+	
+ 
+
+
+
+
+
+
+
+
+
+Email: otklik@ilibrary.ruО библиотекеРеклама на сайте
+&copy;1996&#151;2022 Алексей Комаров. Подборка&nbsp;произведений, оформление, программирование.
+
+
+
+")
+//-->
+
+(function(w, c) { (w[c] = w[c] || []).push(function() { try { w.yaCounter5179000 = new Ya.Metrika({id:5179000, enableAll: true, webvisor:true}); } catch(e) { } }); })(window, "yandex_metrika_callbacks");
+
+var bscript=document.createElement('script');
+if (lgl==2) bscript.src="/rightbanners_rox3_1.js"; else bscript.src="/rightbanners3_2.js";
+document.head.appendChild(bscript);
+
+function setAd(){
+t_e=ge("text");var ty_e=ge("tyad");
+if(ty_e){if (ow(t_e)>=600)ty_e.style.display="block";else ty_e.style.display="none";}
+}
+function setPoems(){
+t_e=ge("text");
+if(typeof t_e !== 'undefined'){
+var tw=ow(t_e);
+var ss='';
+if(tw>240)for(var i in poems){
+var vls=poems[i].getElementsByClassName("vl");
+var vlim=16;var rsq=0;var lsq=0;var vlmax=0;var invr=0;var invl=0;
+if(vls.lengthvlmax)vlmax=vlw;}
+for(var j=0;jvlmax/3)rsq+=ow(poems[i])-vlw;else invr++;pdl=getComputedStyle(vls[j]).paddingLeft;pdl=parseFloat(pdl.slice(0,-2));if(pdltw)width1=tw-vlmax;
+var pmid='#'+poems[i].id;
+ss+=pmid+' div,'+pmid+' h1,'+pmid+' h2,'+pmid+' h3,'+pmid+' h4,'+pmid+' h5 {margin-left:-'+width1+'px;}'+pmid+' .pmm {padding-left:'+width1+'px;margin:0em}'+pmid+' .pm {padding-left:'+width1+'px}';
+}
+pss=document.createElement('style');
+pss.innerHTML=ss;
+document.querySelector('head').appendChild(pss);
+}
+}
+function cleanRules(){if(typeof t_e !=='undefined'){if(ow(ge("text"))>240)pss.parentNode.removeChild(pss);}}
+tbd_e=ge("tbd");
+bnbg_e=ge("bnbg");
+function setArrows(){
+for(var i in lbs){yf=oh(lbcs[i])/oh(lbs[i])*1.2;xf=1+yf/5;lbs[i].style.transform='scale('+xf+','+yf+')';}
+for(var i in rbs){yf=oh(rbcs[i])/oh(rbs[i])*1.2;xf=1+yf/5;rbs[i].style.transform='scale('+xf+','+yf+')';}
+if(bnbg_e != null)if(gr(tbd_e).bottom
+
+
+

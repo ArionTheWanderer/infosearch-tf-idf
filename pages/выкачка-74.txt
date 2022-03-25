@@ -1,0 +1,229 @@
+
+
+
+
+
+Л. Н. Толстой. Война и мир. Текст произведения. Том второй. Часть первая. IX
+
+
+
+
+
+.hdr {border-bottom:2px solid #7f7f96;background-color:#e6e0d3;background-image:url(/i/dark_bg_oldpaper.gif);background-position-x:right;text-align:right;height:3.6em;position:relative;display:flex;justify-content:flex-end;align-items:flex-end}
+.qson {white-space:nowrap;margin:0em;padding:0.1em 0em;font-size:100%}
+#lmini {display:none;width:4.9em;height:2.5em;position:absolute}
+#lmaxi {width:12em;height:3.6em;position:absolute}
+#lmidi {width:12em;height:3.6em;position:absolute}
+#smg {display:inline-block;width:1em;height:1.2em;vertical-align:middle;margin-bottom:0em}
+.ma {padding:0.5em 1em;border:1px solid #7f7f96;display:inline-block;height:1.2em;border-bottom:0px}
+.l {margin:0em;top:0;left:0;padding:0em;position:relative;width:100%;display:flex;align-items:stretch}
+#lft {padding:1em 2em;}
+.ang0 {position:relative;width:.6em;height:1.2em}
+.ang {position:absolute;border:.6em solid transparent;width:0px;height:0px}
+.la1 {border-right-color:#222;border-left-width:0px}
+.la2 {left:2px;border-right-color:#e3e0d7;border-left-width:0px}
+.ra1 {left:2px;border-left-color:#222;border-right-width:0em;margin-left:0.46em}
+.ra2 {border-left-color:#e3e0d7;border-right-width:0px;margin-left:0.46em}
+.ha {border-top: 2px solid black;margin-top:-1px}
+.me {text-decoration:underline;color:#006}
+.me:hover {cursor:pointer}
+.sb {background-color:#d6d0c3;display:flex;align-items:center;padding:0em 1em;border:1px solid #7f7f96;border-left:0px}
+.sb:hover {cursor:pointer}
+
+
+
+window.yaContextCb=window.yaContextCb||[]
+
+
+
+
+
+
+
+
+
+lgl=1;
+function ge(e){return document.getElementById(e);}
+function ow(e){return e.offsetWidth}
+function oh(e){return e.offsetHeight}
+function showLogin(){var lf=ge("loginFrame");var cw=lf.contentWindow;if(cw.location.pathname!="/loginFrame.phtml"){cw.location.assign("/loginFrame.phtml");}lf.style.display="block";ge("shdw").style.display="block";cw.focus();}
+function Logout(){
+ var r=new XMLHttpRequest();
+ r.open('POST', '/userlogout.phtml', true);
+ r.send();
+ r.onreadystatechange=function() {
+  if (r.readyState === 4) {	
+   if (r.status >= 200 && r.status < 300)
+    document.location.reload(true);
+  }
+ }
+}
+poems=[];lbs=[];lbcs=[];rbs=[];rbcs=[];
+function toggle_sf(){qs_e=ge('qs1');hdr_e=ge('hdr');qi_e=ge('qi1');if (qs_e.className=='qson') {qs_e.className = "qsoff";hdr_e.className="hdr2";qi1.focus()}else{qs_e.className = "qson";hdr_e.className="hdr";}}
+window.addEventListener("click",function(e){
+qs_e=ge('qs1');hdr_e=ge('hdr');qi_e=ge('qi1');thm_e=ge("thm");am1_e=ge("am1");sldr_e=ge("sldr1");
+eid=document.elementFromPoint(e.clientX, e.clientY).id;
+if(am1_e!==null)if(eid!=="am1"&&am1_e.className=="am1min"&&eid!="amm"&&eid!="mmm")am1_e.className="am1";
+if(thm_e!==null)if(eid!=="thm"&&thm_e.className=="thmmin")thm_e.className="thm";
+if(sldr_e!==null){
+	if(eid=="sldr1")showThemes();
+}
+if(eid=="lio"){var m=ge("lio");if(m.innerHTML=="Вход")showLogin();else Logout();}
+if(eid=="sb"||eid=="sb1"){document.forms.sf2.submit();}
+},true);
+
+
+
+ 
+  
+   
+    
+    
+    
+   
+	
+ 
+ 
+  
+	
+	
+	
+
+
+
+
+Авторы
+&nbsp;
+
+
+
+
+
+
+
+if (ge('lft0').offsetWidth > 599) {
+	ge('tyad').style.display="block";
+		window.yaContextCb.push(()=>{
+		Ya.Context.AdvManager.render({
+		    renderTo: 'ty',
+		    blockId: 'R-A-447573-2'
+		  })
+		})
+}
+
+
+
+
+	
+	
+Л. Н. Толстой. Война и мир. Том второй. Часть первая
+IX
+Маленькая княгиня лежала на подушках, в белом чепчике (страданье только что отпустило ее), черные волосы прядями вились у ее воспаленных, вспотевших щек; румяный, прелестный ротик, с губкой, покрытой черными волосиками, был раскрыт, и она радостно улыбалась. Князь Андрей вошел в комнату и остановился перед ней, у изножья дивана, на котором она лежала. Блестящие глаза, смотревшие детски испуганно и взволнованно, остановились на нем, не изменяя выражения. &laquo;Я вас всех люблю, я никому зла не делала, за что я страдаю? Помогите мне&raquo;, &mdash; говорило ее выражение. Она видела мужа, но не понимала значения его появления теперь перед нею. Князь Андрей обошел диван и в лоб поцеловал ее.
+&mdash; Душенька моя! &mdash; сказал он слово, которое никогда не говорил ей. &mdash; Бог милостив... Она вопросительно, детски укоризненно посмотрела на него.
+&laquo;Я от тебя ждала помощи, и ничего, ничего, и ты тоже!&raquo; &mdash; сказали ее глаза. Она не удивилась, что он приехал; она не поняла того, что он приехал. Его приезд не имел никакого отношения до ее страданий и облегчения их. Муки вновь начались, и Марья Богдановна посоветовала князю Андрею выйти из комнаты.
+Акушер вошел в комнату. Князь Андрей вышел и, встретив княжну Марью, опять подошел к ней. Они шепотом заговорили, но всякую минуту разговор замолкал. Они ждали и прислушивались.
+&mdash; Allez, mon ami&nbsp;1, &mdash; сказала княжна Марья. Князь Андрей опять пошел к жене и в соседней комнате сел, дожидаясь. Какая-то женщина вышла из ее комнаты с испуганным лицом и смутилась, увидав князя Андрея. Он закрыл лицо руками и просидел так несколько минут. Жалкие, беспомощно-животные стоны слышались из-за двери. Князь Андрей встал, подошел к двери и хотел отворить ее. Дверь держал кто-то.
+&mdash; Нельзя, нельзя! &mdash; проговорил оттуда испуганный голос. Он стал ходить по комнате. Крики замолкли, еще прошло несколько секунд. Вдруг страшный крик &mdash; не ее крик &mdash; она не могла так кричать &mdash; раздался в соседней комнате. Князь Андрей подбежал к ее двери; крик замолк, но послышался другой крик, крик ребенка.
+&laquo;Зачем принесли туда ребенка? &mdash; подумал в первую секунду князь Андрей. &mdash; Ребенок? Какой?.. Зачем там ребенок? Или это родился ребенок?&raquo;
+Когда он вдруг понял все радостное значение этого крика, слезы задушили его, и он, облокотившись обеими руками на подоконник, всхлипывая, заплакал, как плачут дети. Дверь отворилась. Доктор, с засученными рукавами рубашки, без сюртука, бледный и с трясущейся челюстью, вышел из комнаты. Князь Андрей обратился к нему, но доктор растерянно взглянул на него и, ни слова не сказав, прошел мимо. Женщина выбежала и, увидав князя Андрея, замялась на пороге. Он вошел в комнату жены. Она мертвая лежала в том же положении, в котором он видел ее пять минут тому назад, и то же выражение, несмотря на остановившиеся глаза и на бледность щек, было на этом прелестном детском робком личике с губкой, покрытой черными волосиками.
+&laquo;Я вас всех любила и никому дурного не делала, и что вы со мной сделали? Ах, что вы со мной сделали?&raquo; &mdash; говорило ее прелестное, жалкое мертвое лицо. В углу комнаты хрюкнуло и пискнуло что-то маленькое, красное в белых трясущихся руках Марьи Богдановны.
+Через два часа после этого князь Андрей тихими шагами вошел в кабинет к отцу. Старик все уже знал. Он стоял у самой двери, и, как только она отворилась, старик молча старческими, жесткими руками, как тисками, обхватил шею сына и зарыдал, как ребенок.
+&nbsp;
+Через три дня отпевали маленькую княгиню, и, прощаясь с нею, князь Андрей взошел на ступени гроба. И в гробу было то же лицо, хотя и с закрытыми глазами. &laquo;Ах, что вы со мной сделали?&raquo; &mdash; все говорило оно, и князь Андрей почувствовал, что в душе его оторвалось что-то, что он виноват в вине, которую ему не поправить и не забыть. Он не мог плакать. Старик тоже вошел и поцеловал ее восковую ручку, спокойно и высоко лежавшую на другой, и ему ее лицо сказало: &laquo;Ах, что и за что вы это со мной сделали?&raquo; И старик сердито отвернулся, увидав это лицо.
+Еще через пять дней крестили молодого князя Николая Андреича. Мамушка подбородком придерживала пеленки, в то время как гусиным перышком священник мазал сморщенные красные ладо&#769;нки и ступеньки мальчика.
+Крестный отец &mdash; дед, боясь уронить, вздрагивая, носил младенца вокруг жестяной помятой купели и передавал его крестной матери, княжне Марье. Князь Андрей, замирая от страха, чтоб не утопили ребенка, сидел в другой комнате, ожидая окончания таинства. Он радостно взглянул на ребенка, когда ему вынесла его нянюшка, и одобрительно кивнул головой, когда нянюшка сообщила ему, что брошенный в купель вощечок с волосками не потонул, а поплыл по купели.
+
+1
+Иди, мой друг &mdash; Ред.VIII74/361Xо тексте/оглавление
+
+
+
+
+
+
+
+ pagecontext="text1";
+
+&copy; Это произведение перешло в общественное достояние. Произведение написано автором, умершим более семидесяти лет назад, и опубликовано прижизненно, либо посмертно, но с момента публикации также прошло более семидесяти лет. Оно может свободно использоваться любым лицом без чьего-либо согласия или разрешения и без выплаты авторского вознаграждения.
+
+
+
+
+
+
+
+ var user = Object();
+user.paid = false;wx=ow(ge('in'));
+displayAd(wx, 610, 'r_top','right-rectangle-stick-1');
+
+
+function gr(e){return e.getBoundingClientRect();}
+
+
+
+
+ 
+  
+	 
+   
+
+   hx=oh(ge('lft'));
+	 displayAd(wx,hx-660,'r_bot','btmad');
+ 
+	
+ 
+
+
+
+
+
+
+
+
+
+Email: otklik@ilibrary.ruО библиотекеРеклама на сайте
+&copy;1996&#151;2022 Алексей Комаров. Подборка&nbsp;произведений, оформление, программирование.
+
+
+
+")
+//-->
+
+(function(w, c) { (w[c] = w[c] || []).push(function() { try { w.yaCounter5179000 = new Ya.Metrika({id:5179000, enableAll: true, webvisor:true}); } catch(e) { } }); })(window, "yandex_metrika_callbacks");
+
+var bscript=document.createElement('script');
+if (lgl==2) bscript.src="/rightbanners_rox3_1.js"; else bscript.src="/rightbanners3_2.js";
+document.head.appendChild(bscript);
+
+function setAd(){
+t_e=ge("text");var ty_e=ge("tyad");
+if(ty_e){if (ow(t_e)>=600)ty_e.style.display="block";else ty_e.style.display="none";}
+}
+function setPoems(){
+t_e=ge("text");
+if(typeof t_e !== 'undefined'){
+var tw=ow(t_e);
+var ss='';
+if(tw>240)for(var i in poems){
+var vls=poems[i].getElementsByClassName("vl");
+var vlim=16;var rsq=0;var lsq=0;var vlmax=0;var invr=0;var invl=0;
+if(vls.lengthvlmax)vlmax=vlw;}
+for(var j=0;jvlmax/3)rsq+=ow(poems[i])-vlw;else invr++;pdl=getComputedStyle(vls[j]).paddingLeft;pdl=parseFloat(pdl.slice(0,-2));if(pdltw)width1=tw-vlmax;
+var pmid='#'+poems[i].id;
+ss+=pmid+' div,'+pmid+' h1,'+pmid+' h2,'+pmid+' h3,'+pmid+' h4,'+pmid+' h5 {margin-left:-'+width1+'px;}'+pmid+' .pmm {padding-left:'+width1+'px;margin:0em}'+pmid+' .pm {padding-left:'+width1+'px}';
+}
+pss=document.createElement('style');
+pss.innerHTML=ss;
+document.querySelector('head').appendChild(pss);
+}
+}
+function cleanRules(){if(typeof t_e !=='undefined'){if(ow(ge("text"))>240)pss.parentNode.removeChild(pss);}}
+tbd_e=ge("tbd");
+bnbg_e=ge("bnbg");
+function setArrows(){
+for(var i in lbs){yf=oh(lbcs[i])/oh(lbs[i])*1.2;xf=1+yf/5;lbs[i].style.transform='scale('+xf+','+yf+')';}
+for(var i in rbs){yf=oh(rbcs[i])/oh(rbs[i])*1.2;xf=1+yf/5;rbs[i].style.transform='scale('+xf+','+yf+')';}
+if(bnbg_e != null)if(gr(tbd_e).bottom
+
+
+

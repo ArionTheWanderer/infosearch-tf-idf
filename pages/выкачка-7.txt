@@ -1,0 +1,248 @@
+
+
+
+
+
+Л. Н. Толстой. Война и мир. Текст произведения. Том первый. Часть первая. VII
+
+
+
+
+
+.hdr {border-bottom:2px solid #7f7f96;background-color:#e6e0d3;background-image:url(/i/dark_bg_oldpaper.gif);background-position-x:right;text-align:right;height:3.6em;position:relative;display:flex;justify-content:flex-end;align-items:flex-end}
+.qson {white-space:nowrap;margin:0em;padding:0.1em 0em;font-size:100%}
+#lmini {display:none;width:4.9em;height:2.5em;position:absolute}
+#lmaxi {width:12em;height:3.6em;position:absolute}
+#lmidi {width:12em;height:3.6em;position:absolute}
+#smg {display:inline-block;width:1em;height:1.2em;vertical-align:middle;margin-bottom:0em}
+.ma {padding:0.5em 1em;border:1px solid #7f7f96;display:inline-block;height:1.2em;border-bottom:0px}
+.l {margin:0em;top:0;left:0;padding:0em;position:relative;width:100%;display:flex;align-items:stretch}
+#lft {padding:1em 2em;}
+.ang0 {position:relative;width:.6em;height:1.2em}
+.ang {position:absolute;border:.6em solid transparent;width:0px;height:0px}
+.la1 {border-right-color:#222;border-left-width:0px}
+.la2 {left:2px;border-right-color:#e3e0d7;border-left-width:0px}
+.ra1 {left:2px;border-left-color:#222;border-right-width:0em;margin-left:0.46em}
+.ra2 {border-left-color:#e3e0d7;border-right-width:0px;margin-left:0.46em}
+.ha {border-top: 2px solid black;margin-top:-1px}
+.me {text-decoration:underline;color:#006}
+.me:hover {cursor:pointer}
+.sb {background-color:#d6d0c3;display:flex;align-items:center;padding:0em 1em;border:1px solid #7f7f96;border-left:0px}
+.sb:hover {cursor:pointer}
+
+
+
+window.yaContextCb=window.yaContextCb||[]
+
+
+
+
+
+
+
+
+
+lgl=1;
+function ge(e){return document.getElementById(e);}
+function ow(e){return e.offsetWidth}
+function oh(e){return e.offsetHeight}
+function showLogin(){var lf=ge("loginFrame");var cw=lf.contentWindow;if(cw.location.pathname!="/loginFrame.phtml"){cw.location.assign("/loginFrame.phtml");}lf.style.display="block";ge("shdw").style.display="block";cw.focus();}
+function Logout(){
+ var r=new XMLHttpRequest();
+ r.open('POST', '/userlogout.phtml', true);
+ r.send();
+ r.onreadystatechange=function() {
+  if (r.readyState === 4) {	
+   if (r.status >= 200 && r.status < 300)
+    document.location.reload(true);
+  }
+ }
+}
+poems=[];lbs=[];lbcs=[];rbs=[];rbcs=[];
+function toggle_sf(){qs_e=ge('qs1');hdr_e=ge('hdr');qi_e=ge('qi1');if (qs_e.className=='qson') {qs_e.className = "qsoff";hdr_e.className="hdr2";qi1.focus()}else{qs_e.className = "qson";hdr_e.className="hdr";}}
+window.addEventListener("click",function(e){
+qs_e=ge('qs1');hdr_e=ge('hdr');qi_e=ge('qi1');thm_e=ge("thm");am1_e=ge("am1");sldr_e=ge("sldr1");
+eid=document.elementFromPoint(e.clientX, e.clientY).id;
+if(am1_e!==null)if(eid!=="am1"&&am1_e.className=="am1min"&&eid!="amm"&&eid!="mmm")am1_e.className="am1";
+if(thm_e!==null)if(eid!=="thm"&&thm_e.className=="thmmin")thm_e.className="thm";
+if(sldr_e!==null){
+	if(eid=="sldr1")showThemes();
+}
+if(eid=="lio"){var m=ge("lio");if(m.innerHTML=="Вход")showLogin();else Logout();}
+if(eid=="sb"||eid=="sb1"){document.forms.sf2.submit();}
+},true);
+
+
+
+ 
+  
+   
+    
+    
+    
+   
+	
+ 
+ 
+  
+	
+	
+	
+
+
+
+
+Авторы
+&nbsp;
+
+
+
+
+
+
+
+if (ge('lft0').offsetWidth > 599) {
+	ge('tyad').style.display="block";
+		window.yaContextCb.push(()=>{
+		Ya.Context.AdvManager.render({
+		    renderTo: 'ty',
+		    blockId: 'R-A-447573-2'
+		  })
+		})
+}
+
+
+
+
+	
+	
+Л. Н. Толстой. Война и мир. Том первый. Часть первая
+VII
+Князь Василий исполнил обещание, данное на вечере у Анны Павловны княгине Друбецкой, просившей его о своем единственном сыне Борисе. О нем было доложено государю, и, не в пример другим, он был переведен в гвардии Семеновский полк прапорщиком. Но адъютантом или состоящим при Кутузове Борис так и не был назначен, несмотря на все хлопоты и происки Анны Михайловны. Вскоре после вечера Анны Павловны Анна Михайловна вернулась в Москву, прямо к своим богатым родственникам Ростовым, у которых она стояла в Москве и у которых с детства воспитывался и годами живал ее обожаемый Боренька, только что произведенный в армейские и тотчас переведенный в гвардейские прапорщики. Гвардия уже вышла из Петербурга 10-го августа, и сын, оставшийся для обмундирования в Москве, должен был догнать ее по дороге в Радзивилов.
+У Ростовых были именинницы Натальи &mdash; мать и меньшая дочь. С утра не переставая подъезжали и отъезжали цуги, подвозившие поздравителей к большому, всей Москве известному дому графини Ростовой на Поварской. Графиня с красивой старшею дочерью и гостями, не перестававшими сменять один другого, сидели в гостиной.
+Графиня была женщина с восточным типом худого лица, лет сорока пяти, видимо, изнуренная детьми, которых у ней было двенадцать человек. Медлительность ее движений и говора, происходившая от слабости сил, придавала ей значительный вид, внушавший уважение. Княгиня Анна Михайловна Друбецкая, как домашний человек, сидела тут же, помогая в деле принимания и занимания разговором гостей. Молодежь была в задних комнатах, не находя нужным участвовать в приеме визитов. Граф встречал и провожал гостей, приглашая всех к обеду.
+&mdash; Очень, очень вам благодарен, ma ch&egrave;re или mon cher&nbsp;1 (ma ch&egrave;re или mon cher он говорил всем без исключения, без малейших оттенков, как выше, так и ниже его стоявшим людям), за себя и за дорогих именинниц. Смотрите же, приезжайте обедать. Вы меня обидите, mon cher. Душевно прошу вас от всего семейства, ma ch&egrave;re. &mdash; Эти слова с одинаким выражением на полном, веселом и чисто выбритом лице и с одинаково крепким пожатием руки и повторяемыми короткими поклонами говорил он всем без исключения и изменения. Проводив одного гостя, граф возвращался к тому или той, которые были еще в гостиной; придвинув кресла и с видом человека, любящего и умеющего пожить, молодецки расставив ноги и положив на колена руки, он значительно покачивался, предлагал догадки о погоде, советовался о здоровье, иногда на русском, иногда на очень дурном, но самоуверенном французском языке, и снова с видом усталого, но твердого в исполнении обязанности человека шел провожать, оправляя редкие седые волосы на лысине, и опять звал обедать. Иногда, возвращаясь из передней, он заходил через цветочную и официантскую в большую мраморную залу, где накрывали стол на восемьдесят кувертов, и, глядя на официантов, носивших серебро и фарфор, раздвигавших столы и развертывавших камчатные скатерти, подзывал к себе Дмитрия Васильевича, дворянина, занимавшегося всеми его делами, и говорил:
+&mdash; Ну, ну, Митенька, смотри, чтобы все было хорошо. Так, так, &mdash; говорил он, с удовольствием оглядывая огромный раздвинутый стол. &mdash; Главное &mdash; сервировка. То-то... &mdash; И он уходил, самодовольно вздыхая, опять в гостиную.
+&mdash; Марья Львовна Карагина с дочерью! &mdash; басом доложил огромный графинин выездной лакей, входя в двери гостиной. Графиня подумала и понюхала из золотой табакерки с портретом мужа.
+&mdash; Замучили меня эти визиты, &mdash; сказала она. &mdash; Ну, уж ее последнюю приму. Чопорна очень. Проси, &mdash; сказала она лакею грустным голосом, как будто говорила: &laquo;Ну, уж добивайте&raquo;.
+Высокая, полная, с гордым видом дама с круглолицею улыбающеюся дочкой, шумя платьями, вошли в гостиную.
+&mdash; Ch&egrave;re comtesse, il y a si longtemps... elle a &eacute;t&eacute; alit&eacute;e, la pauvre enfant... au bal des Razoumovsky... et la comtesse Apraksine... j'ai &eacute;t&eacute; si heureuse...&nbsp;2 &mdash; послышались оживленные женские голоса, перебивая один другой и сливаясь с шумом платьев и придвиганием стульев. Начался тот разговор, который затевают ровно настолько, чтобы при первой паузе встать, зашуметь платьями, проговорить: &laquo;Je suis bien charm&eacute;e; la sant&eacute; de maman... et la comtesse Apraksine&raquo;&nbsp;3, &mdash; и опять, зашумев платьями, пройти в переднюю, надеть шубу или плащ и уехать. Разговор зашел о главной городской новости того времени &mdash; о болезни известного богача и красавца екатерининского времени старого графа Безухова и о его незаконном сыне Пьере, который так неприлично вел себя на вечере у Анны Павловны Шерер.
+&mdash; Я очень жалею бедного графа, &mdash; говорила гостья, &mdash; здоровье его и так было плохо, а теперь это огорченье от сына. Это его убьет!
+&mdash; Что такое? &mdash; спросила графиня, как будто не зная, о чем говорит гостья, хотя она раз пятнадцать уже слышала причину огорчения графа Безухова.
+&mdash; Вот нынешнее воспитание! Еще за границей, &mdash; продолжала гостья, &mdash; этот молодой человек предоставлен был самому себе, и теперь в Петербурге, говорят, он такие ужасы наделал, что его с полицией выслали оттуда.
+&mdash; Скажите! &mdash; сказала графиня.
+&mdash; Он дурно выбирал свои знакомства, &mdash; вмешалась княгиня Анна Михайловна. &mdash; Сын князя Василия, он и один Долохов, они, говорят, Бог знает что делали. И оба пострадали. Долохов разжалован в солдаты, а сын Безухова выслан в Москву. Анатоля Курагина &mdash; того отец как-то замял. Но выслали-таки из Петербурга.
+&mdash; Да что бишь они сделали? &mdash; спросила графиня.
+&mdash; Это совершенные разбойники, особенно Долохов, &mdash; говорила гостья. &mdash; Он сын Марьи Ивановны Долоховой, такой почтенной дамы, и что же? Можете себе представить; они втроем достали где-то медведя, посадили с собой в карету и повезли к актрисам. Прибежала полиция их унимать. Они поймали квартального и привязали его спина с спиной к медведю и пустили медведя в Мойку; медведь плавает, а квартальный на нем.
+&mdash; Хороша, ma ch&egrave;re, фигура квартального, &mdash; закричал граф, помирая со смеху.
+&mdash; Ах, ужас какой! Чему тут смеяться, граф?
+Но дамы невольно смеялись и сами.
+&mdash; Насилу спасли этого несчастного, &mdash; продолжала гостья. &mdash; И это сын графа Кирилла Владимировича Безухова так умно забавляется! &mdash; прибавила она. &mdash; А говорили, что так хорошо воспитан и умен. Вот все воспитание заграничное куда довело. Надеюсь, что здесь его никто не примет, несмотря на его богатство. Мне хотели его представить. Я решительно отказалась: у меня дочери.
+&mdash; Отчего вы говорите, что этот молодой человек так богат? &mdash; спросила графиня, нагибаясь от девиц, которые тотчас же сделали вид, что не слушают. &mdash; Ведь у него только незаконные дети. Кажется... и Пьер незаконный.
+Гостья махнула рукой.
+&mdash; У него их двадцать незаконных, я думаю. Княгиня Анна Михайловна вмешалась в разговор, видимо, желая выказать свои связи и свое знание всех светских обстоятельств.
+&mdash; Вот в чем дело, &mdash; сказала она значительно и тоже полушепотом. &mdash; Репутация графа Кирилла Владимировича известна... Детям своим он и счет потерял, но этот Пьер любимый был.
+&mdash; Как старик был хорош, &mdash; сказала графиня, &mdash; еще прошлого года! Красивее мужчины я не видывала.
+&mdash; Теперь очень переменился, &mdash; сказала Анна Михайловна. &mdash; Так я хотела сказать, &mdash; продолжала она, &mdash; по жене прямой наследник всего именья князь Василий, но Пьера отец очень любил, занимался его воспитанием и писал государю... так что никто не знает, ежели он умрет (он так плох, что этого ждут каждую минуту, и Lorrain приехал из Петербурга), кому достанется это огромное состояние, Пьеру или князю Василию. Сорок тысяч душ и миллионы. Я это очень хорошо знаю, потому что мне сам князь Василий это говорил. Да и Кирилл Владимирович мне приходится троюродным дядей по матери. Он и крестил Борю, &mdash; прибавила она, как будто не приписывая этому обстоятельству никакого значения.
+&mdash; Князь Василий приехал в Москву вчера. Он едет на ревизию, мне говорили, &mdash; сказала гостья.
+&mdash; Да, но entre nous&nbsp;4, &mdash; сказала княгиня, &mdash; это предлог, он приехал, собственно, к графу Кириллу Владимировичу, узнав, что он так плох.
+&mdash; Однако, ma ch&egrave;re, это славная штука, &mdash; сказал граф и, заметив, что старшая гостья его не слушала, обратился уже к барышням: &mdash; Хороша фигура была у квартального, я воображаю.
+И он, представив, как махал руками квартальный, опять захохотал звучным и басистым смехом, колебавшим все его полное тело, как смеются люди, всегда хорошо евшие и особенно пившие. &mdash; Так, пожалуйста же, обедать к нам, &mdash; сказал он.
+
+1
+милая или милый.2
+Уж так давно... Графиня... Больна была бедняжка... на бале Разумовских... графиня Апраксина... я так была рада...3
+Очень, очень рада... здоровье мама... графиня Апраксина.4
+между нами.VI7/361VIIIо тексте/оглавление
+
+
+
+
+
+
+
+ pagecontext="text1";
+
+&copy; Это произведение перешло в общественное достояние. Произведение написано автором, умершим более семидесяти лет назад, и опубликовано прижизненно, либо посмертно, но с момента публикации также прошло более семидесяти лет. Оно может свободно использоваться любым лицом без чьего-либо согласия или разрешения и без выплаты авторского вознаграждения.
+
+
+
+
+
+
+
+ var user = Object();
+user.paid = false;wx=ow(ge('in'));
+displayAd(wx, 610, 'r_top','right-rectangle-stick-1');
+
+
+function gr(e){return e.getBoundingClientRect();}
+
+
+
+
+ 
+  
+	 
+   
+
+   hx=oh(ge('lft'));
+	 displayAd(wx,hx-660,'r_bot','btmad');
+ 
+	
+ 
+
+
+
+
+
+
+
+
+
+Email: otklik@ilibrary.ruО библиотекеРеклама на сайте
+&copy;1996&#151;2022 Алексей Комаров. Подборка&nbsp;произведений, оформление, программирование.
+
+
+
+")
+//-->
+
+(function(w, c) { (w[c] = w[c] || []).push(function() { try { w.yaCounter5179000 = new Ya.Metrika({id:5179000, enableAll: true, webvisor:true}); } catch(e) { } }); })(window, "yandex_metrika_callbacks");
+
+var bscript=document.createElement('script');
+if (lgl==2) bscript.src="/rightbanners_rox3_1.js"; else bscript.src="/rightbanners3_2.js";
+document.head.appendChild(bscript);
+
+function setAd(){
+t_e=ge("text");var ty_e=ge("tyad");
+if(ty_e){if (ow(t_e)>=600)ty_e.style.display="block";else ty_e.style.display="none";}
+}
+function setPoems(){
+t_e=ge("text");
+if(typeof t_e !== 'undefined'){
+var tw=ow(t_e);
+var ss='';
+if(tw>240)for(var i in poems){
+var vls=poems[i].getElementsByClassName("vl");
+var vlim=16;var rsq=0;var lsq=0;var vlmax=0;var invr=0;var invl=0;
+if(vls.lengthvlmax)vlmax=vlw;}
+for(var j=0;jvlmax/3)rsq+=ow(poems[i])-vlw;else invr++;pdl=getComputedStyle(vls[j]).paddingLeft;pdl=parseFloat(pdl.slice(0,-2));if(pdltw)width1=tw-vlmax;
+var pmid='#'+poems[i].id;
+ss+=pmid+' div,'+pmid+' h1,'+pmid+' h2,'+pmid+' h3,'+pmid+' h4,'+pmid+' h5 {margin-left:-'+width1+'px;}'+pmid+' .pmm {padding-left:'+width1+'px;margin:0em}'+pmid+' .pm {padding-left:'+width1+'px}';
+}
+pss=document.createElement('style');
+pss.innerHTML=ss;
+document.querySelector('head').appendChild(pss);
+}
+}
+function cleanRules(){if(typeof t_e !=='undefined'){if(ow(ge("text"))>240)pss.parentNode.removeChild(pss);}}
+tbd_e=ge("tbd");
+bnbg_e=ge("bnbg");
+function setArrows(){
+for(var i in lbs){yf=oh(lbcs[i])/oh(lbs[i])*1.2;xf=1+yf/5;lbs[i].style.transform='scale('+xf+','+yf+')';}
+for(var i in rbs){yf=oh(rbcs[i])/oh(rbs[i])*1.2;xf=1+yf/5;rbs[i].style.transform='scale('+xf+','+yf+')';}
+if(bnbg_e != null)if(gr(tbd_e).bottom
+
+
+

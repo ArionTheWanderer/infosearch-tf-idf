@@ -1,0 +1,242 @@
+
+
+
+
+
+Л. Н. Толстой. Война и мир. Текст произведения. Том первый. Часть вторая. VI
+
+
+
+
+
+.hdr {border-bottom:2px solid #7f7f96;background-color:#e6e0d3;background-image:url(/i/dark_bg_oldpaper.gif);background-position-x:right;text-align:right;height:3.6em;position:relative;display:flex;justify-content:flex-end;align-items:flex-end}
+.qson {white-space:nowrap;margin:0em;padding:0.1em 0em;font-size:100%}
+#lmini {display:none;width:4.9em;height:2.5em;position:absolute}
+#lmaxi {width:12em;height:3.6em;position:absolute}
+#lmidi {width:12em;height:3.6em;position:absolute}
+#smg {display:inline-block;width:1em;height:1.2em;vertical-align:middle;margin-bottom:0em}
+.ma {padding:0.5em 1em;border:1px solid #7f7f96;display:inline-block;height:1.2em;border-bottom:0px}
+.l {margin:0em;top:0;left:0;padding:0em;position:relative;width:100%;display:flex;align-items:stretch}
+#lft {padding:1em 2em;}
+.ang0 {position:relative;width:.6em;height:1.2em}
+.ang {position:absolute;border:.6em solid transparent;width:0px;height:0px}
+.la1 {border-right-color:#222;border-left-width:0px}
+.la2 {left:2px;border-right-color:#e3e0d7;border-left-width:0px}
+.ra1 {left:2px;border-left-color:#222;border-right-width:0em;margin-left:0.46em}
+.ra2 {border-left-color:#e3e0d7;border-right-width:0px;margin-left:0.46em}
+.ha {border-top: 2px solid black;margin-top:-1px}
+.me {text-decoration:underline;color:#006}
+.me:hover {cursor:pointer}
+.sb {background-color:#d6d0c3;display:flex;align-items:center;padding:0em 1em;border:1px solid #7f7f96;border-left:0px}
+.sb:hover {cursor:pointer}
+
+
+
+window.yaContextCb=window.yaContextCb||[]
+
+
+
+
+
+
+
+
+
+lgl=1;
+function ge(e){return document.getElementById(e);}
+function ow(e){return e.offsetWidth}
+function oh(e){return e.offsetHeight}
+function showLogin(){var lf=ge("loginFrame");var cw=lf.contentWindow;if(cw.location.pathname!="/loginFrame.phtml"){cw.location.assign("/loginFrame.phtml");}lf.style.display="block";ge("shdw").style.display="block";cw.focus();}
+function Logout(){
+ var r=new XMLHttpRequest();
+ r.open('POST', '/userlogout.phtml', true);
+ r.send();
+ r.onreadystatechange=function() {
+  if (r.readyState === 4) {	
+   if (r.status >= 200 && r.status < 300)
+    document.location.reload(true);
+  }
+ }
+}
+poems=[];lbs=[];lbcs=[];rbs=[];rbcs=[];
+function toggle_sf(){qs_e=ge('qs1');hdr_e=ge('hdr');qi_e=ge('qi1');if (qs_e.className=='qson') {qs_e.className = "qsoff";hdr_e.className="hdr2";qi1.focus()}else{qs_e.className = "qson";hdr_e.className="hdr";}}
+window.addEventListener("click",function(e){
+qs_e=ge('qs1');hdr_e=ge('hdr');qi_e=ge('qi1');thm_e=ge("thm");am1_e=ge("am1");sldr_e=ge("sldr1");
+eid=document.elementFromPoint(e.clientX, e.clientY).id;
+if(am1_e!==null)if(eid!=="am1"&&am1_e.className=="am1min"&&eid!="amm"&&eid!="mmm")am1_e.className="am1";
+if(thm_e!==null)if(eid!=="thm"&&thm_e.className=="thmmin")thm_e.className="thm";
+if(sldr_e!==null){
+	if(eid=="sldr1")showThemes();
+}
+if(eid=="lio"){var m=ge("lio");if(m.innerHTML=="Вход")showLogin();else Logout();}
+if(eid=="sb"||eid=="sb1"){document.forms.sf2.submit();}
+},true);
+
+
+
+ 
+  
+   
+    
+    
+    
+   
+	
+ 
+ 
+  
+	
+	
+	
+
+
+
+
+Авторы
+&nbsp;
+
+
+
+
+
+
+
+if (ge('lft0').offsetWidth > 599) {
+	ge('tyad').style.display="block";
+		window.yaContextCb.push(()=>{
+		Ya.Context.AdvManager.render({
+		    renderTo: 'ty',
+		    blockId: 'R-A-447573-2'
+		  })
+		})
+}
+
+
+
+
+	
+	
+Л. Н. Толстой. Война и мир. Том первый. Часть вторая
+VI
+Кутузов отступил к Вене, уничтожая за собой мосты на реках Инне (в Браунау) и Трауне (в Линце). 23-го октября русские войска переходили реку Энс. Русские обозы, артиллерия и колонны войск в середине дня тянулись через город Энс, по сю и по ту сторону моста.
+День был теплый, осенний и дождливый. Пространная перспектива, раскрывавшаяся с возвышения, где стояли русские батареи, защищавшие мост, то вдруг затягивалась кисейным занавесом косого дождя, то вдруг расширялась, и при свете солнца далеко и ясно становились видны предметы, точно покрытые лаком. Виднелся городок под ногами с своими белыми домами и красными крышами, собором и мостом, по обеим сторонам которого, толпясь, лились массы русских войск. Виднелись на повороте Дуная суда, и остров, и замок с парком, окруженный водами впадения Энса в Дунай, виднелся левый скалистый и покрытый сосновым лесом берег Дуная с таинственною далью зеленых вершин и голубеющими ущельями. Виднелись башни монастыря, выдававшегося из-за соснового, казавшегося нетронутым, дикого леса, и далеко впереди на горе, по ту сторону Энса, виднелись разъезды неприятеля.
+Между орудиями, на высоте, стояли впереди начальник ариергарда генерал с свитским офицером, рассматривая в трубу местность. Несколько позади сидел на хоботе орудия Несвицкий, посланный от главнокомандующего к ариергарду. Казак, сопутствовавший Несвицкому, подал сумочку и фляжку, и Несвицкий угощал офицеров пирожками и настоящим доппелькюмелем. Офицеры радостно окружали его, кто на коленях, кто сидя по-турецки на мокрой траве.
+&mdash; Да, не дурак был этот австрийский князь, что тут замок выстроил. Славное место. Что же вы не едите, господа? &mdash; говорил Несвицкий.
+&mdash; Покорно благодарю, князь, &mdash; отвечал один из офицеров, с удовольствием разговаривая с таким важным штабным чиновником. &mdash; Прекрасное место. Мы мимо самого парка проходили, двух оленей видели, и дом какой чудесный!
+&mdash; Посмотрите, князь, &mdash; сказал другой, которому очень хотелось взять еще пирожок, но совестно было, и который поэтому притворялся, что он оглядывает местность, &mdash; посмотрите-ка, уж забрались туда наши пехотные. Вон там, на лужку, за деревней, трое тащат что-то. Они проберут этот дворец, &mdash; сказал он с видимым одобрением.
+&mdash; И то, и то, &mdash; сказал Несвицкий. &mdash; Нет, а чего бы я желал, &mdash; прибавил он, прожевывая пирожок в своем красивом влажном рте, &mdash; так это вон туда забраться.
+Он указывал на монастырь с башнями, видневшийся на горе. Он улыбнулся, глаза его сузились и засветились.
+&mdash; А ведь хорошо бы, господа!
+Офицеры засмеялись.
+&mdash; Хоть бы попугать этих монашенок. Итальянки, говорят, есть молоденькие. Право, пять лет жизни отдал бы!
+&mdash; Им ведь и скучно, &mdash; смеясь, сказал офицер, который был посмелее.
+Между тем свитский офицер, стоявший впереди, указывал что-то генералу; генерал смотрел в зрительную трубку.
+&mdash; Ну, так и есть, так и есть, &mdash; сердито сказал генерал, опуская трубку от глаз и пожимая плечами, &mdash; так и есть, станут бить по переправе. И что они там мешкают?
+На той стороне простым глазом виден был неприятель и его батарея, из которой показался молочно-белый дымок. Вслед за дымком раздался дальний выстрел, и видно было, как наши войска заспешили на переправе.
+Несвицкий, отдуваясь, поднялся и, улыбаясь, подошел к генералу.
+&mdash; Не угодно ли закусить вашему превосходительству? &mdash; сказал он.
+&mdash; Нехорошо дело, &mdash; сказал генерал, не отвечая ему, &mdash; замешкались наши.
+&mdash; Не съездить ли, ваше превосходительство? &mdash; сказал Несвицкий.
+&mdash; Да, съездите, пожалуйста, &mdash; сказал генерал, повторяя то, что уже раз подробно было приказано, &mdash; и скажите гусарам, чтоб они последние перешли и зажгли мост, как я приказывал, да чтобы горючие материалы на мосту еще осмотреть.
+&mdash; Очень хорошо, &mdash; отвечал Несвицкий.
+Он кликнул казака с лошадью, велел убрать сумочку и фляжку и легко перекинул свое тяжелое тело на седло.
+&mdash; Право, заеду к монашенкам, &mdash; сказал он офицерам, с улыбкою глядевшим на него, и поехал по вьющейся тропинке под гору.
+&mdash; Ну-тка, куда донесет, капитан, хватите-ка! &mdash; сказал генерал, обращаясь к артиллеристу. &mdash; Позабавьтесь от скуки.
+&mdash; Прислуга к орудиям! &mdash; скомандовал офицер, и через минуту весело выбежали от костров артиллеристы и зарядили.
+&mdash; Первое! &mdash; послышалась команда.
+Бойко отскочил 1-й нумер. Металлически, оглушая, зазвенело орудие, и через головы всех наших под горой, свистя, перелетела граната и, далеко не долетев до неприятеля, дымком показала место своего падения и лопнула.
+Лица солдат и офицеров повеселели при этом звуке; все поднялись и занялись наблюдениями над видными, как на ладони, движениями внизу наших войск и впереди &mdash; движениями приближавшегося неприятеля. Солнце в ту же минуту совсем вышло из-за туч, и этот красивый звук одинокого выстрела и блеск яркого солнца слились в одно бодрое и веселое впечатление.
+
+V31/361VIIо тексте/оглавление
+
+
+
+
+
+
+
+ pagecontext="text1";
+
+&copy; Это произведение перешло в общественное достояние. Произведение написано автором, умершим более семидесяти лет назад, и опубликовано прижизненно, либо посмертно, но с момента публикации также прошло более семидесяти лет. Оно может свободно использоваться любым лицом без чьего-либо согласия или разрешения и без выплаты авторского вознаграждения.
+
+
+
+
+
+
+
+ var user = Object();
+user.paid = false;wx=ow(ge('in'));
+displayAd(wx, 610, 'r_top','right-rectangle-stick-1');
+
+
+function gr(e){return e.getBoundingClientRect();}
+
+
+
+
+ 
+  
+	 
+   
+
+   hx=oh(ge('lft'));
+	 displayAd(wx,hx-660,'r_bot','btmad');
+ 
+	
+ 
+
+
+
+
+
+
+
+
+
+Email: otklik@ilibrary.ruО библиотекеРеклама на сайте
+&copy;1996&#151;2022 Алексей Комаров. Подборка&nbsp;произведений, оформление, программирование.
+
+
+
+")
+//-->
+
+(function(w, c) { (w[c] = w[c] || []).push(function() { try { w.yaCounter5179000 = new Ya.Metrika({id:5179000, enableAll: true, webvisor:true}); } catch(e) { } }); })(window, "yandex_metrika_callbacks");
+
+var bscript=document.createElement('script');
+if (lgl==2) bscript.src="/rightbanners_rox3_1.js"; else bscript.src="/rightbanners3_2.js";
+document.head.appendChild(bscript);
+
+function setAd(){
+t_e=ge("text");var ty_e=ge("tyad");
+if(ty_e){if (ow(t_e)>=600)ty_e.style.display="block";else ty_e.style.display="none";}
+}
+function setPoems(){
+t_e=ge("text");
+if(typeof t_e !== 'undefined'){
+var tw=ow(t_e);
+var ss='';
+if(tw>240)for(var i in poems){
+var vls=poems[i].getElementsByClassName("vl");
+var vlim=16;var rsq=0;var lsq=0;var vlmax=0;var invr=0;var invl=0;
+if(vls.lengthvlmax)vlmax=vlw;}
+for(var j=0;jvlmax/3)rsq+=ow(poems[i])-vlw;else invr++;pdl=getComputedStyle(vls[j]).paddingLeft;pdl=parseFloat(pdl.slice(0,-2));if(pdltw)width1=tw-vlmax;
+var pmid='#'+poems[i].id;
+ss+=pmid+' div,'+pmid+' h1,'+pmid+' h2,'+pmid+' h3,'+pmid+' h4,'+pmid+' h5 {margin-left:-'+width1+'px;}'+pmid+' .pmm {padding-left:'+width1+'px;margin:0em}'+pmid+' .pm {padding-left:'+width1+'px}';
+}
+pss=document.createElement('style');
+pss.innerHTML=ss;
+document.querySelector('head').appendChild(pss);
+}
+}
+function cleanRules(){if(typeof t_e !=='undefined'){if(ow(ge("text"))>240)pss.parentNode.removeChild(pss);}}
+tbd_e=ge("tbd");
+bnbg_e=ge("bnbg");
+function setArrows(){
+for(var i in lbs){yf=oh(lbcs[i])/oh(lbs[i])*1.2;xf=1+yf/5;lbs[i].style.transform='scale('+xf+','+yf+')';}
+for(var i in rbs){yf=oh(rbcs[i])/oh(rbs[i])*1.2;xf=1+yf/5;rbs[i].style.transform='scale('+xf+','+yf+')';}
+if(bnbg_e != null)if(gr(tbd_e).bottom
+
+
+

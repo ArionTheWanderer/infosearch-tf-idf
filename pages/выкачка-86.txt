@@ -1,0 +1,227 @@
+
+
+
+
+
+Л. Н. Толстой. Война и мир. Текст произведения. Том второй. Часть вторая. V
+
+
+
+
+
+.hdr {border-bottom:2px solid #7f7f96;background-color:#e6e0d3;background-image:url(/i/dark_bg_oldpaper.gif);background-position-x:right;text-align:right;height:3.6em;position:relative;display:flex;justify-content:flex-end;align-items:flex-end}
+.qson {white-space:nowrap;margin:0em;padding:0.1em 0em;font-size:100%}
+#lmini {display:none;width:4.9em;height:2.5em;position:absolute}
+#lmaxi {width:12em;height:3.6em;position:absolute}
+#lmidi {width:12em;height:3.6em;position:absolute}
+#smg {display:inline-block;width:1em;height:1.2em;vertical-align:middle;margin-bottom:0em}
+.ma {padding:0.5em 1em;border:1px solid #7f7f96;display:inline-block;height:1.2em;border-bottom:0px}
+.l {margin:0em;top:0;left:0;padding:0em;position:relative;width:100%;display:flex;align-items:stretch}
+#lft {padding:1em 2em;}
+.ang0 {position:relative;width:.6em;height:1.2em}
+.ang {position:absolute;border:.6em solid transparent;width:0px;height:0px}
+.la1 {border-right-color:#222;border-left-width:0px}
+.la2 {left:2px;border-right-color:#e3e0d7;border-left-width:0px}
+.ra1 {left:2px;border-left-color:#222;border-right-width:0em;margin-left:0.46em}
+.ra2 {border-left-color:#e3e0d7;border-right-width:0px;margin-left:0.46em}
+.ha {border-top: 2px solid black;margin-top:-1px}
+.me {text-decoration:underline;color:#006}
+.me:hover {cursor:pointer}
+.sb {background-color:#d6d0c3;display:flex;align-items:center;padding:0em 1em;border:1px solid #7f7f96;border-left:0px}
+.sb:hover {cursor:pointer}
+
+
+
+window.yaContextCb=window.yaContextCb||[]
+
+
+
+
+
+
+
+
+
+lgl=1;
+function ge(e){return document.getElementById(e);}
+function ow(e){return e.offsetWidth}
+function oh(e){return e.offsetHeight}
+function showLogin(){var lf=ge("loginFrame");var cw=lf.contentWindow;if(cw.location.pathname!="/loginFrame.phtml"){cw.location.assign("/loginFrame.phtml");}lf.style.display="block";ge("shdw").style.display="block";cw.focus();}
+function Logout(){
+ var r=new XMLHttpRequest();
+ r.open('POST', '/userlogout.phtml', true);
+ r.send();
+ r.onreadystatechange=function() {
+  if (r.readyState === 4) {	
+   if (r.status >= 200 && r.status < 300)
+    document.location.reload(true);
+  }
+ }
+}
+poems=[];lbs=[];lbcs=[];rbs=[];rbcs=[];
+function toggle_sf(){qs_e=ge('qs1');hdr_e=ge('hdr');qi_e=ge('qi1');if (qs_e.className=='qson') {qs_e.className = "qsoff";hdr_e.className="hdr2";qi1.focus()}else{qs_e.className = "qson";hdr_e.className="hdr";}}
+window.addEventListener("click",function(e){
+qs_e=ge('qs1');hdr_e=ge('hdr');qi_e=ge('qi1');thm_e=ge("thm");am1_e=ge("am1");sldr_e=ge("sldr1");
+eid=document.elementFromPoint(e.clientX, e.clientY).id;
+if(am1_e!==null)if(eid!=="am1"&&am1_e.className=="am1min"&&eid!="amm"&&eid!="mmm")am1_e.className="am1";
+if(thm_e!==null)if(eid!=="thm"&&thm_e.className=="thmmin")thm_e.className="thm";
+if(sldr_e!==null){
+	if(eid=="sldr1")showThemes();
+}
+if(eid=="lio"){var m=ge("lio");if(m.innerHTML=="Вход")showLogin();else Logout();}
+if(eid=="sb"||eid=="sb1"){document.forms.sf2.submit();}
+},true);
+
+
+
+ 
+  
+   
+    
+    
+    
+   
+	
+ 
+ 
+  
+	
+	
+	
+
+
+
+
+Авторы
+&nbsp;
+
+
+
+
+
+
+
+if (ge('lft0').offsetWidth > 599) {
+	ge('tyad').style.display="block";
+		window.yaContextCb.push(()=>{
+		Ya.Context.AdvManager.render({
+		    renderTo: 'ty',
+		    blockId: 'R-A-447573-2'
+		  })
+		})
+}
+
+
+
+
+	
+	
+Л. Н. Толстой. Война и мир. Том второй. Часть вторая
+V
+На другой день после приема в ложу Пьер сидел дома, читая книгу и стараясь вникнуть в значение квадрата, изображавшего одной своей стороною Бога, другою нравственное, третьею физическое и четвертою смешанное. Изредка он отрывался от книги и квадрата и в воображении своем составлял себе новый план жизни. Вчера в ложе ему сказали, что до сведения государя дошел слух о дуэли и что Пьеру благоразумнее было бы удалиться из Петербурга. Пьер предполагал ехать в свои южные имения и заняться там своими крестьянами. Он радостно обдумывал эту новую жизнь, когда неожиданно в комнату вошел князь Василий.
+&mdash; Мой друг, что ты наделал в Москве? За что ты поссорился с Лелей, mon cher?&nbsp;1 Ты в заблуждении, &mdash; сказал князь Василий, входя в комнату. &mdash; Я все узнал, я могу тебе сказать верно, что Элен невинна перед тобой, как Христос перед жидами.
+Пьер хотел отвечать, но он перебил его:
+&mdash; И зачем ты не обратился прямо и просто ко мне, как к другу? Я все знаю, я все понимаю, &mdash; сказал он, &mdash; ты вел себя, как прилично человеку, дорожащему своей честью; может быть, слишком поспешно, но об этом мы не будем судить. Одно ты пойми, в какое ты ставишь положение ее и меня в глазах всего общества и даже двора, &mdash; прибавил он, понизив голос. &mdash; Она живет в Москве, ты здесь. Полно, мой милый, &mdash; он потянул его вниз за руку, &mdash; здесь одно недоразуменье; ты сам, я думаю, чувствуешь. Напиши сейчас со мною письмо, и она приедет сюда, все объяснится, и все эти толки кончатся, а то, я тебе скажу, ты очень легко можешь пострадать, мой милый.
+Князь Василий внушительно взглянул на Пьера.
+&mdash; Мне из хороших источников известно, что вдовствующая императрица принимает живой интерес во всем этом деле. Ты знаешь, она очень милостива к Элен.
+Несколько раз Пьер собирался говорить, но, с одной стороны, князь Василий не допускал его до этого, поспешно перебивая разговор, с другой стороны &mdash; сам Пьер боялся начать говорить не в том тоне решительного отказа и несогласия, в котором он твердо решился отвечать своему тестю. Кроме того, слова масонского устава: &laquo;буди ласков и приветлив&raquo; &mdash; вспоминались ему. Он морщился, краснел, вставал и опускался, работая над собою в самом трудном для него в жизни деле &mdash; сказать неприятное в глаза человеку, сказать не то, чего ожидал этот человек, кто бы он ни был. Он так привык повиноваться этому тону небрежной самоуверенности князя Василия, что и теперь он чувствовал, что не в силах будет противостоять ей; но он чувствовал, что от того, что он скажет сейчас, будет зависеть вся дальнейшая судьба его: пойдет ли он по старой, прежней дороге, или по той новой, которая так привлекательно была указана ему масонами и на которой он твердо верил, что найдет возрождение к новой жизни.
+&mdash; Ну, мой милый, &mdash; шутливо сказал князь Василий, &mdash; скажи же мне &laquo;да&raquo;, и я от себя напишу ей, и мы убьем жирного тельца. &mdash; Но князь Василий не успел договорить своей шутки, как Пьер с бешенством в лице, которое напоминало его отца, не глядя в глаза собеседнику, проговорил тихим шепотом:
+&mdash; Князь, я вас не звал к себе, идите, пожалуйста, идите! &mdash; Он вскочил и отворил для него дверь. &mdash; Идите же, &mdash; повторил он, сам себе не веря и радуясь выражению смущенности и страха, показавшемуся на лице князя Василия.
+&mdash; Что с тобой? Ты болен?
+&mdash; Идите! &mdash; еще раз проговорил угрожающий голос. И князь Василий должен был уехать, не получив никакого объяснения.
+Через неделю Пьер, простившись с новыми друзьями масонами и оставив им большие суммы на милостыни, уехал в свои имения. Его новые братья дали ему письма в Киев и Одессу, к тамошним масонам, и обещали писать ему и руководить его в его новой деятельности.
+
+1
+мой милый?IV86/361VIо тексте/оглавление
+
+
+
+
+
+
+
+ pagecontext="text1";
+
+&copy; Это произведение перешло в общественное достояние. Произведение написано автором, умершим более семидесяти лет назад, и опубликовано прижизненно, либо посмертно, но с момента публикации также прошло более семидесяти лет. Оно может свободно использоваться любым лицом без чьего-либо согласия или разрешения и без выплаты авторского вознаграждения.
+
+
+
+
+
+
+
+ var user = Object();
+user.paid = false;wx=ow(ge('in'));
+displayAd(wx, 610, 'r_top','right-rectangle-stick-1');
+
+
+function gr(e){return e.getBoundingClientRect();}
+
+
+
+
+ 
+  
+	 
+   
+
+   hx=oh(ge('lft'));
+	 displayAd(wx,hx-660,'r_bot','btmad');
+ 
+	
+ 
+
+
+
+
+
+
+
+
+
+Email: otklik@ilibrary.ruО библиотекеРеклама на сайте
+&copy;1996&#151;2022 Алексей Комаров. Подборка&nbsp;произведений, оформление, программирование.
+
+
+
+")
+//-->
+
+(function(w, c) { (w[c] = w[c] || []).push(function() { try { w.yaCounter5179000 = new Ya.Metrika({id:5179000, enableAll: true, webvisor:true}); } catch(e) { } }); })(window, "yandex_metrika_callbacks");
+
+var bscript=document.createElement('script');
+if (lgl==2) bscript.src="/rightbanners_rox3_1.js"; else bscript.src="/rightbanners3_2.js";
+document.head.appendChild(bscript);
+
+function setAd(){
+t_e=ge("text");var ty_e=ge("tyad");
+if(ty_e){if (ow(t_e)>=600)ty_e.style.display="block";else ty_e.style.display="none";}
+}
+function setPoems(){
+t_e=ge("text");
+if(typeof t_e !== 'undefined'){
+var tw=ow(t_e);
+var ss='';
+if(tw>240)for(var i in poems){
+var vls=poems[i].getElementsByClassName("vl");
+var vlim=16;var rsq=0;var lsq=0;var vlmax=0;var invr=0;var invl=0;
+if(vls.lengthvlmax)vlmax=vlw;}
+for(var j=0;jvlmax/3)rsq+=ow(poems[i])-vlw;else invr++;pdl=getComputedStyle(vls[j]).paddingLeft;pdl=parseFloat(pdl.slice(0,-2));if(pdltw)width1=tw-vlmax;
+var pmid='#'+poems[i].id;
+ss+=pmid+' div,'+pmid+' h1,'+pmid+' h2,'+pmid+' h3,'+pmid+' h4,'+pmid+' h5 {margin-left:-'+width1+'px;}'+pmid+' .pmm {padding-left:'+width1+'px;margin:0em}'+pmid+' .pm {padding-left:'+width1+'px}';
+}
+pss=document.createElement('style');
+pss.innerHTML=ss;
+document.querySelector('head').appendChild(pss);
+}
+}
+function cleanRules(){if(typeof t_e !=='undefined'){if(ow(ge("text"))>240)pss.parentNode.removeChild(pss);}}
+tbd_e=ge("tbd");
+bnbg_e=ge("bnbg");
+function setArrows(){
+for(var i in lbs){yf=oh(lbcs[i])/oh(lbs[i])*1.2;xf=1+yf/5;lbs[i].style.transform='scale('+xf+','+yf+')';}
+for(var i in rbs){yf=oh(rbcs[i])/oh(rbs[i])*1.2;xf=1+yf/5;rbs[i].style.transform='scale('+xf+','+yf+')';}
+if(bnbg_e != null)if(gr(tbd_e).bottom
+
+
+

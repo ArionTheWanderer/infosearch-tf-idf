@@ -1,0 +1,249 @@
+
+
+
+
+
+Л. Н. Толстой. Война и мир. Текст произведения. Том второй. Часть первая. XV
+
+
+
+
+
+.hdr {border-bottom:2px solid #7f7f96;background-color:#e6e0d3;background-image:url(/i/dark_bg_oldpaper.gif);background-position-x:right;text-align:right;height:3.6em;position:relative;display:flex;justify-content:flex-end;align-items:flex-end}
+.qson {white-space:nowrap;margin:0em;padding:0.1em 0em;font-size:100%}
+#lmini {display:none;width:4.9em;height:2.5em;position:absolute}
+#lmaxi {width:12em;height:3.6em;position:absolute}
+#lmidi {width:12em;height:3.6em;position:absolute}
+#smg {display:inline-block;width:1em;height:1.2em;vertical-align:middle;margin-bottom:0em}
+.ma {padding:0.5em 1em;border:1px solid #7f7f96;display:inline-block;height:1.2em;border-bottom:0px}
+.l {margin:0em;top:0;left:0;padding:0em;position:relative;width:100%;display:flex;align-items:stretch}
+#lft {padding:1em 2em;}
+.ang0 {position:relative;width:.6em;height:1.2em}
+.ang {position:absolute;border:.6em solid transparent;width:0px;height:0px}
+.la1 {border-right-color:#222;border-left-width:0px}
+.la2 {left:2px;border-right-color:#e3e0d7;border-left-width:0px}
+.ra1 {left:2px;border-left-color:#222;border-right-width:0em;margin-left:0.46em}
+.ra2 {border-left-color:#e3e0d7;border-right-width:0px;margin-left:0.46em}
+.ha {border-top: 2px solid black;margin-top:-1px}
+.me {text-decoration:underline;color:#006}
+.me:hover {cursor:pointer}
+.sb {background-color:#d6d0c3;display:flex;align-items:center;padding:0em 1em;border:1px solid #7f7f96;border-left:0px}
+.sb:hover {cursor:pointer}
+
+
+
+window.yaContextCb=window.yaContextCb||[]
+
+
+
+
+
+
+
+
+
+lgl=1;
+function ge(e){return document.getElementById(e);}
+function ow(e){return e.offsetWidth}
+function oh(e){return e.offsetHeight}
+function showLogin(){var lf=ge("loginFrame");var cw=lf.contentWindow;if(cw.location.pathname!="/loginFrame.phtml"){cw.location.assign("/loginFrame.phtml");}lf.style.display="block";ge("shdw").style.display="block";cw.focus();}
+function Logout(){
+ var r=new XMLHttpRequest();
+ r.open('POST', '/userlogout.phtml', true);
+ r.send();
+ r.onreadystatechange=function() {
+  if (r.readyState === 4) {	
+   if (r.status >= 200 && r.status < 300)
+    document.location.reload(true);
+  }
+ }
+}
+poems=[];lbs=[];lbcs=[];rbs=[];rbcs=[];
+function toggle_sf(){qs_e=ge('qs1');hdr_e=ge('hdr');qi_e=ge('qi1');if (qs_e.className=='qson') {qs_e.className = "qsoff";hdr_e.className="hdr2";qi1.focus()}else{qs_e.className = "qson";hdr_e.className="hdr";}}
+window.addEventListener("click",function(e){
+qs_e=ge('qs1');hdr_e=ge('hdr');qi_e=ge('qi1');thm_e=ge("thm");am1_e=ge("am1");sldr_e=ge("sldr1");
+eid=document.elementFromPoint(e.clientX, e.clientY).id;
+if(am1_e!==null)if(eid!=="am1"&&am1_e.className=="am1min"&&eid!="amm"&&eid!="mmm")am1_e.className="am1";
+if(thm_e!==null)if(eid!=="thm"&&thm_e.className=="thmmin")thm_e.className="thm";
+if(sldr_e!==null){
+	if(eid=="sldr1")showThemes();
+}
+if(eid=="lio"){var m=ge("lio");if(m.innerHTML=="Вход")showLogin();else Logout();}
+if(eid=="sb"||eid=="sb1"){document.forms.sf2.submit();}
+},true);
+
+
+
+ 
+  
+   
+    
+    
+    
+   
+	
+ 
+ 
+  
+	
+	
+	
+
+
+
+
+Авторы
+&nbsp;
+
+
+
+
+
+
+
+if (ge('lft0').offsetWidth > 599) {
+	ge('tyad').style.display="block";
+		window.yaContextCb.push(()=>{
+		Ya.Context.AdvManager.render({
+		    renderTo: 'ty',
+		    blockId: 'R-A-447573-2'
+		  })
+		})
+}
+
+
+
+
+	
+	
+Л. Н. Толстой. Война и мир. Том второй. Часть первая
+XV
+Сказать &laquo;завтра&raquo; и выдержать тон приличия было нетрудно, но приехать одному домой, увидать сестер, брата, мать, отца, признаваться и просить денег, на которые не имеешь права после данного честного слова, было ужасно.
+Дома еще не спали. Молодежь дома Ростовых, воротившись из театра, поужинав, сидела у клавикорд. Как только Николай вошел в залу, его охватила та любовная поэтическая атмосфера, которая царствовала в эту зиму в их доме и которая теперь, после предложения Долохова и бала Иогеля, казалось, еще более сгустилась, как воздух перед грозой, над Соней и Наташей. Соня и Наташа, в голубых платьях, в которых они были в театре, хорошенькие и знающие это, счастливые, улыбаясь, стояли у клавикорд. Вера с Шиншиным играла в шахматы в гостиной. Старая графиня, ожидая сына и мужа, раскладывала пасьянс с старушкой дворянкой, жившей у них в доме. Денисов, с блестящими глазами и взъерошенными волосами, сидел, откинув ножку назад, у клавикорд и, хлопая по ним своими коротенькими пальчиками, брал аккорды и, закатывая глаза, своим маленьким, хриплым, но верным голосом пел сочиненное им стихотворение &laquo;Волшебница&raquo;, к которому он пытался найти музыку.
+
+Волшебница, скажи, какая силаВлечет меня к покинутым струнам;Какой огонь ты в сердце заронила, Какой восторг разлился по перстам!&nbsp;&mdash;
+poems.push(document.getElementById("pt1"));
+
+пел он страстным голосом, блестя на испуганную и счастливую Наташу своими агатовыми черными глазами.
+&mdash; Прекрасно! отлично! &mdash; кричала Наташа. &mdash; Еще другой куплет, &mdash; говорила она, не замечая Николая.
+&laquo;У них все то же&raquo;, &mdash; подумал Николай, заглядывая в гостиную, где он увидал Веру и мать со старушкой.
+&mdash; А! вот и Николенька! &mdash; Наташа подбежала к нему.
+&mdash; Папенька дома? &mdash; спросил он.
+&mdash; Как я рада, что ты приехал! &mdash; не отвечая, сказала Наташа. &mdash; Нам так весело! Василий Дмитрич остался для меня еще день, ты знаешь?
+&mdash; Нет, еще не приезжал папа, &mdash; сказала Соня.
+&mdash; Коко, ты приехал, поди ко мне, дружок, &mdash; сказал голос графини из гостиной. Николай подошел к матери, поцеловал ее руку и, молча подсев к ее столу, стал смотреть на ее руки, раскладывавшие карты. Из залы все слышались смех и веселые голоса, уговаривавшие Наташу.
+&mdash; Ну, хорошо, хорошо, &mdash; закричал Денисов, &mdash; теперь нечего отговариваться, за вами barcarolla, умоляю вас.
+Графиня оглянулась на молчаливого сына.
+&mdash; Что с тобой? &mdash; спросила мать у Николая.
+&mdash; Ах, ничего, &mdash; сказал он, как будто ему уже надоел этот все один и тот же вопрос. &mdash; Папенька скоро приедет?
+&mdash; Я думаю.
+&laquo;У них все то же. Они ничего не знают! Куда мне деваться?&raquo; &mdash; подумал Николай и пошел опять в залу, где стояли клавикорды.
+Соня сидела за клавикордами и играла прелюдию той баркароллы, которую особенно любил Денисов. Наташа собиралась петь. Денисов восторженными глазами смотрел на нее.
+Николай стал ходить взад и вперед по комнате.
+&laquo;И вот охота заставлять ее петь! Что она может петь? И ничего тут нет веселого&raquo;, &mdash; думал Николай.
+Соня взяла первый аккорд прелюдии.
+&laquo;Боже мой, я бесчестный, я погибший человек. Пулю в лоб &mdash; одно, что остается, а не петь, &mdash; подумал он. &mdash; Уйти? но куда же? Все равно, пускай поют!&raquo;
+Николай мрачно, продолжая ходить по комнате, взглядывал на Денисова и девочек, избегая их взглядов.
+&laquo;Николенька, что с вами?&raquo; &mdash; спросил взгляд Сони, устремленный на него. Она тотчас увидала, что что-нибудь случилось с ним.
+Николай отвернулся от нее. Наташа с своею чуткостью тоже мгновенно заметила состояние своего брата. Она заметила его, но ей самой было так весело в ту минуту, так далека она была от горя, грусти, упреков, что она (как это часто бывает с молодыми людьми) нарочно обманула себя. &laquo;Нет, мне слишком весело теперь, чтобы портить свое веселье сочувствием чужому горю&raquo;, &mdash; почувствовала она и сказала себе: &laquo;Нет, я, верно, ошибаюсь, он должен быть весел так же, как и я&raquo;.
+&mdash; Ну, Соня, &mdash; сказала она и вышла на самую середину зала, где, по ее мнению, лучше всего был резонанс. Приподняв голову, опустив безжизненно-повисшие руки, как это делают танцовщицы, Наташа, энергическим движением переступая с каблучка на цыпочку, прошлась посередине комнаты и остановилась.
+&laquo;Вот она я!&raquo; &mdash; как будто говорила она, отвечая на восторженный взгляд Денисова, следившего за ней.
+&laquo;И чему она радуется! &mdash; подумал Николай, глядя на сестру. &mdash; И как ей не скучно и не совестно!&raquo; Наташа взяла первую ноту, горло ее расширилось, грудь выпрямилась, глаза приняли серьезное выражение. Она не думала ни о ком, ни о чем в эту минуту, и из в улыбку сложенного рта полились звуки, те звуки, которые может производить в те же промежутки времени и в те же интервалы всякий, но которые тысячу раз оставляют вас холодным, в тысячу первый раз заставляют вас содрогаться и плакать.
+Наташа в эту зиму в первый раз начала серьезно петь и в особенности оттого, что Денисов восторгался ее пением. Она пела теперь не по-детски, уж не было в ее пении этой комической, ребяческой старательности, которая была в ней прежде, но она пела еще не хорошо, как говорили все знатоки-судьи, которые ее слушали. &laquo;Не обработан, но прекрасный голос, надо обработать&raquo;, &mdash; говорили все. Но говорили это обыкновенно уже гораздо после того, как замолкал ее голос. В то же время, когда звучал этот необработанный голос с неправильными придыханиями и с усилиями переходов, даже знатоки-судьи ничего не говорили и только наслаждались этим необработанным голосом, и только желали еще раз услыхать его. В голосе ее была та девственность, нетронутость, то незнание своих сил и та необработанная еще бархатность, которые так соединялись с недостатками искусства пения, что, казалось, нельзя было ничего изменить в этом голосе, не испортив его.
+&laquo;Что ж это такое? &mdash; подумал Николай, услыхав ее голос и широко раскрывая глаза. &mdash; Что с ней сделалось? Как она поет нынче?&raquo; &mdash; подумал он. И вдруг весь мир для него сосредоточился в ожидании следующей ноты, следующей фразы, и все в мире сделалось разделенным на три темпа: &laquo;Oh mio crudele affetto...&nbsp;1 Раз, два, три... раз, два... три... раз... Oh mio crudele affetto... Раз, два три... раз. Эх, жизнь наша дурацкая! &mdash; думал Николай. &mdash; Все это, и несчастье, и деньги, и Долохов, и злоба, и честь, &mdash; все это вздор... а вот оно &mdash; настоящее... Ну, Наташа, ну, голубчик! ну, матушка!.. Как она этот si возьмет... Взяла? Слава Богу. &mdash; И он, сам не замечая того, что он поет, чтобы усилить этот si, взял втору в терцию высокой ноты. &mdash; Боже мой! как хорошо! Неужели это я взял? как счастливо!&raquo; &mdash; подумал он.
+О, как задрожала эта терция и как тронулось что-то лучшее, что было в душе Ростова. И это что-то было независимо от всего в мире и выше всего в мире. Какие тут проигрыши, и Долоховы, и честное слово!.. Все вздор! Можно зарезать, украсть и все-таки быть счастливым...
+
+1
+О моя жестокая любовь... (итал.) &mdash; Ред.XIV80/361XVIо тексте/оглавление
+
+
+
+
+
+
+
+ pagecontext="text1";
+
+&copy; Это произведение перешло в общественное достояние. Произведение написано автором, умершим более семидесяти лет назад, и опубликовано прижизненно, либо посмертно, но с момента публикации также прошло более семидесяти лет. Оно может свободно использоваться любым лицом без чьего-либо согласия или разрешения и без выплаты авторского вознаграждения.
+
+
+
+
+
+
+
+ var user = Object();
+user.paid = false;wx=ow(ge('in'));
+displayAd(wx, 610, 'r_top','right-rectangle-stick-1');
+
+
+function gr(e){return e.getBoundingClientRect();}
+
+
+
+
+ 
+  
+	 
+   
+
+   hx=oh(ge('lft'));
+	 displayAd(wx,hx-660,'r_bot','btmad');
+ 
+	
+ 
+
+
+
+
+
+
+
+
+
+Email: otklik@ilibrary.ruО библиотекеРеклама на сайте
+&copy;1996&#151;2022 Алексей Комаров. Подборка&nbsp;произведений, оформление, программирование.
+
+
+
+")
+//-->
+
+(function(w, c) { (w[c] = w[c] || []).push(function() { try { w.yaCounter5179000 = new Ya.Metrika({id:5179000, enableAll: true, webvisor:true}); } catch(e) { } }); })(window, "yandex_metrika_callbacks");
+
+var bscript=document.createElement('script');
+if (lgl==2) bscript.src="/rightbanners_rox3_1.js"; else bscript.src="/rightbanners3_2.js";
+document.head.appendChild(bscript);
+
+function setAd(){
+t_e=ge("text");var ty_e=ge("tyad");
+if(ty_e){if (ow(t_e)>=600)ty_e.style.display="block";else ty_e.style.display="none";}
+}
+function setPoems(){
+t_e=ge("text");
+if(typeof t_e !== 'undefined'){
+var tw=ow(t_e);
+var ss='';
+if(tw>240)for(var i in poems){
+var vls=poems[i].getElementsByClassName("vl");
+var vlim=16;var rsq=0;var lsq=0;var vlmax=0;var invr=0;var invl=0;
+if(vls.lengthvlmax)vlmax=vlw;}
+for(var j=0;jvlmax/3)rsq+=ow(poems[i])-vlw;else invr++;pdl=getComputedStyle(vls[j]).paddingLeft;pdl=parseFloat(pdl.slice(0,-2));if(pdltw)width1=tw-vlmax;
+var pmid='#'+poems[i].id;
+ss+=pmid+' div,'+pmid+' h1,'+pmid+' h2,'+pmid+' h3,'+pmid+' h4,'+pmid+' h5 {margin-left:-'+width1+'px;}'+pmid+' .pmm {padding-left:'+width1+'px;margin:0em}'+pmid+' .pm {padding-left:'+width1+'px}';
+}
+pss=document.createElement('style');
+pss.innerHTML=ss;
+document.querySelector('head').appendChild(pss);
+}
+}
+function cleanRules(){if(typeof t_e !=='undefined'){if(ow(ge("text"))>240)pss.parentNode.removeChild(pss);}}
+tbd_e=ge("tbd");
+bnbg_e=ge("bnbg");
+function setArrows(){
+for(var i in lbs){yf=oh(lbcs[i])/oh(lbs[i])*1.2;xf=1+yf/5;lbs[i].style.transform='scale('+xf+','+yf+')';}
+for(var i in rbs){yf=oh(rbcs[i])/oh(rbs[i])*1.2;xf=1+yf/5;rbs[i].style.transform='scale('+xf+','+yf+')';}
+if(bnbg_e != null)if(gr(tbd_e).bottom
+
+
+

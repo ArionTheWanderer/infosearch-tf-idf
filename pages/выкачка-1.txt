@@ -1,0 +1,291 @@
+
+
+
+
+
+Л. Н. Толстой. Война и мир. Текст произведения
+
+
+
+
+
+.hdr {border-bottom:2px solid #7f7f96;background-color:#e6e0d3;background-image:url(/i/dark_bg_oldpaper.gif);background-position-x:right;text-align:right;height:3.6em;position:relative;display:flex;justify-content:flex-end;align-items:flex-end}
+.qson {white-space:nowrap;margin:0em;padding:0.1em 0em;font-size:100%}
+#lmini {display:none;width:4.9em;height:2.5em;position:absolute}
+#lmaxi {width:12em;height:3.6em;position:absolute}
+#lmidi {width:12em;height:3.6em;position:absolute}
+#smg {display:inline-block;width:1em;height:1.2em;vertical-align:middle;margin-bottom:0em}
+.ma {padding:0.5em 1em;border:1px solid #7f7f96;display:inline-block;height:1.2em;border-bottom:0px}
+.l {margin:0em;top:0;left:0;padding:0em;position:relative;width:100%;display:flex;align-items:stretch}
+#lft {padding:1em 2em;}
+.ang0 {position:relative;width:.6em;height:1.2em}
+.ang {position:absolute;border:.6em solid transparent;width:0px;height:0px}
+.la1 {border-right-color:#222;border-left-width:0px}
+.la2 {left:2px;border-right-color:#e3e0d7;border-left-width:0px}
+.ra1 {left:2px;border-left-color:#222;border-right-width:0em;margin-left:0.46em}
+.ra2 {border-left-color:#e3e0d7;border-right-width:0px;margin-left:0.46em}
+.ha {border-top: 2px solid black;margin-top:-1px}
+.me {text-decoration:underline;color:#006}
+.me:hover {cursor:pointer}
+.sb {background-color:#d6d0c3;display:flex;align-items:center;padding:0em 1em;border:1px solid #7f7f96;border-left:0px}
+.sb:hover {cursor:pointer}
+
+
+
+window.yaContextCb=window.yaContextCb||[]
+
+
+
+
+
+
+
+
+
+lgl=1;
+function ge(e){return document.getElementById(e);}
+function ow(e){return e.offsetWidth}
+function oh(e){return e.offsetHeight}
+function showLogin(){var lf=ge("loginFrame");var cw=lf.contentWindow;if(cw.location.pathname!="/loginFrame.phtml"){cw.location.assign("/loginFrame.phtml");}lf.style.display="block";ge("shdw").style.display="block";cw.focus();}
+function Logout(){
+ var r=new XMLHttpRequest();
+ r.open('POST', '/userlogout.phtml', true);
+ r.send();
+ r.onreadystatechange=function() {
+  if (r.readyState === 4) {	
+   if (r.status >= 200 && r.status < 300)
+    document.location.reload(true);
+  }
+ }
+}
+poems=[];lbs=[];lbcs=[];rbs=[];rbcs=[];
+function toggle_sf(){qs_e=ge('qs1');hdr_e=ge('hdr');qi_e=ge('qi1');if (qs_e.className=='qson') {qs_e.className = "qsoff";hdr_e.className="hdr2";qi1.focus()}else{qs_e.className = "qson";hdr_e.className="hdr";}}
+window.addEventListener("click",function(e){
+qs_e=ge('qs1');hdr_e=ge('hdr');qi_e=ge('qi1');thm_e=ge("thm");am1_e=ge("am1");sldr_e=ge("sldr1");
+eid=document.elementFromPoint(e.clientX, e.clientY).id;
+if(am1_e!==null)if(eid!=="am1"&&am1_e.className=="am1min"&&eid!="amm"&&eid!="mmm")am1_e.className="am1";
+if(thm_e!==null)if(eid!=="thm"&&thm_e.className=="thmmin")thm_e.className="thm";
+if(sldr_e!==null){
+	if(eid=="sldr1")showThemes();
+}
+if(eid=="lio"){var m=ge("lio");if(m.innerHTML=="Вход")showLogin();else Logout();}
+if(eid=="sb"||eid=="sb1"){document.forms.sf2.submit();}
+},true);
+
+
+
+ 
+  
+   
+    
+    
+    
+   
+	
+ 
+ 
+  
+	
+	
+	
+
+
+
+
+Авторы
+&nbsp;
+
+
+
+
+
+
+
+if (ge('lft0').offsetWidth > 599) {
+	ge('tyad').style.display="block";
+		window.yaContextCb.push(()=>{
+		Ya.Context.AdvManager.render({
+		    renderTo: 'ty',
+		    blockId: 'R-A-447573-2'
+		  })
+		})
+}
+
+
+
+
+	
+	
+Л. Н. Толстой. Война и мир
+
+Лев Толстой
+
+Война и мир
+
+Том первый
+Часть первая
+I
+&mdash; Eh bien, mon prince. G&ecirc;nes et Lucques ne sont plus que des apanages, des поместья, de la famille Buonaparte. Non, je vous pr&eacute;viens que si vous ne me dites pas que nous avons la guerre, si vous vous permettez encore de pallier toutes les infamies, toutes les atrocit&eacute;s de cet Antichrist (ma parole, j'y crois) &mdash; je ne vous connais plus, vous n'&ecirc;tes plus mon ami, vous n'&ecirc;tes plus мой верный раб, comme vous dites&nbsp;1. Ну, здравствуйте, здравствуйте. Je vois que je vous fais peur&nbsp;2, садитесь и рассказывайте.
+Так говорила в июле 1805 года известная Анна Павловна Шерер, фрейлина и приближенная императрицы Марии Феодоровны, встречая важного и чиновного князя Василия, первого приехавшего на ее вечер. Анна Павловна кашляла несколько дней, у нее был грипп, как она говорила (грипп был тогда новое слово, употреблявшееся только редкими). В записочках, разосланных утром с красным лакеем, было написано без различия во всех:
+&laquo;Si vous n'avez rien de mieux &agrave; faire, Monsieur le comte (или mon prince), et si la perspective de passer la soir&eacute;e chez une pauvre malade ne vous effraye pas trop, je serai charm&eacute;e de vous voir chez moi entre 7 et 10 heures. Annette Scherer&raquo;&nbsp;3.
+&mdash; Dieu, quelle virulente sortie!&nbsp;4 &mdash; отвечал, нисколько не смутясь такою встречей, вошедший князь, в придворном, шитом мундире, в чулках, башмаках и звездах, с светлым выражением плоского лица.
+Он говорил на том изысканном французском языке, на котором не только говорили, но и думали наши деды, и с теми, тихими, покровительственными интонациями, которые свойственны состаревшемуся в свете и при дворе значительному человеку. Он подошел к Анне Павловне, поцеловал ее руку, подставив ей свою надушенную и сияющую лысину, и покойно уселся на диване.
+&mdash; Avant tout dites-moi, comment vous allez, ch&egrave;re amie?&nbsp;5 Успокойте меня, &mdash; сказал он, не изменяя голоса и тоном, в котором из-за приличия и участия просвечивало равнодушие и даже насмешка.
+&mdash; Как можно быть здоровой... когда нравственно страдаешь? Разве можно, имея чувство, оставаться спокойною в наше время? &mdash; сказала Анна Павловна. &mdash; Вы весь вечер у меня, надеюсь?
+&mdash; А праздник английского посланника? Нынче середа. Мне надо показаться там, &mdash; сказал князь. &mdash; Дочь заедет за мной и повезет меня.
+&mdash; Я думала, что нынешний праздник отменен, Je vous avoue que toutes ces f&ecirc;tes et tous ces feux d'artifice commencent &agrave; devenir insipides&nbsp;6.
+&mdash; Ежели бы знали, что вы этого хотите, праздник бы отменили, &mdash; сказал князь по привычке, как заведенные часы, говоря вещи, которым он и не хотел, чтобы верили.
+&mdash; Ne me tourmentez pas. Eh bien, qu'a-t-on d&eacute;cid&eacute; par rapport &agrave; la d&eacute;p&ecirc;che de Novosilzoff? Vous savez tout&nbsp;7.
+&mdash; Как вам сказать? &mdash; сказал князь холодным, скучающим тоном. &mdash; Qu'a-t-on d&eacute;cid&eacute;? On a d&eacute;cid&eacute; que Buonaparte a br&ucirc;l&eacute; ses vaisseaux, et je crois que nous sommes en train de br&ucirc;ler les n&ocirc;tres&nbsp;8.
+Князь Василий говорил всегда лениво, как актер говорит роль старой пиесы. Анна Павловна Шерер, напротив, несмотря на свои сорок лет, была преисполнена оживления и порывов.
+Быть энтузиасткой сделалось ее общественным положением, и иногда, когда ей даже того не хотелось, она, чтобы не обмануть ожиданий людей, знавших ее, делалась энтузиасткой. Сдержанная улыбка, игравшая постоянно на лице Анны Павловны, хотя и не шла к ее отжившим чертам, выражала, как у избалованных детей, постоянное сознание своего милого недостатка, от которого она не хочет, не может и не находит нужным исправляться.
+В середине разговора про политические действия Анна Павловна разгорячилась.
+&mdash; Ах, не говорите мне про Австрию! Я ничего не понимаю, может быть, но Австрия никогда не хотела и не хочет войны. Она предает нас. Россия одна должна быть спасительницей Европы. Наш благодетель знает свое высокое призвание и будет верен ему. Вот одно, во что я верю. Нашему доброму и чудному государю предстоит величайшая роль в мире, и он так добродетелен и хорош, что Бог не оставит его, и он исполнит свое призвание задавить гидру революции, которая теперь еще ужаснее в лице этого убийцы и злодея. Мы одни должны искупить кровь праведника. На кого нам надеяться, я вас спрашиваю?.. Англия с своим коммерческим духом не поймет и не может понять всю высоту души императора Александра. Она отказалась очистить Мальту. Она хочет видеть, ищет заднюю мысль наших действий. Что они сказали Новосильцеву? Ничего. Они не поняли, они не могли понять самоотвержения нашего императора, который ничего не хочет для себя и все хочет для блага мира. И что они обещали? Ничего. И что обещали, и того не будет! Пруссия уже объявила, что Бонапарте непобедим и что вся Европа ничего не может против него... И я не верю ни в одном слове ни Гарденбергу, ни Гаугвицу. Cette fameuse neutralit&eacute; prussienne, ce n'est qu'un pi&egrave;ge&nbsp;9. Я верю в одного Бога и в высокую судьбу нашего милого императора. Он спасет Европу!.. &mdash; Она вдруг остановилась с улыбкой насмешки над своею горячностью.
+&mdash; Я думаю, &mdash; сказал князь, улыбаясь, &mdash; что, ежели бы вас послали вместо нашего милого Винценгероде, вы бы взяли приступом согласие прусского короля. Вы так красноречивы. Вы дадите мне чаю?
+&mdash; Сейчас. A propos, &mdash; прибавила она, опять успокоиваясь, &mdash; нынче у меня два очень интересные человека, le vicomte de Mortemart, il est alli&eacute; aux Montmorency par les Rohans&nbsp;10, одна из лучших фамилий Франции. Это один из хороших эмигрантов, из настоящих. И потом l'abb&eacute; Morio;&nbsp;11 вы знаете этот глубокий ум? Он был принят государем. Вы знаете?
+&mdash; А! Я очень рад буду, &mdash; сказал князь. &mdash; Скажите, &mdash; прибавил он, как будто только что вспомнив что-то и особенно-небрежно, тогда как то, о чем он спрашивал, было главной целью его посещения, &mdash; правда, что l'imp&eacute;ratrice-m&egrave;re&nbsp;12 желает назначения барона Функе первым секретарем в Вену? C'est un pauvre sire, ce baron, &agrave; ce qu'il para&icirc;t&nbsp;13. &mdash; Князь Василий желал определить сына на это место, которое через императрицу Марию Феодоровну старались доставить барону.
+Анна Павловна почти закрыла глаза в знак того, что ни она, ни кто другой не могут судить про то, что угодно или нравится императрице.
+&mdash; Monsieur le baron de Funke a &eacute;t&eacute; recommand&eacute; &agrave; l'imp&eacute;ratrice-m&egrave;re par sa soeur&nbsp;14, &mdash; только сказала она грустным, сухим тоном. В то время как Анна Павловна назвала императрицу, лицо ее вдруг представило глубокое и искреннее выражение преданности и уважения, соединенное с грустью, что с ней бывало каждый раз, когда она в разговоре упоминала о своей высокой покровительнице. Она сказала, что ее величество изволила оказать барону Функе beaucoup d'estime&nbsp;15, и опять взгляд ее подернулся грустью.
+Князь равнодушно замолк, Анна Павловна, с свойственною ей придворною и женскою ловкостью и быстротою такта, захотела и щелкануть князя за то, что он дерзнул так отозваться о лице, рекомендованном императрице, и в то же время утешить его.
+&mdash; Mais &agrave; propos de votre famille, &mdash; сказала она, &mdash; знаете ли, что ваша дочь, с тех пор как выезжает, fait les d&eacute;lices de tout le monde. On la trouve belle comme le jour&nbsp;16.
+Князь наклонился в знак уважения и признательности.
+&mdash; Я часто думаю, &mdash; продолжала Анна Павловна после минутного молчания, придвигаясь к князю и ласково улыбаясь ему, как будто выказывая этим, что политические и светские разговоры кончены и теперь начинается задушевный, &mdash; я часто думаю, как иногда несправедливо распределяется счастие жизни. За что вам дала судьба таких двух славных детей (исключая Анатоля, вашего меньшого, я его не люблю, &mdash; вставила она безапелляционно, приподняв брови), &mdash; таких прелестных детей? А вы, право, менее всех цените их и потому их не сто&#769;ите.
+И она улыбнулась своею восторженной улыбкой.
+&mdash; Que voulez-vous? Lafater aurait dit que je n'ai pas la bosse de la paternit&eacute;&nbsp;17, &mdash; сказал князь.
+&mdash; Перестаньте шутить. Я хотела серьезно поговорить с вами. Знаете, я недовольна вашим меньшим сыном. Между нами будь сказано (лицо ее приняло грустное выражение), о нем говорили у ее величества и жалеют вас...
+Князь не отвечал, но она молча, значительно глядя на него, ждала ответа. Князь Василий поморщился.
+&mdash; Что ж мне делать? &mdash; сказал он наконец. &mdash; Вы знаете, я сделал для их воспитания все, что может отец, и оба вышли des imb&eacute;ciles&nbsp;18. Ипполит, по крайней мере, покойный дурак, а Анатоль &mdash; беспокойный. Вот одно различие, &mdash; сказал он, улыбаясь более неестественно и одушевленно, чем обыкновенно, и при этом особенно резко выказывая в сложившихся около его рта морщинах что-то неожиданно-грубое и неприятное.
+&mdash; И зачем родятся дети у таких людей, как вы? Ежели бы вы не были отец, я бы ни в чем не могла упрекнуть вас, &mdash; сказала Анна Павловна, задумчиво поднимая глаза.
+&mdash; Je suis votre верный раб, et &agrave; vous seule je puis l'avouer. Мои дети &mdash; ce sont les entraves de mon existence&nbsp;19. Это мой крест. Я так себе объясняю. Que voulez-vous?..&nbsp;20 &mdash; Он помолчал, выражая жестом свою покорность жестокой судьбе.
+Анна Павловна задумалась.
+&mdash; Вы никогда не думали о том, чтобы женить вашего блудного сына Анатоля. Говорят, &mdash; сказала она, &mdash; что старые девицы ont la manie des mariages&nbsp;21. Я еще не чувствую за собою этой слабости, но у меня есть одна petite personne, которая очень несчастлива с отцом, une parente &agrave; nous, une princesse&nbsp;22 Болконская. &mdash; Князь Василий не отвечал, хотя с свойственной светским людям быстротой соображения и памятью движением головы показал, что он принял к соображению это сведенье.
+&mdash; Нет, вы знаете ли, что этот Анатоль мне стоит сорок тысяч в год, &mdash; сказал он, видимо не в силах удерживать печальный ход своих мыслей. Он помолчал.
+&mdash; Что будет через пять лет, ежели это пойдет так? Voil&agrave; l'avantage d'&ecirc;tre p&egrave;re&nbsp;23. Она богата, ваша княжна?
+&mdash; Отец очень богат и скуп. Он живет в деревне. Знаете, этот известный князь Болконский, отставленный еще при покойном императоре и прозванный прусским королем. Он очень умный человек, но со странностями и тяжелый. La pauvre petite est malheureuse comme les pierres&nbsp;24. У нее брат, вот что недавно женился на Lise Мейнен, адъютант Кутузова. Он будет нынче у меня.
+&mdash; Ecoutez, ch&egrave;re Annette&nbsp;25, &mdash; сказал князь, взяв вдруг свою собеседницу за руку и пригибая ее почему-то книзу. &mdash; Arrangez-moi cette affaire et je suis votre вернейший раб &agrave; tout jamais (рап &mdash; comme mon староста m'&eacute;crit des&nbsp;26 донесенья: покой-ер-п). Она хорошей фамилии и богата. Все, что мне нужно.
+И он с теми свободными и фамильярными грациозными движениями, которые его отличали, взял за руку фрейлину, поцеловал ее и, поцеловав, помахал фрейлинскою рукой, развалившись на креслах и глядя в сторону.
+&mdash; Attendez&nbsp;27, &mdash; сказала Анна Павловна, соображая. &mdash; Я нынче же поговорю Lise (la femme du jeune Болконский)&nbsp;28. И, может быть, это уладится. Ce sera dans votre famille que je ferai mon apprentissage de vieille fille&nbsp;29.
+
+1
+Ну, князь, Генуя и Лукка &mdash; поместья фамилии Бонапарте. Нет, я вам вперед говорю, если вы мне не скажете, что у нас война, если вы еще позволите себе защищать все гадости, все ужасы этого Антихриста (право, я верю, что он Антихрист), &mdash; я вас больше не знаю, вы уж не друг мой, вы уж не мой верный раб, как вы говорите (франц.).
+(В дальнейшем переводы с французского не оговариваются. Здесь и далее все переводы, кроме специально оговоренных, принадлежат Л. Н. Толстому. &mdash; Ред.)2
+Я вижу, что я вас пугаю.3
+Если у вас, граф (или князь), нет в виду ничего лучшего и если перспектива вечера у бедной больной не слишком вас пугает, то я буду очень рада видеть вас нынче у себя между семью и десятью часами. Анна Шерер.4
+Господи, какое горячее нападение!5
+Прежде всего скажите, как ваше здоровье, милый друг?6
+Признаюсь, все эти праздники и фейерверки становятся несносны.7
+Не мучьте меня. Ну, что же решили по случаю депеши Новосильцева? Вы все знаете.8
+Что решили? Решили, что Бонапарте сжег свои корабли, и мы тоже, кажется, готовы сжечь наши.9
+Этот пресловутый нейтралитет Пруссии &mdash; только западня.10
+Кстати, &mdash; виконт Мортемар, он в родстве с Монморанси чрез Роганов.11
+аббат Морио.12
+вдовствующая императрица.13
+Барон этот ничтожное существо, как кажется.14
+Барон Функе рекомендован императрице-матери ее сестрою.15
+много уважения.16
+Кстати, о вашем семействе... составляет наслаждение всего общества. Ее находят прекрасною, как день.17
+Что делать! Лафатер сказал бы, что у меня нет шишки родительской любви.18
+дурни.19
+Я вас... и вам одним могу признаться. Мои дети &mdash; обуза моего существования.20
+Что делать?..21
+имеют манию женить.22
+девушка... наша родственница, княжна.23
+Вот выгода быть отцом.24
+Бедняжка несчастлива, как камни.25
+Послушайте, милая Анет.26
+Устройте мне это дело, и я навсегда ваш... как мой староста мне пишет.27
+Постойте.28
+Лизе (жене Болконского).29
+Я в вашем семействе начну обучаться ремеслу старой девицы.1/361IIо тексте/оглавление
+
+
+
+
+
+
+
+ pagecontext="text1";
+
+&copy; Это произведение перешло в общественное достояние. Произведение написано автором, умершим более семидесяти лет назад, и опубликовано прижизненно, либо посмертно, но с момента публикации также прошло более семидесяти лет. Оно может свободно использоваться любым лицом без чьего-либо согласия или разрешения и без выплаты авторского вознаграждения.
+
+
+
+
+
+
+
+ var user = Object();
+user.paid = false;wx=ow(ge('in'));
+displayAd(wx, 610, 'r_top','right-rectangle-stick-1');
+
+
+function gr(e){return e.getBoundingClientRect();}
+
+
+
+
+ 
+  
+	 
+   
+
+   hx=oh(ge('lft'));
+	 displayAd(wx,hx-660,'r_bot','btmad');
+ 
+	
+ 
+
+
+
+
+
+
+
+
+
+Email: otklik@ilibrary.ruО библиотекеРеклама на сайте
+&copy;1996&#151;2022 Алексей Комаров. Подборка&nbsp;произведений, оформление, программирование.
+
+
+
+")
+//-->
+
+(function(w, c) { (w[c] = w[c] || []).push(function() { try { w.yaCounter5179000 = new Ya.Metrika({id:5179000, enableAll: true, webvisor:true}); } catch(e) { } }); })(window, "yandex_metrika_callbacks");
+
+var bscript=document.createElement('script');
+if (lgl==2) bscript.src="/rightbanners_rox3_1.js"; else bscript.src="/rightbanners3_2.js";
+document.head.appendChild(bscript);
+
+function setAd(){
+t_e=ge("text");var ty_e=ge("tyad");
+if(ty_e){if (ow(t_e)>=600)ty_e.style.display="block";else ty_e.style.display="none";}
+}
+function setPoems(){
+t_e=ge("text");
+if(typeof t_e !== 'undefined'){
+var tw=ow(t_e);
+var ss='';
+if(tw>240)for(var i in poems){
+var vls=poems[i].getElementsByClassName("vl");
+var vlim=16;var rsq=0;var lsq=0;var vlmax=0;var invr=0;var invl=0;
+if(vls.lengthvlmax)vlmax=vlw;}
+for(var j=0;jvlmax/3)rsq+=ow(poems[i])-vlw;else invr++;pdl=getComputedStyle(vls[j]).paddingLeft;pdl=parseFloat(pdl.slice(0,-2));if(pdltw)width1=tw-vlmax;
+var pmid='#'+poems[i].id;
+ss+=pmid+' div,'+pmid+' h1,'+pmid+' h2,'+pmid+' h3,'+pmid+' h4,'+pmid+' h5 {margin-left:-'+width1+'px;}'+pmid+' .pmm {padding-left:'+width1+'px;margin:0em}'+pmid+' .pm {padding-left:'+width1+'px}';
+}
+pss=document.createElement('style');
+pss.innerHTML=ss;
+document.querySelector('head').appendChild(pss);
+}
+}
+function cleanRules(){if(typeof t_e !=='undefined'){if(ow(ge("text"))>240)pss.parentNode.removeChild(pss);}}
+tbd_e=ge("tbd");
+bnbg_e=ge("bnbg");
+function setArrows(){
+for(var i in lbs){yf=oh(lbcs[i])/oh(lbs[i])*1.2;xf=1+yf/5;lbs[i].style.transform='scale('+xf+','+yf+')';}
+for(var i in rbs){yf=oh(rbcs[i])/oh(rbs[i])*1.2;xf=1+yf/5;rbs[i].style.transform='scale('+xf+','+yf+')';}
+if(bnbg_e != null)if(gr(tbd_e).bottom
+
+
+

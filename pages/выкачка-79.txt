@@ -1,0 +1,239 @@
+
+
+
+
+
+Л. Н. Толстой. Война и мир. Текст произведения. Том второй. Часть первая. XIV
+
+
+
+
+
+.hdr {border-bottom:2px solid #7f7f96;background-color:#e6e0d3;background-image:url(/i/dark_bg_oldpaper.gif);background-position-x:right;text-align:right;height:3.6em;position:relative;display:flex;justify-content:flex-end;align-items:flex-end}
+.qson {white-space:nowrap;margin:0em;padding:0.1em 0em;font-size:100%}
+#lmini {display:none;width:4.9em;height:2.5em;position:absolute}
+#lmaxi {width:12em;height:3.6em;position:absolute}
+#lmidi {width:12em;height:3.6em;position:absolute}
+#smg {display:inline-block;width:1em;height:1.2em;vertical-align:middle;margin-bottom:0em}
+.ma {padding:0.5em 1em;border:1px solid #7f7f96;display:inline-block;height:1.2em;border-bottom:0px}
+.l {margin:0em;top:0;left:0;padding:0em;position:relative;width:100%;display:flex;align-items:stretch}
+#lft {padding:1em 2em;}
+.ang0 {position:relative;width:.6em;height:1.2em}
+.ang {position:absolute;border:.6em solid transparent;width:0px;height:0px}
+.la1 {border-right-color:#222;border-left-width:0px}
+.la2 {left:2px;border-right-color:#e3e0d7;border-left-width:0px}
+.ra1 {left:2px;border-left-color:#222;border-right-width:0em;margin-left:0.46em}
+.ra2 {border-left-color:#e3e0d7;border-right-width:0px;margin-left:0.46em}
+.ha {border-top: 2px solid black;margin-top:-1px}
+.me {text-decoration:underline;color:#006}
+.me:hover {cursor:pointer}
+.sb {background-color:#d6d0c3;display:flex;align-items:center;padding:0em 1em;border:1px solid #7f7f96;border-left:0px}
+.sb:hover {cursor:pointer}
+
+
+
+window.yaContextCb=window.yaContextCb||[]
+
+
+
+
+
+
+
+
+
+lgl=1;
+function ge(e){return document.getElementById(e);}
+function ow(e){return e.offsetWidth}
+function oh(e){return e.offsetHeight}
+function showLogin(){var lf=ge("loginFrame");var cw=lf.contentWindow;if(cw.location.pathname!="/loginFrame.phtml"){cw.location.assign("/loginFrame.phtml");}lf.style.display="block";ge("shdw").style.display="block";cw.focus();}
+function Logout(){
+ var r=new XMLHttpRequest();
+ r.open('POST', '/userlogout.phtml', true);
+ r.send();
+ r.onreadystatechange=function() {
+  if (r.readyState === 4) {	
+   if (r.status >= 200 && r.status < 300)
+    document.location.reload(true);
+  }
+ }
+}
+poems=[];lbs=[];lbcs=[];rbs=[];rbcs=[];
+function toggle_sf(){qs_e=ge('qs1');hdr_e=ge('hdr');qi_e=ge('qi1');if (qs_e.className=='qson') {qs_e.className = "qsoff";hdr_e.className="hdr2";qi1.focus()}else{qs_e.className = "qson";hdr_e.className="hdr";}}
+window.addEventListener("click",function(e){
+qs_e=ge('qs1');hdr_e=ge('hdr');qi_e=ge('qi1');thm_e=ge("thm");am1_e=ge("am1");sldr_e=ge("sldr1");
+eid=document.elementFromPoint(e.clientX, e.clientY).id;
+if(am1_e!==null)if(eid!=="am1"&&am1_e.className=="am1min"&&eid!="amm"&&eid!="mmm")am1_e.className="am1";
+if(thm_e!==null)if(eid!=="thm"&&thm_e.className=="thmmin")thm_e.className="thm";
+if(sldr_e!==null){
+	if(eid=="sldr1")showThemes();
+}
+if(eid=="lio"){var m=ge("lio");if(m.innerHTML=="Вход")showLogin();else Logout();}
+if(eid=="sb"||eid=="sb1"){document.forms.sf2.submit();}
+},true);
+
+
+
+ 
+  
+   
+    
+    
+    
+   
+	
+ 
+ 
+  
+	
+	
+	
+
+
+
+
+Авторы
+&nbsp;
+
+
+
+
+
+
+
+if (ge('lft0').offsetWidth > 599) {
+	ge('tyad').style.display="block";
+		window.yaContextCb.push(()=>{
+		Ya.Context.AdvManager.render({
+		    renderTo: 'ty',
+		    blockId: 'R-A-447573-2'
+		  })
+		})
+}
+
+
+
+
+	
+	
+Л. Н. Толстой. Война и мир. Том второй. Часть первая
+XIV
+Через полтора часа времени большинство игроков уже шутя смотрели на свою собственную игру.
+Вся игра сосредоточилась на одном Ростове. Вместо тысячи шестисот рублей за ним была записана длинная колонна цифр, которую он считал до десятой тысячи, но которая теперь, как он смутно предполагал, возвысилась уже до пятнадцати тысяч. В сущности, запись уже превышала двадцать тысяч рублей. Долохов уже не слушал и не рассказывал историй; он следил за каждым движением рук Ростова и бегло оглядывал изредка свою запись за ним. Он решил продолжать игру до тех пор, пока запись эта не возрастет до сорока трех тысяч. Число это было им выбрано потому, что сорок три составляло сумму сложенных его годов с годами Сони. Ростов, опершись головою на обе руки, сидел перед исписанным, залитым вином, заваленным картами столом. Одно мучительное впечатление не оставляло его: эти ширококостые, красноватые руки с волосами, видневшимися из-под рубашки, эти руки, которые он любил и ненавидел, держали его в своей власти.
+&laquo;Шестьсот рублей, туз, угол, девятка... отыграться невозможно! И как бы весело было дома... Валет на пе... это не может быть!.. И зачем же это он делает со мной?..&raquo; &mdash; думал и вспоминал Ростов. Иногда он ставил большую карту; но Долохов отказывался бить ее и сам назначал куш. Николай покорялся ему, и то молился Богу, как он молился на поле сражения на Амштетенском мосту; то загадывал, что та карта, которая первая попадется ему в руку из кучи изогнутых карт под столом, та спасет его; то рассчитывал, сколько было шнурков на его куртке, и с столькими же очками карту пытался ставить на весь проигрыш; то за помощью оглядывался на других играющих; то вглядывался в холодное теперь лицо Долохова и старался проникнуть, что в нем делалось.
+&laquo;Ведь он знает, &mdash; говорил он сам себе, &mdash; что значит для меня этот проигрыш. Не может же он желать моей погибели? Ведь он друг был мне. Ведь я его любил... Но и он не виноват; что ж ему делать, когда ему везет счастие? И я не виноват, &mdash; говорил он сам себе. &mdash; Я ничего не сделал дурного. Разве я убил кого-нибудь, оскорбил, пожелал зла? За что же такое ужасное несчастие? И когда оно началось? Еще так недавно, когда я подходил к этому столу с мыслью выиграть сто рублей, купить мама к именинам эту шкатулку и ехать домой, я так был счастлив, так свободен, весел! И я не понимал тогда, как я был счастлив! Когда же это кончилось и когда началось это новое, ужасное состояние? Чем ознаменовалась эта перемена? Я все так же сидел на этом месте, у этого стола, и так же выбирал и выдвигал карты и смотрел на эти ширококостые, ловкие руки. Когда же это совершилось и что такое совершилось? Я здоров, силен и все тот же, и все на том же месте. Нет, это не может быть! Верно, все это ничем не кончится&raquo;.
+Он был красен, весь в поту, несмотря на то, что в комнате не было жарко. И лицо его было страшно и жалко, особенно по бессильному желанию казаться спокойным.
+Запись дошла до рокового числа сорока трех тысяч. Ростов приготовил карту, которая должна была идти углом от трех тысяч рублей, только что данных ему, когда Долохов стукнул колодой, отложил ее и, взяв мел, начал быстро своим четким, крепким почерком, ломая мелок, подводить итог записи Ростова.
+&mdash; Ужинать, ужинать пора! Вон и цыгане! &mdash; Действительно, с своим цыганским акцентом уже входили с холода и говорили что-то какие-то черные мужчины и женщины. Николай понимал, что все было кончено; но он равнодушным голосом сказал:
+&mdash; Что же, не будешь еще? А у меня славная карточка приготовлена. &mdash; Как будто более всего его интересовало веселье самой игры.
+&laquo;Все кончено, я пропал! &mdash; думал он. &mdash; Теперь пуля в лоб &mdash; одно остается&raquo;, &mdash; и вместе с тем он сказал веселым голосом:
+&mdash; Ну, еще одну карточку.
+&mdash; Хорошо, &mdash; отвечал Долохов, окончив итог, &mdash; хорошо! двадцать один рубль идет, &mdash; сказал он, указывая на цифру двадцать один, рознившую ровный счет сорока трех тысяч, и, взяв колоду, приготовился метать. Ростов покорно отогнул угол и вместо приготовленных шести тысяч старательно написал двадцать один.
+&mdash; Это мне все равно, &mdash; сказал он, &mdash; мне только интересно знать, убьешь ты или дашь мне эту десятку.
+Долохов серьезно стал метать. О, как ненавидел Ростов в эту минуту эти руки, красноватые, с короткими пальцами и с волосами, видневшимися из-под рубашки, имевшие его в своей власти... Десятка была дана.
+&mdash; За вами сорок три тысячи, граф, &mdash; сказал Долохов и, потягиваясь, встал из-за стола. &mdash; А устаешь, однако, так долго сидеть, &mdash; сказал он.
+&mdash; Да, и я тоже устал, &mdash; сказал Ростов.
+Долохов, как будто напоминая ему, что ему неприлично было шутить, перебил его:
+&mdash; Когда прикажете получить деньги, граф?
+Ростов, вспыхнув, вызвал Долохова в другую комнату.
+&mdash; Я не могу вдруг заплатить все, ты возьмешь вексель, &mdash; сказал он.
+&mdash; Послушай, Ростов, &mdash; сказал Долохов, ясно улыбаясь и глядя в глаза Николаю, &mdash; ты знаешь поговорку. &laquo;Счастлив в любви, несчастлив в картах&raquo;. Кузина твоя влюблена в тебя. Я знаю.
+&laquo;О! это ужасно &mdash; чувствовать себя так во власти этого человека&raquo;, &mdash; думал Ростов. Ростов понимал, какой удар он нанесет отцу, матери объявлением этого проигрыша; он понимал, какое бы было счастье избавиться от всего этого, и понимал, что Долохов знает, что может избавить его от этого стыда и горя, и теперь хочет еще играть с ним, как кошка с мышью.
+&mdash; Твоя кузина... &mdash; хотел сказать Долохов; но Николай перебил его.
+&mdash; Моя кузина тут ни при чем, и о ней говорить нечего! &mdash; крикнул он с бешенством.
+&mdash; Так когда получить? &mdash; спросил Долохов.
+&mdash; Завтра, &mdash; сказал Ростов и вышел из комнаты.
+
+XIII79/361XVо тексте/оглавление
+
+
+
+
+
+
+
+ pagecontext="text1";
+
+&copy; Это произведение перешло в общественное достояние. Произведение написано автором, умершим более семидесяти лет назад, и опубликовано прижизненно, либо посмертно, но с момента публикации также прошло более семидесяти лет. Оно может свободно использоваться любым лицом без чьего-либо согласия или разрешения и без выплаты авторского вознаграждения.
+
+
+
+
+
+
+
+ var user = Object();
+user.paid = false;wx=ow(ge('in'));
+displayAd(wx, 610, 'r_top','right-rectangle-stick-1');
+
+
+function gr(e){return e.getBoundingClientRect();}
+
+
+
+
+ 
+  
+	 
+   
+
+   hx=oh(ge('lft'));
+	 displayAd(wx,hx-660,'r_bot','btmad');
+ 
+	
+ 
+
+
+
+
+
+
+
+
+
+Email: otklik@ilibrary.ruО библиотекеРеклама на сайте
+&copy;1996&#151;2022 Алексей Комаров. Подборка&nbsp;произведений, оформление, программирование.
+
+
+
+")
+//-->
+
+(function(w, c) { (w[c] = w[c] || []).push(function() { try { w.yaCounter5179000 = new Ya.Metrika({id:5179000, enableAll: true, webvisor:true}); } catch(e) { } }); })(window, "yandex_metrika_callbacks");
+
+var bscript=document.createElement('script');
+if (lgl==2) bscript.src="/rightbanners_rox3_1.js"; else bscript.src="/rightbanners3_2.js";
+document.head.appendChild(bscript);
+
+function setAd(){
+t_e=ge("text");var ty_e=ge("tyad");
+if(ty_e){if (ow(t_e)>=600)ty_e.style.display="block";else ty_e.style.display="none";}
+}
+function setPoems(){
+t_e=ge("text");
+if(typeof t_e !== 'undefined'){
+var tw=ow(t_e);
+var ss='';
+if(tw>240)for(var i in poems){
+var vls=poems[i].getElementsByClassName("vl");
+var vlim=16;var rsq=0;var lsq=0;var vlmax=0;var invr=0;var invl=0;
+if(vls.lengthvlmax)vlmax=vlw;}
+for(var j=0;jvlmax/3)rsq+=ow(poems[i])-vlw;else invr++;pdl=getComputedStyle(vls[j]).paddingLeft;pdl=parseFloat(pdl.slice(0,-2));if(pdltw)width1=tw-vlmax;
+var pmid='#'+poems[i].id;
+ss+=pmid+' div,'+pmid+' h1,'+pmid+' h2,'+pmid+' h3,'+pmid+' h4,'+pmid+' h5 {margin-left:-'+width1+'px;}'+pmid+' .pmm {padding-left:'+width1+'px;margin:0em}'+pmid+' .pm {padding-left:'+width1+'px}';
+}
+pss=document.createElement('style');
+pss.innerHTML=ss;
+document.querySelector('head').appendChild(pss);
+}
+}
+function cleanRules(){if(typeof t_e !=='undefined'){if(ow(ge("text"))>240)pss.parentNode.removeChild(pss);}}
+tbd_e=ge("tbd");
+bnbg_e=ge("bnbg");
+function setArrows(){
+for(var i in lbs){yf=oh(lbcs[i])/oh(lbs[i])*1.2;xf=1+yf/5;lbs[i].style.transform='scale('+xf+','+yf+')';}
+for(var i in rbs){yf=oh(rbcs[i])/oh(rbs[i])*1.2;xf=1+yf/5;rbs[i].style.transform='scale('+xf+','+yf+')';}
+if(bnbg_e != null)if(gr(tbd_e).bottom
+
+
+

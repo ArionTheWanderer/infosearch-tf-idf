@@ -1,0 +1,261 @@
+
+
+
+
+
+Л. Н. Толстой. Война и мир. Текст произведения. Том первый. Часть первая. XI
+
+
+
+
+
+.hdr {border-bottom:2px solid #7f7f96;background-color:#e6e0d3;background-image:url(/i/dark_bg_oldpaper.gif);background-position-x:right;text-align:right;height:3.6em;position:relative;display:flex;justify-content:flex-end;align-items:flex-end}
+.qson {white-space:nowrap;margin:0em;padding:0.1em 0em;font-size:100%}
+#lmini {display:none;width:4.9em;height:2.5em;position:absolute}
+#lmaxi {width:12em;height:3.6em;position:absolute}
+#lmidi {width:12em;height:3.6em;position:absolute}
+#smg {display:inline-block;width:1em;height:1.2em;vertical-align:middle;margin-bottom:0em}
+.ma {padding:0.5em 1em;border:1px solid #7f7f96;display:inline-block;height:1.2em;border-bottom:0px}
+.l {margin:0em;top:0;left:0;padding:0em;position:relative;width:100%;display:flex;align-items:stretch}
+#lft {padding:1em 2em;}
+.ang0 {position:relative;width:.6em;height:1.2em}
+.ang {position:absolute;border:.6em solid transparent;width:0px;height:0px}
+.la1 {border-right-color:#222;border-left-width:0px}
+.la2 {left:2px;border-right-color:#e3e0d7;border-left-width:0px}
+.ra1 {left:2px;border-left-color:#222;border-right-width:0em;margin-left:0.46em}
+.ra2 {border-left-color:#e3e0d7;border-right-width:0px;margin-left:0.46em}
+.ha {border-top: 2px solid black;margin-top:-1px}
+.me {text-decoration:underline;color:#006}
+.me:hover {cursor:pointer}
+.sb {background-color:#d6d0c3;display:flex;align-items:center;padding:0em 1em;border:1px solid #7f7f96;border-left:0px}
+.sb:hover {cursor:pointer}
+
+
+
+window.yaContextCb=window.yaContextCb||[]
+
+
+
+
+
+
+
+
+
+lgl=1;
+function ge(e){return document.getElementById(e);}
+function ow(e){return e.offsetWidth}
+function oh(e){return e.offsetHeight}
+function showLogin(){var lf=ge("loginFrame");var cw=lf.contentWindow;if(cw.location.pathname!="/loginFrame.phtml"){cw.location.assign("/loginFrame.phtml");}lf.style.display="block";ge("shdw").style.display="block";cw.focus();}
+function Logout(){
+ var r=new XMLHttpRequest();
+ r.open('POST', '/userlogout.phtml', true);
+ r.send();
+ r.onreadystatechange=function() {
+  if (r.readyState === 4) {	
+   if (r.status >= 200 && r.status < 300)
+    document.location.reload(true);
+  }
+ }
+}
+poems=[];lbs=[];lbcs=[];rbs=[];rbcs=[];
+function toggle_sf(){qs_e=ge('qs1');hdr_e=ge('hdr');qi_e=ge('qi1');if (qs_e.className=='qson') {qs_e.className = "qsoff";hdr_e.className="hdr2";qi1.focus()}else{qs_e.className = "qson";hdr_e.className="hdr";}}
+window.addEventListener("click",function(e){
+qs_e=ge('qs1');hdr_e=ge('hdr');qi_e=ge('qi1');thm_e=ge("thm");am1_e=ge("am1");sldr_e=ge("sldr1");
+eid=document.elementFromPoint(e.clientX, e.clientY).id;
+if(am1_e!==null)if(eid!=="am1"&&am1_e.className=="am1min"&&eid!="amm"&&eid!="mmm")am1_e.className="am1";
+if(thm_e!==null)if(eid!=="thm"&&thm_e.className=="thmmin")thm_e.className="thm";
+if(sldr_e!==null){
+	if(eid=="sldr1")showThemes();
+}
+if(eid=="lio"){var m=ge("lio");if(m.innerHTML=="Вход")showLogin();else Logout();}
+if(eid=="sb"||eid=="sb1"){document.forms.sf2.submit();}
+},true);
+
+
+
+ 
+  
+   
+    
+    
+    
+   
+	
+ 
+ 
+  
+	
+	
+	
+
+
+
+
+Авторы
+&nbsp;
+
+
+
+
+
+
+
+if (ge('lft0').offsetWidth > 599) {
+	ge('tyad').style.display="block";
+		window.yaContextCb.push(()=>{
+		Ya.Context.AdvManager.render({
+		    renderTo: 'ty',
+		    blockId: 'R-A-447573-2'
+		  })
+		})
+}
+
+
+
+
+	
+	
+Л. Н. Толстой. Война и мир. Том первый. Часть первая
+XI
+Графиня так устала от визитов, что не велела принимать больше никого, и швейцару приказано было только звать непременно кушать всех, кто будет еще приезжать с поздравлениями. Графине хотелось с глазу на глаз поговорить с другом своего детства, княгиней Анной Михайловной, которую она не видала хорошенько с ее приезда из Петербурга. Анна Михайловна, с своим исплаканным и приятным лицом, подвинулась ближе к креслу графини.
+&mdash; С тобой я буду совершенно откровенна, &mdash; сказала Анна Михайловна. &mdash; Уж мало нас осталось, старых друзей! От этого я так и дорожу твоею дружбой.
+Анна Михайловна посмотрела на Веру и остановилась. Графиня пожала руку своему другу.
+&mdash; Вера, &mdash; сказала графиня, обращаясь к старшей дочери, очевидно, нелюбимой. &mdash; Как у вас ни на что понятия нет? Разве ты не чувствуешь, что ты здесь лишняя? Поди к сестрам, или...
+Красивая Вера презрительно улыбнулась, видимо, не чувствуя ни малейшего оскорбления.
+&mdash; Ежели бы вы мне сказали давно, маменька, я бы тотчас ушла, &mdash; сказала она и пошла в свою комнату. Но, проходя мимо диванной, она заметила, что в ней у двух окошек симметрично сидели две пары. Она остановилась и презрительно улыбнулась. Соня сидела близко подле Николая, который переписывал ей стихи, в первый раз сочиненные им. Борис с Наташей сидели у другого окна и замолчали, когда вошла Вера. Соня и Наташа с виноватыми и счастливыми лицами взглянули на Веру.
+Весело и трогательно было смотреть на этих влюбленных девочек, но вид их, очевидно, не возбуждал в Вере приятного чувства.
+&mdash; Сколько раз я вас просила, &mdash; сказала она, &mdash; не брать моих вещей, у вас есть своя комната. &mdash; Она взяла от Николая чернильницу.
+&mdash; Сейчас, сейчас, &mdash; сказал он, макая перо.
+&mdash; Вы все умеете делать не вовремя, &mdash; сказала Вера. &mdash; То прибежали в гостиную, так что всем совестно сделалось за вас.
+Несмотря на то, или именно потому, что сказанное ею было совершенно справедливо, никто ей не отвечал, и все четверо только переглядывались между собой. Она медлила в комнате с чернильницей в руке.
+&mdash; И какие могут быть в ваши года секреты между Наташей и Борисом и между вами, &mdash; все одни глупости.
+&mdash; Ну, что тебе за дело, Вера? &mdash; тихоньким голоском, заступнически проговорила Наташа.
+Она, видимо, была ко всем еще более, чем всегда, в этот день добра и ласкова.
+&mdash; Очень глупо, &mdash; сказала Вера, &mdash; мне совестно за вас. Что за секреты?..
+&mdash; У каждого свои секреты. Мы тебя с Бергом не трогаем, &mdash; сказала Наташа, разгорячась.
+&mdash; Я думаю, не трогаете, &mdash; сказала Вера, &mdash; потому что в моих поступках никогда ничего не может быть дурного. А вот я маменьке скажу, как ты с Борисом обходишься.
+Наталья Ильинишна очень хорошо со мной обходится, &mdash; сказал Борис. &mdash; Я не могу жаловаться, &mdash; сказал он.
+&mdash; Оставьте, Борис, вы такой дипломат (слово дипломат было в большом ходу у детей в том особом значении, какое они придавали этому слову); даже скучно, &mdash; сказала Наташа оскорбленным, дрожащим голосом. &mdash; За что она ко мне пристает?
+&mdash; Ты этого никогда не поймешь, &mdash; сказала она, обращаясь к Вере, &mdash; потому что ты никогда никого не любила; у тебя сердца нет, ты только madame de Genlis (это прозвище, считавшееся очень обидным, было дано Вере Николаем), и твое первое удовольствие &mdash; делать неприятности другим. Ты кокетничай с Бергом сколько хочешь, &mdash; проговорила она скоро.
+&mdash; Да уж я, верно, не стану перед гостями бегать за молодым человеком...
+&mdash; Ну, добилась своего, &mdash; вмешался Николай, &mdash; наговорила всем неприятностей, расстроила всех. Пойдемте в детскую.
+Все четверо, как спугнутая стая птиц, поднялись и пошли из комнаты.
+&mdash; Мне наговорили неприятностей, а я никому ничего, &mdash; сказала Вера.
+&mdash; Madame de Genlis! Madame de Genlis! &mdash; проговорили смеющиеся голоса из-за двери.
+Красивая Вера, производившая на всех такое раздражающее, неприятное действие, улыбнулась и, видимо, не затронутая тем, что ей было сказано, подошла к зеркалу и оправила шарф и прическу: глядя на свое красивое лицо, она стала, по-видимому, еще холоднее и спокойнее.
+&nbsp;
+В гостиной продолжался разговор.
+&mdash; Ah! ch&egrave;re, &mdash; говорила графиня, &mdash; и в моей жизни tout n'est pas rose. Разве я не вижу, что du train que nous allons&nbsp;1 нашего состояния нам ненадолго. И все это клуб и его доброта. В деревне мы живем, разве мы отдыхаем? Театры, охоты и Бог знает что. Да что обо мне говорить! Ну, как же ты это все устроила? Я часто на тебя удивляюсь, Annette, как это ты, в твои годы, скачешь в повозке одна, в Москву, в Петербург, ко всем министрам, ко всей знати, со всеми умеешь обойтись, удивляюсь! Ну, как же это устроилось? Вот я ничего этого не умею.
+&mdash; Ах, душа моя! &mdash; отвечала княгиня Анна Михайловна. &mdash; Не дай Бог тебе узнать, как тяжело остаться вдовой без подпоры и с сыном, которого любишь до обожания. Всему научишься, &mdash; продолжала она с некоторой гордостью. &mdash; Процесс мой меня научил. Ежели мне нужно видеть кого-нибудь из этих тузов, я пишу записку: &laquo;Princesse une telle&nbsp;2 желает видеть такого-то&raquo; &mdash; и еду сама на извозчике, хоть два, хоть три раза, хоть четыре &mdash; до тех пор, пока не добьюсь того, что мне надо. Мне все равно, что бы обо мне ни думали.
+&mdash; Ну, как же, кого ты просила о Бореньке? &mdash; спросила графиня. &mdash; Ведь вот твой уж офицер гвардии, а Николушка идет юнкером. Некому похлопотать. Ты кого просила?
+&mdash; Князя Василия. Он был очень мил. Сейчас на все согласился, доложил государю, &mdash; говорила княгиня Анна Михайловна с восторгом, совершенно забыв все унижение, через которое она прошла для достижения своей цели.
+&mdash; Что он, постарел, князь Василий? &mdash; спросила графиня. &mdash; Я его не видала с наших театров у Румянцевых. И думаю, забыл про меня. Il me faisait la cour&nbsp;3, &mdash; вспомнила графиня с улыбкой.
+&mdash; Все такой же, &mdash; отвечала Анна Михайловна, &mdash; любезен, рассыпается. Les grandeurs ne lui ont pas tourn&eacute; la t&ecirc;te du tout&nbsp;4. &laquo;Я жалею, что слишком мало могу вам сделать, милая княгиня, &mdash; он мне говорит, &mdash; приказывайте&raquo;. Нет, он славный человек и родной прекрасный. Но ты знаешь, Nathalie, мою любовь к сыну. Я не знаю, чего я не сделала бы для его счастия. А обстоятельства мои до того дурны, &mdash; продолжала Анна Михайловна с грустью и понижая голос, &mdash; до того дурны, что я теперь в самом ужасном положении. Мой несчастный процесс съедает все, что я имею, и не подвигается. У меня нет, можешь себе представить, &agrave; la lettre&nbsp;5 нет гривенника денег, и я не знаю, на что обмундировать Бориса. &mdash; Она вынула платок и заплакала. &mdash; Мне нужно пятьсот рублей, а у меня одна двадцатипятирублевая бумажка. Я в таком положении... Одна моя надежда теперь на графа Кирилла Владимировича Безухова. Ежели он не захочет поддержать своего крестника, &mdash; ведь он крестил Борю, &mdash; и назначить ему что-нибудь на содержание, то все мои хлопоты пропадут: мне не на что будет обмундировать его.
+Графиня прослезилась и молча соображала что-то...
+&mdash; Часто думаю, может, это и грех, &mdash; сказала княгиня, &mdash; а часто думаю: вот граф Кирилл Владимирович Безухов живет один... это огромное состояние... и для чего живет? Ему жизнь в тягость, а Боре только начинать жить.
+&mdash; Он, верно, оставит что-нибудь Борису, &mdash; сказала графиня.
+&mdash; Бог знает, ch&egrave;re amie!&nbsp;6 Эти богачи и вельможи такие эгоисты. Но я все-таки поеду сейчас к нему с Борисом и прямо скажу, в чем дело. Пускай обо мне думают, что хотят, мне, право, все равно, когда судьба сына зависит от этого. &mdash; Княгиня поднялась. &mdash; Теперь два часа, а в четыре часа вы обедаете. Я успею съездить.
+И с приемами петербургской деловой барыни, умеющей пользоваться временем, Анна Михайловна послала за сыном и вместе с ним вышла в переднюю.
+&mdash; Прощай, душа моя, &mdash; сказала она графине, которая провожала ее до двери, &mdash; пожелай мне успеха, &mdash; прибавила она шепотом от сына.
+&mdash; Вы к графу Кириллу Владимировичу, та ch&egrave;re? &mdash; сказал граф из столовой, выходя тоже в переднюю. &mdash; Коли ему лучше, зовите Пьера ко мне обедать. Ведь он у меня бывал, с детьми танцевал. Зовите непременно, ma ch&egrave;re. Ну, посмотрим, как-то отличится нынче Тарас. Говорит, что у графа Орлова такого обеда не бывало, какой у нас будет.
+
+1
+не все розы... при нашем образе жизни.2
+Княгиня такая-то.3
+Он за мной волочился.4
+Почести не изменили его.5
+иногда.6
+мой друг!X11/361XIIо тексте/оглавление
+
+
+
+
+
+
+
+ pagecontext="text1";
+
+&copy; Это произведение перешло в общественное достояние. Произведение написано автором, умершим более семидесяти лет назад, и опубликовано прижизненно, либо посмертно, но с момента публикации также прошло более семидесяти лет. Оно может свободно использоваться любым лицом без чьего-либо согласия или разрешения и без выплаты авторского вознаграждения.
+
+
+
+
+
+
+
+ var user = Object();
+user.paid = false;wx=ow(ge('in'));
+displayAd(wx, 610, 'r_top','right-rectangle-stick-1');
+
+
+function gr(e){return e.getBoundingClientRect();}
+
+
+
+
+ 
+  
+	 
+   
+
+   hx=oh(ge('lft'));
+	 displayAd(wx,hx-660,'r_bot','btmad');
+ 
+	
+ 
+
+
+
+
+
+
+
+
+
+Email: otklik@ilibrary.ruО библиотекеРеклама на сайте
+&copy;1996&#151;2022 Алексей Комаров. Подборка&nbsp;произведений, оформление, программирование.
+
+
+
+")
+//-->
+
+(function(w, c) { (w[c] = w[c] || []).push(function() { try { w.yaCounter5179000 = new Ya.Metrika({id:5179000, enableAll: true, webvisor:true}); } catch(e) { } }); })(window, "yandex_metrika_callbacks");
+
+var bscript=document.createElement('script');
+if (lgl==2) bscript.src="/rightbanners_rox3_1.js"; else bscript.src="/rightbanners3_2.js";
+document.head.appendChild(bscript);
+
+function setAd(){
+t_e=ge("text");var ty_e=ge("tyad");
+if(ty_e){if (ow(t_e)>=600)ty_e.style.display="block";else ty_e.style.display="none";}
+}
+function setPoems(){
+t_e=ge("text");
+if(typeof t_e !== 'undefined'){
+var tw=ow(t_e);
+var ss='';
+if(tw>240)for(var i in poems){
+var vls=poems[i].getElementsByClassName("vl");
+var vlim=16;var rsq=0;var lsq=0;var vlmax=0;var invr=0;var invl=0;
+if(vls.lengthvlmax)vlmax=vlw;}
+for(var j=0;jvlmax/3)rsq+=ow(poems[i])-vlw;else invr++;pdl=getComputedStyle(vls[j]).paddingLeft;pdl=parseFloat(pdl.slice(0,-2));if(pdltw)width1=tw-vlmax;
+var pmid='#'+poems[i].id;
+ss+=pmid+' div,'+pmid+' h1,'+pmid+' h2,'+pmid+' h3,'+pmid+' h4,'+pmid+' h5 {margin-left:-'+width1+'px;}'+pmid+' .pmm {padding-left:'+width1+'px;margin:0em}'+pmid+' .pm {padding-left:'+width1+'px}';
+}
+pss=document.createElement('style');
+pss.innerHTML=ss;
+document.querySelector('head').appendChild(pss);
+}
+}
+function cleanRules(){if(typeof t_e !=='undefined'){if(ow(ge("text"))>240)pss.parentNode.removeChild(pss);}}
+tbd_e=ge("tbd");
+bnbg_e=ge("bnbg");
+function setArrows(){
+for(var i in lbs){yf=oh(lbcs[i])/oh(lbs[i])*1.2;xf=1+yf/5;lbs[i].style.transform='scale('+xf+','+yf+')';}
+for(var i in rbs){yf=oh(rbcs[i])/oh(rbs[i])*1.2;xf=1+yf/5;rbs[i].style.transform='scale('+xf+','+yf+')';}
+if(bnbg_e != null)if(gr(tbd_e).bottom
+
+
+

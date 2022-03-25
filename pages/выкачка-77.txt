@@ -1,0 +1,246 @@
+
+
+
+
+
+Л. Н. Толстой. Война и мир. Текст произведения. Том второй. Часть первая. XII
+
+
+
+
+
+.hdr {border-bottom:2px solid #7f7f96;background-color:#e6e0d3;background-image:url(/i/dark_bg_oldpaper.gif);background-position-x:right;text-align:right;height:3.6em;position:relative;display:flex;justify-content:flex-end;align-items:flex-end}
+.qson {white-space:nowrap;margin:0em;padding:0.1em 0em;font-size:100%}
+#lmini {display:none;width:4.9em;height:2.5em;position:absolute}
+#lmaxi {width:12em;height:3.6em;position:absolute}
+#lmidi {width:12em;height:3.6em;position:absolute}
+#smg {display:inline-block;width:1em;height:1.2em;vertical-align:middle;margin-bottom:0em}
+.ma {padding:0.5em 1em;border:1px solid #7f7f96;display:inline-block;height:1.2em;border-bottom:0px}
+.l {margin:0em;top:0;left:0;padding:0em;position:relative;width:100%;display:flex;align-items:stretch}
+#lft {padding:1em 2em;}
+.ang0 {position:relative;width:.6em;height:1.2em}
+.ang {position:absolute;border:.6em solid transparent;width:0px;height:0px}
+.la1 {border-right-color:#222;border-left-width:0px}
+.la2 {left:2px;border-right-color:#e3e0d7;border-left-width:0px}
+.ra1 {left:2px;border-left-color:#222;border-right-width:0em;margin-left:0.46em}
+.ra2 {border-left-color:#e3e0d7;border-right-width:0px;margin-left:0.46em}
+.ha {border-top: 2px solid black;margin-top:-1px}
+.me {text-decoration:underline;color:#006}
+.me:hover {cursor:pointer}
+.sb {background-color:#d6d0c3;display:flex;align-items:center;padding:0em 1em;border:1px solid #7f7f96;border-left:0px}
+.sb:hover {cursor:pointer}
+
+
+
+window.yaContextCb=window.yaContextCb||[]
+
+
+
+
+
+
+
+
+
+lgl=1;
+function ge(e){return document.getElementById(e);}
+function ow(e){return e.offsetWidth}
+function oh(e){return e.offsetHeight}
+function showLogin(){var lf=ge("loginFrame");var cw=lf.contentWindow;if(cw.location.pathname!="/loginFrame.phtml"){cw.location.assign("/loginFrame.phtml");}lf.style.display="block";ge("shdw").style.display="block";cw.focus();}
+function Logout(){
+ var r=new XMLHttpRequest();
+ r.open('POST', '/userlogout.phtml', true);
+ r.send();
+ r.onreadystatechange=function() {
+  if (r.readyState === 4) {	
+   if (r.status >= 200 && r.status < 300)
+    document.location.reload(true);
+  }
+ }
+}
+poems=[];lbs=[];lbcs=[];rbs=[];rbcs=[];
+function toggle_sf(){qs_e=ge('qs1');hdr_e=ge('hdr');qi_e=ge('qi1');if (qs_e.className=='qson') {qs_e.className = "qsoff";hdr_e.className="hdr2";qi1.focus()}else{qs_e.className = "qson";hdr_e.className="hdr";}}
+window.addEventListener("click",function(e){
+qs_e=ge('qs1');hdr_e=ge('hdr');qi_e=ge('qi1');thm_e=ge("thm");am1_e=ge("am1");sldr_e=ge("sldr1");
+eid=document.elementFromPoint(e.clientX, e.clientY).id;
+if(am1_e!==null)if(eid!=="am1"&&am1_e.className=="am1min"&&eid!="amm"&&eid!="mmm")am1_e.className="am1";
+if(thm_e!==null)if(eid!=="thm"&&thm_e.className=="thmmin")thm_e.className="thm";
+if(sldr_e!==null){
+	if(eid=="sldr1")showThemes();
+}
+if(eid=="lio"){var m=ge("lio");if(m.innerHTML=="Вход")showLogin();else Logout();}
+if(eid=="sb"||eid=="sb1"){document.forms.sf2.submit();}
+},true);
+
+
+
+ 
+  
+   
+    
+    
+    
+   
+	
+ 
+ 
+  
+	
+	
+	
+
+
+
+
+Авторы
+&nbsp;
+
+
+
+
+
+
+
+if (ge('lft0').offsetWidth > 599) {
+	ge('tyad').style.display="block";
+		window.yaContextCb.push(()=>{
+		Ya.Context.AdvManager.render({
+		    renderTo: 'ty',
+		    blockId: 'R-A-447573-2'
+		  })
+		})
+}
+
+
+
+
+	
+	
+Л. Н. Толстой. Война и мир. Том второй. Часть первая
+XII
+У Иогеля были самые веселые балы в Москве. Это говорили матушки, глядя на своих adolescentes&nbsp;1, выделывающих свои только что выученные па; это говорили и сами adolescentes и adolescents&nbsp;2, танцевавшие до упаду; это говорили взрослые девицы и молодые люди, приезжавшие на эти балы с мыслию снизойти до них и находя в них самое лучшее веселье. В этот же год на этих балах сделалось два брака. Две хорошенькие княжны Горчаковы нашли женихов и вышли замуж, и тем еще более пустили в славу эти балы. Особенного на этих балах было то, что не было хозяина и хозяйки: был, как пух летающий, по правилам искусства расшаркивающийся добродушный Иогель, который принимал билетики за уроки от всех своих гостей; было то, что на эти балы еще езжали только те, кто хотел танцевать и веселиться, как хотят этого тринадцати- и четырнадцатилетние девочки, в первый раз надевающие длинные платья. Все, за редкими исключениями, были или казались хорошенькими: так востороженно они все улыбались и так разгорались их глазки. Иногда танцовывали даже pas de ch&acirc;le лучшие ученицы, из которых лучшая была Наташа, отличавшаяся своею грациозностью; но на этом, последнем бале танцевали только экосезы, англезы и только что входящую в моду мазурку. Зала была взята Иогелем в доме Безухова, и бал очень удался, как говорили все. Много было хорошеньких девочек, Ростовы барышни были из лучших. Они обе были особенно счастливы и веселы в этот вечер. Соня, гордая предложением Долохова, своим отказом и объяснением с Николаем, кружилась еще дома, не давая девушке дочесать свои косы, и теперь насквозь светилась порывистой радостью.
+Наташа, не менее гордая тем, что она в первый раз была в длинном платье, на настоящем бале, была еще счастливее. Они были в белых кисейных платьях с розовыми лентами.
+Наташа сделалась влюблена с самой той минуты, как она вошла на бал. Она не был влюблена ни в кого в особенности, но влюблена была во всех. В того, на кого она смотрела в ту минуту, как она смотрела, в того она и была влюблена.
+&mdash; Ах, как хорошо! &mdash; все говорила она, подбегая к Соне.
+Николай с Денисовым ходили по залам, ласково и покровительственно оглядывая танцующих.
+&mdash; Как она мила, кг'асавица будет, &mdash; сказал Денисов.
+&mdash; Кто?
+&mdash; Г'афиня Наташа, &mdash; отвечал Денисов.
+&mdash; И как она танцует, какая г'ация! &mdash; помолчав немного, опять сказал он.
+&mdash; Да про кого ты говоришь?
+&mdash; Пг'о сестг'у пг'о твою, &mdash; сердито крикнул Денисов.
+Ростов усмехнулся.
+&mdash; Mon cher comte; vous &ecirc;tes l'un de mes meilleurs &eacute;coliers, il faut que vous dansiez, &mdash; сказал маленький Иогель, подходя к Николаю. &mdash; Voyez combien de jolies demoiselles&nbsp;3. &mdash; Он с тою же просьбой обратился и к Денисову, тоже своему бывшему ученику.
+&mdash; Non, mon cher, je ferai tapisserie&nbsp;4, &mdash; сказал Денисов. &mdash; Разве вы не помните, как дурно я пользовался вашими уроками?..
+&mdash; О нет! &mdash; поспешно утешая его, сказал Иогель. &mdash; Вы только невнимательны были, а вы имели способности, да, вы имели способности.
+Заиграли вновь вводившуюся мазурку. Николай не мог отказать Иогелю и пригласил Соню. Денисов подсел к старушкам и, облокотившись на саблю, притопывая такт, что-то весело рассказывал и смешил старых дам, поглядывая на танцующую молодежь. Иогель в первой паре танцевал с Наташей, своею гордостью и лучшей ученицей. Мягко, нежно перебирая своими ножками в башмачках, Иогель первым полетел по зале с робевшей, но старательно выделывающей па Наташей. Денисов не спускал с нее глаз и пристукивал саблей такт с таким видом, который ясно говорил, что он сам не танцует только оттого, что не хочет, а не оттого, что не может. В середине фигуры он подозвал к себе проходившего мимо Ростова.
+&mdash; Это совсем не то, &mdash; сказал он. &mdash; Разве это польская мазуг'ка? А отлично танцует.
+Зная, что Денисов и в Польше даже славился своим мастерством плясать польскую мазурку, Николай подбежал к Наташе.
+&mdash; Поди выбери Денисова. Вот танцует! Чудо! &mdash; сказал он.
+Когда пришел опять черед Наташи, она встала и быстро перебирая своими с бантиками башмачками, робея, одна пробежала через залу к углу, где сидел Денисов. Она видела, что все смотрят на нее и ждут. Николай видел, что Денисов и Наташа, улыбаясь, спорили и что Денисов отказывался, но радостно улыбался. Он подбежал.
+&mdash; Пожалуйста, Василий Дмитрич, &mdash; говорила Наташа, &mdash; пойдемте, пожалуйста.
+&mdash; Да что. Увольте, г'афиня, &mdash; говорил Денисов.
+&mdash; Ну полно, Вася, &mdash; сказал Николай.
+&mdash; Точно кота Ваську уговаг'ивает, &mdash; шутя сказал Денисов.
+&mdash; Целый вечер вам буду петь, &mdash; сказала Наташа.
+&mdash; Волшебница, все со мной сделает! &mdash; сказал Денисов и отстегнул саблю. Он вышел из-за стульев, крепко взял за руку свою даму, приподнял голову и отставил ногу, ожидая такта. Только на коне и в мазурке не видно было маленького роста Денисова, и он представлялся тем самым молодцом, каким он сам себя чувствовал. Выждав такт, он сбоку, победоносно и шутливо, взглянул на свою даму, неожиданно пристукнул одною ногой и, как мячик, упруго отскочил от пола и полетел вдоль по кругу, увлекая за собой свою даму. Он неслышно летел половину залы на одной ноге и, казалось, не видел стоявших перед ним стульев и прямо несся на них; но вдруг, прищелкнув шпорами и расставив ноги, останавливался на каблуках, стоял так секунду, с грохотом шпор стучал на одном месте ногами, быстро вертелся и, левою ногой подщелкивая правую, опять летел по кругу. Наташа чутьем угадывала то, что он намерен был сделать, и, сама не зная как, следила за ним &mdash; отдаваясь ему. То он кружил ее на правой, то на левой руке, то, падая на колена, обводил ее вокруг себя и опять вскакивал и пускался вперед с такой стремительностью, как будто он намерен был, не переводя духа, перебежать через все комнаты; то вдруг опять останавливался и делал опять новое и неожиданное колено. Когда он, бойко закружив даму перед ее местом, щелкал шпорой, кланяясь перед ней, Наташа даже не присела ему. Она с недоумением уставила на него глаза, улыбаясь, как будто не узнавая его.
+&mdash; Что ж это такое? &mdash; проговорила она.
+Несмотря на то, что Иогель не признавал эту мазурку настоящей, все были восхищены мастерством Денисова, беспрестанно стали выбирать его, и старики, улыбаясь, стали разговаривать про Польшу и про доброе старое время. Денисов, раскрасневшись от мазурки и отираясь платком, подсел к Наташе и весь бал не отходил от нее.
+
+1
+подросточков.2
+подростки.3
+Любезный граф, вы один из лучших моих учеников. Вы должны танцевать. Посмотрите, сколько хорошеньких девушек.4
+Нет, мой милый, я лучше посижу для вида.XI77/361XIIIо тексте/оглавление
+
+
+
+
+
+
+
+ pagecontext="text1";
+
+&copy; Это произведение перешло в общественное достояние. Произведение написано автором, умершим более семидесяти лет назад, и опубликовано прижизненно, либо посмертно, но с момента публикации также прошло более семидесяти лет. Оно может свободно использоваться любым лицом без чьего-либо согласия или разрешения и без выплаты авторского вознаграждения.
+
+
+
+
+
+
+
+ var user = Object();
+user.paid = false;wx=ow(ge('in'));
+displayAd(wx, 610, 'r_top','right-rectangle-stick-1');
+
+
+function gr(e){return e.getBoundingClientRect();}
+
+
+
+
+ 
+  
+	 
+   
+
+   hx=oh(ge('lft'));
+	 displayAd(wx,hx-660,'r_bot','btmad');
+ 
+	
+ 
+
+
+
+
+
+
+
+
+
+Email: otklik@ilibrary.ruО библиотекеРеклама на сайте
+&copy;1996&#151;2022 Алексей Комаров. Подборка&nbsp;произведений, оформление, программирование.
+
+
+
+")
+//-->
+
+(function(w, c) { (w[c] = w[c] || []).push(function() { try { w.yaCounter5179000 = new Ya.Metrika({id:5179000, enableAll: true, webvisor:true}); } catch(e) { } }); })(window, "yandex_metrika_callbacks");
+
+var bscript=document.createElement('script');
+if (lgl==2) bscript.src="/rightbanners_rox3_1.js"; else bscript.src="/rightbanners3_2.js";
+document.head.appendChild(bscript);
+
+function setAd(){
+t_e=ge("text");var ty_e=ge("tyad");
+if(ty_e){if (ow(t_e)>=600)ty_e.style.display="block";else ty_e.style.display="none";}
+}
+function setPoems(){
+t_e=ge("text");
+if(typeof t_e !== 'undefined'){
+var tw=ow(t_e);
+var ss='';
+if(tw>240)for(var i in poems){
+var vls=poems[i].getElementsByClassName("vl");
+var vlim=16;var rsq=0;var lsq=0;var vlmax=0;var invr=0;var invl=0;
+if(vls.lengthvlmax)vlmax=vlw;}
+for(var j=0;jvlmax/3)rsq+=ow(poems[i])-vlw;else invr++;pdl=getComputedStyle(vls[j]).paddingLeft;pdl=parseFloat(pdl.slice(0,-2));if(pdltw)width1=tw-vlmax;
+var pmid='#'+poems[i].id;
+ss+=pmid+' div,'+pmid+' h1,'+pmid+' h2,'+pmid+' h3,'+pmid+' h4,'+pmid+' h5 {margin-left:-'+width1+'px;}'+pmid+' .pmm {padding-left:'+width1+'px;margin:0em}'+pmid+' .pm {padding-left:'+width1+'px}';
+}
+pss=document.createElement('style');
+pss.innerHTML=ss;
+document.querySelector('head').appendChild(pss);
+}
+}
+function cleanRules(){if(typeof t_e !=='undefined'){if(ow(ge("text"))>240)pss.parentNode.removeChild(pss);}}
+tbd_e=ge("tbd");
+bnbg_e=ge("bnbg");
+function setArrows(){
+for(var i in lbs){yf=oh(lbcs[i])/oh(lbs[i])*1.2;xf=1+yf/5;lbs[i].style.transform='scale('+xf+','+yf+')';}
+for(var i in rbs){yf=oh(rbcs[i])/oh(rbs[i])*1.2;xf=1+yf/5;rbs[i].style.transform='scale('+xf+','+yf+')';}
+if(bnbg_e != null)if(gr(tbd_e).bottom
+
+
+

@@ -1,0 +1,261 @@
+
+
+
+
+
+Л. Н. Толстой. Война и мир. Текст произведения. Том второй. Часть первая. XVI
+
+
+
+
+
+.hdr {border-bottom:2px solid #7f7f96;background-color:#e6e0d3;background-image:url(/i/dark_bg_oldpaper.gif);background-position-x:right;text-align:right;height:3.6em;position:relative;display:flex;justify-content:flex-end;align-items:flex-end}
+.qson {white-space:nowrap;margin:0em;padding:0.1em 0em;font-size:100%}
+#lmini {display:none;width:4.9em;height:2.5em;position:absolute}
+#lmaxi {width:12em;height:3.6em;position:absolute}
+#lmidi {width:12em;height:3.6em;position:absolute}
+#smg {display:inline-block;width:1em;height:1.2em;vertical-align:middle;margin-bottom:0em}
+.ma {padding:0.5em 1em;border:1px solid #7f7f96;display:inline-block;height:1.2em;border-bottom:0px}
+.l {margin:0em;top:0;left:0;padding:0em;position:relative;width:100%;display:flex;align-items:stretch}
+#lft {padding:1em 2em;}
+.ang0 {position:relative;width:.6em;height:1.2em}
+.ang {position:absolute;border:.6em solid transparent;width:0px;height:0px}
+.la1 {border-right-color:#222;border-left-width:0px}
+.la2 {left:2px;border-right-color:#e3e0d7;border-left-width:0px}
+.ra1 {left:2px;border-left-color:#222;border-right-width:0em;margin-left:0.46em}
+.ra2 {border-left-color:#e3e0d7;border-right-width:0px;margin-left:0.46em}
+.ha {border-top: 2px solid black;margin-top:-1px}
+.me {text-decoration:underline;color:#006}
+.me:hover {cursor:pointer}
+.sb {background-color:#d6d0c3;display:flex;align-items:center;padding:0em 1em;border:1px solid #7f7f96;border-left:0px}
+.sb:hover {cursor:pointer}
+
+
+
+window.yaContextCb=window.yaContextCb||[]
+
+
+
+
+
+
+
+
+
+lgl=1;
+function ge(e){return document.getElementById(e);}
+function ow(e){return e.offsetWidth}
+function oh(e){return e.offsetHeight}
+function showLogin(){var lf=ge("loginFrame");var cw=lf.contentWindow;if(cw.location.pathname!="/loginFrame.phtml"){cw.location.assign("/loginFrame.phtml");}lf.style.display="block";ge("shdw").style.display="block";cw.focus();}
+function Logout(){
+ var r=new XMLHttpRequest();
+ r.open('POST', '/userlogout.phtml', true);
+ r.send();
+ r.onreadystatechange=function() {
+  if (r.readyState === 4) {	
+   if (r.status >= 200 && r.status < 300)
+    document.location.reload(true);
+  }
+ }
+}
+poems=[];lbs=[];lbcs=[];rbs=[];rbcs=[];
+function toggle_sf(){qs_e=ge('qs1');hdr_e=ge('hdr');qi_e=ge('qi1');if (qs_e.className=='qson') {qs_e.className = "qsoff";hdr_e.className="hdr2";qi1.focus()}else{qs_e.className = "qson";hdr_e.className="hdr";}}
+window.addEventListener("click",function(e){
+qs_e=ge('qs1');hdr_e=ge('hdr');qi_e=ge('qi1');thm_e=ge("thm");am1_e=ge("am1");sldr_e=ge("sldr1");
+eid=document.elementFromPoint(e.clientX, e.clientY).id;
+if(am1_e!==null)if(eid!=="am1"&&am1_e.className=="am1min"&&eid!="amm"&&eid!="mmm")am1_e.className="am1";
+if(thm_e!==null)if(eid!=="thm"&&thm_e.className=="thmmin")thm_e.className="thm";
+if(sldr_e!==null){
+	if(eid=="sldr1")showThemes();
+}
+if(eid=="lio"){var m=ge("lio");if(m.innerHTML=="Вход")showLogin();else Logout();}
+if(eid=="sb"||eid=="sb1"){document.forms.sf2.submit();}
+},true);
+
+
+
+ 
+  
+   
+    
+    
+    
+   
+	
+ 
+ 
+  
+	
+	
+	
+
+
+
+
+Авторы
+&nbsp;
+
+
+
+
+
+
+
+if (ge('lft0').offsetWidth > 599) {
+	ge('tyad').style.display="block";
+		window.yaContextCb.push(()=>{
+		Ya.Context.AdvManager.render({
+		    renderTo: 'ty',
+		    blockId: 'R-A-447573-2'
+		  })
+		})
+}
+
+
+
+
+	
+	
+Л. Н. Толстой. Война и мир. Том второй. Часть первая
+XVI
+Давно уже Ростов не испытывал такого наслаждения от музыки, как в этот день. Но как только Наташа кончила свою баркароллу, действительность опять вспомнилась ему. Он, ничего не сказав, вышел и пошел вниз в свою комнату. Через четверть часа старый граф, веселый и довольный, приехал из клуба. Николай, услыхав его приезд, пошел к нему.
+&mdash; Ну что, повеселился? &mdash; сказал Илья Андреич, радостно и гордо улыбаясь на своего сына. Николай хотел сказать, что &laquo;да&raquo;, но не мог: он чуть было не зарыдал. Граф раскуривал трубку и не заметил состояния сына.
+&laquo;Эх, неизбежно!&raquo; &mdash; подумал Николай в первый и последний раз. И вдруг самым небрежным тоном, таким, что он сам себе гадок казался, как будто он просил экипажа съездить в город, он сказал отцу:
+&mdash; Папа, я к вам за делом пришел. Я было и забыл. Мне денег нужно.
+&mdash; Вот как, &mdash; сказал отец, находившийся в особенно веселом духе. &mdash; Я тебе говорил, что недостанет. Много ли?
+&mdash; Очень много, &mdash; краснея и с глупой, небрежной улыбкой, которую он долго потом не мог себе простить, сказал Николай. &mdash; Я немного проиграл, то есть много, даже очень много, сорок три тысячи.
+&mdash; Что? Кому?.. Шутишь! &mdash; крикнул граф, вдруг апоплексически краснея шеей и затылком, как краснеют старые люди.
+&mdash; Я обещал заплатить завтра, &mdash; сказал Николай.
+&mdash; Ну!.. &mdash; сказал старый граф, разводя руками, и бессильно опустился на диван.
+&mdash; Что же делать! С кем это не случалось, &mdash; сказал сын развязным, смелым тоном, тогда как в душе своей он считал себя негодяем, подлецом, который целою жизнью не мог искупить своего преступления. Ему хотелось бы целовать руки своего отца, на коленях просить его прощения, а он небрежным и даже грубым тоном говорил, что это со всяким случается.
+Граф Илья Андреич опустил глаза, услыхав эти слова сына, и заторопился, отыскивая что-то.
+&mdash; Да, да, &mdash; проговорил он, &mdash; трудно, я боюсь, трудно достать... с кем не бывало! да, с кем не бывало... &mdash; И граф мельком взглянул в лицо сыну и пошел вон из комнаты... Николай готовился на отпор, но никак не ожидал этого.
+&mdash; Папенька! па...пенька! &mdash; закричал он ему вслед, рыдая, &mdash; простите меня! &mdash; И, схватив руку отца, он прижался к ней губами и заплакал.
+В то время как отец объяснялся с сыном, у матери с дочерью происходило не менее важное объяснение. Наташа, взволнованная, прибежала к матери.
+&mdash; Мама!.. Мама!.. он мне сделал...
+&mdash; Что сделал?
+&mdash; Сделал, сделал предложение. Мама! Мама! &mdash; кричала она.
+Графиня не верила своим ушам. Денисов сделал предложение. Кому? Этой крошечной девочке Наташе, которая еще недавно играла в куклы и теперь еще брала уроки.
+&mdash; Наташа, полно, глупости! &mdash; сказала она, еще надеясь, что это была шутка.
+&mdash; Ну вот, глупости! Я вам дело говорю, &mdash; сердито сказала Наташа. &mdash; Я пришла спросить, что делать, а вы говорите: &laquo;глупости&raquo;...
+Графиня пожала плечами.
+&mdash; Ежели правда, что мосье Денисов сделал тебе предложение, хотя это смешно, то скажи ему, что он дурак, вот и все.
+&mdash; Нет, он не дурак, &mdash; обиженно и серьезно сказала Наташа.
+&mdash; Ну, так что ж ты хочешь? Вы нынче ведь все влюблены. Ну, влюблена, так выходи замуж, &mdash; сердито смеясь, проговорила графиня, &mdash; с Богом!
+&mdash; Нет, мама, я не влюблена в него, должно быть, не влюблена в него.
+&mdash; Ну так так и скажи ему.
+&mdash; Мама, вы сердитесь? Вы не сердитесь, голубушка, ну в чем же я виновата?
+&mdash; Нет, да что же, мой друг? Хочешь, я пойду скажу ему, &mdash; сказала графиня улыбаясь.
+&mdash; Нет, я сама, только вы научите. Вам все легко, &mdash; прибавила она, отвечая на ее улыбку. &mdash; А коли бы вы видели, как он мне это сказал! Ведь я знаю, что он не хотел сказать, да уж нечаянно сказал.
+&mdash; Ну, все-таки надо отказать.
+&mdash; Нет, не надо. Мне так его жалко! Он такой милый.
+&mdash; Ну, так прими предложение. И то, пора замуж идти, &mdash; сердито и насмешливо сказала мать.
+&mdash; Нет, мама, мне так жалко его. Я не знаю, как я скажу.
+&mdash; Да тебе и нечего говорить, я сама скажу, &mdash; сказала графиня, возмущенная тем, что осмелились смотреть, как на большую, на ее маленькую Наташу.
+&mdash; Нет, ни за что, я сама, а вы идите слушайте у двери. &mdash; И Наташа побежала через гостиную в залу, где на том же стуле, у клавикорд, закрыв лицо руками, сидел Денисов. Он вскочил на звук ее легких шагов.
+&mdash; Натали, &mdash; сказал он, быстрыми шагами подходя к ней, &mdash; решайте мою судьбу. Она в ваших руках!
+&mdash; Василий Дмитрич, мне вас так жалко!.. Нет, но вы такой славный... но не надо... это... а так я вас всегда буду любить.
+Денисов нагнулся над ее рукою, и она услыхала странные, непонятные звуки. Она поцеловала его в черную спутанную курчавую голову. В это время послышался поспешный шум платья графини. Она подошла к ним.
+&mdash; Василий Дмитрич, я благодарю вас за честь, &mdash; сказала графиня смущенным голосом, но который казался строгим Денисову, &mdash; но моя дочь так молода, и я думала, что вы, как друг моего сына, обратитесь прежде ко мне. В таком случае вы не поставили бы меня в необходимость отказа.
+&mdash; Г'афиня... &mdash; сказал Денисов с опущенными глазами и виноватым видом, хотел сказать что-то еще и запнулся.
+Наташа не могла спокойно видеть его таким жалким. Она начала громко всхлипывать.
+&mdash; Г'афиня, я виноват пег'ед вами, &mdash; продолжал Денисов прерывающимся голосом, &mdash; но знайте, что я так боготвог'ю вашу дочь и все ваше семейство, что две жизни отдам... &mdash; Он посмотрел на графиню и, заметив ее строгое лицо... &mdash; Ну, пг'ощайте, г'афиня, &mdash; сказал он, поцеловав ее руку, и, не взглянув на Наташу, быстрыми, решительными шагами вышел из комнаты.
+&nbsp;
+На другой день Ростов проводил Денисова, который не хотел более ни одного дня оставаться в Москве. Денисова провожали у цыган все его московские приятели, и он не помнил, как его уложили в сани и как везли первые три станции.
+После отъезда Денисова Ростов, дожидаясь денег, которые не вдруг мог собрать старый граф, провел еще две недели в Москве, не выезжая из дома, и преимущественно в комнате барышень.
+Соня была к нему преданнее и нежнее, чем прежде. Она, казалось, хотела показать ему, что его проигрыш был подвиг, за который она теперь еще больше любит его; но Николай теперь считал себя недостойным ее.
+Он исписал альбомы девочек стихами и нотами и, не простившись ни с кем из своих знакомых, отослав, наконец, все сорок три тысячи и получив расписку Долохова, уехал в конце ноября догонять полк, который уже был в Польше.
+
+XV81/361Iо тексте/оглавление
+
+
+
+
+
+
+
+ pagecontext="text1";
+
+&copy; Это произведение перешло в общественное достояние. Произведение написано автором, умершим более семидесяти лет назад, и опубликовано прижизненно, либо посмертно, но с момента публикации также прошло более семидесяти лет. Оно может свободно использоваться любым лицом без чьего-либо согласия или разрешения и без выплаты авторского вознаграждения.
+
+
+
+
+
+
+
+ var user = Object();
+user.paid = false;wx=ow(ge('in'));
+displayAd(wx, 610, 'r_top','right-rectangle-stick-1');
+
+
+function gr(e){return e.getBoundingClientRect();}
+
+
+
+
+ 
+  
+	 
+   
+
+   hx=oh(ge('lft'));
+	 displayAd(wx,hx-660,'r_bot','btmad');
+ 
+	
+ 
+
+
+
+
+
+
+
+
+
+Email: otklik@ilibrary.ruО библиотекеРеклама на сайте
+&copy;1996&#151;2022 Алексей Комаров. Подборка&nbsp;произведений, оформление, программирование.
+
+
+
+")
+//-->
+
+(function(w, c) { (w[c] = w[c] || []).push(function() { try { w.yaCounter5179000 = new Ya.Metrika({id:5179000, enableAll: true, webvisor:true}); } catch(e) { } }); })(window, "yandex_metrika_callbacks");
+
+var bscript=document.createElement('script');
+if (lgl==2) bscript.src="/rightbanners_rox3_1.js"; else bscript.src="/rightbanners3_2.js";
+document.head.appendChild(bscript);
+
+function setAd(){
+t_e=ge("text");var ty_e=ge("tyad");
+if(ty_e){if (ow(t_e)>=600)ty_e.style.display="block";else ty_e.style.display="none";}
+}
+function setPoems(){
+t_e=ge("text");
+if(typeof t_e !== 'undefined'){
+var tw=ow(t_e);
+var ss='';
+if(tw>240)for(var i in poems){
+var vls=poems[i].getElementsByClassName("vl");
+var vlim=16;var rsq=0;var lsq=0;var vlmax=0;var invr=0;var invl=0;
+if(vls.lengthvlmax)vlmax=vlw;}
+for(var j=0;jvlmax/3)rsq+=ow(poems[i])-vlw;else invr++;pdl=getComputedStyle(vls[j]).paddingLeft;pdl=parseFloat(pdl.slice(0,-2));if(pdltw)width1=tw-vlmax;
+var pmid='#'+poems[i].id;
+ss+=pmid+' div,'+pmid+' h1,'+pmid+' h2,'+pmid+' h3,'+pmid+' h4,'+pmid+' h5 {margin-left:-'+width1+'px;}'+pmid+' .pmm {padding-left:'+width1+'px;margin:0em}'+pmid+' .pm {padding-left:'+width1+'px}';
+}
+pss=document.createElement('style');
+pss.innerHTML=ss;
+document.querySelector('head').appendChild(pss);
+}
+}
+function cleanRules(){if(typeof t_e !=='undefined'){if(ow(ge("text"))>240)pss.parentNode.removeChild(pss);}}
+tbd_e=ge("tbd");
+bnbg_e=ge("bnbg");
+function setArrows(){
+for(var i in lbs){yf=oh(lbcs[i])/oh(lbs[i])*1.2;xf=1+yf/5;lbs[i].style.transform='scale('+xf+','+yf+')';}
+for(var i in rbs){yf=oh(rbcs[i])/oh(rbs[i])*1.2;xf=1+yf/5;rbs[i].style.transform='scale('+xf+','+yf+')';}
+if(bnbg_e != null)if(gr(tbd_e).bottom
+
+
+

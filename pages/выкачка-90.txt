@@ -1,0 +1,242 @@
+
+
+
+
+
+Л. Н. Толстой. Война и мир. Текст произведения. Том второй. Часть вторая. IX
+
+
+
+
+
+.hdr {border-bottom:2px solid #7f7f96;background-color:#e6e0d3;background-image:url(/i/dark_bg_oldpaper.gif);background-position-x:right;text-align:right;height:3.6em;position:relative;display:flex;justify-content:flex-end;align-items:flex-end}
+.qson {white-space:nowrap;margin:0em;padding:0.1em 0em;font-size:100%}
+#lmini {display:none;width:4.9em;height:2.5em;position:absolute}
+#lmaxi {width:12em;height:3.6em;position:absolute}
+#lmidi {width:12em;height:3.6em;position:absolute}
+#smg {display:inline-block;width:1em;height:1.2em;vertical-align:middle;margin-bottom:0em}
+.ma {padding:0.5em 1em;border:1px solid #7f7f96;display:inline-block;height:1.2em;border-bottom:0px}
+.l {margin:0em;top:0;left:0;padding:0em;position:relative;width:100%;display:flex;align-items:stretch}
+#lft {padding:1em 2em;}
+.ang0 {position:relative;width:.6em;height:1.2em}
+.ang {position:absolute;border:.6em solid transparent;width:0px;height:0px}
+.la1 {border-right-color:#222;border-left-width:0px}
+.la2 {left:2px;border-right-color:#e3e0d7;border-left-width:0px}
+.ra1 {left:2px;border-left-color:#222;border-right-width:0em;margin-left:0.46em}
+.ra2 {border-left-color:#e3e0d7;border-right-width:0px;margin-left:0.46em}
+.ha {border-top: 2px solid black;margin-top:-1px}
+.me {text-decoration:underline;color:#006}
+.me:hover {cursor:pointer}
+.sb {background-color:#d6d0c3;display:flex;align-items:center;padding:0em 1em;border:1px solid #7f7f96;border-left:0px}
+.sb:hover {cursor:pointer}
+
+
+
+window.yaContextCb=window.yaContextCb||[]
+
+
+
+
+
+
+
+
+
+lgl=1;
+function ge(e){return document.getElementById(e);}
+function ow(e){return e.offsetWidth}
+function oh(e){return e.offsetHeight}
+function showLogin(){var lf=ge("loginFrame");var cw=lf.contentWindow;if(cw.location.pathname!="/loginFrame.phtml"){cw.location.assign("/loginFrame.phtml");}lf.style.display="block";ge("shdw").style.display="block";cw.focus();}
+function Logout(){
+ var r=new XMLHttpRequest();
+ r.open('POST', '/userlogout.phtml', true);
+ r.send();
+ r.onreadystatechange=function() {
+  if (r.readyState === 4) {	
+   if (r.status >= 200 && r.status < 300)
+    document.location.reload(true);
+  }
+ }
+}
+poems=[];lbs=[];lbcs=[];rbs=[];rbcs=[];
+function toggle_sf(){qs_e=ge('qs1');hdr_e=ge('hdr');qi_e=ge('qi1');if (qs_e.className=='qson') {qs_e.className = "qsoff";hdr_e.className="hdr2";qi1.focus()}else{qs_e.className = "qson";hdr_e.className="hdr";}}
+window.addEventListener("click",function(e){
+qs_e=ge('qs1');hdr_e=ge('hdr');qi_e=ge('qi1');thm_e=ge("thm");am1_e=ge("am1");sldr_e=ge("sldr1");
+eid=document.elementFromPoint(e.clientX, e.clientY).id;
+if(am1_e!==null)if(eid!=="am1"&&am1_e.className=="am1min"&&eid!="amm"&&eid!="mmm")am1_e.className="am1";
+if(thm_e!==null)if(eid!=="thm"&&thm_e.className=="thmmin")thm_e.className="thm";
+if(sldr_e!==null){
+	if(eid=="sldr1")showThemes();
+}
+if(eid=="lio"){var m=ge("lio");if(m.innerHTML=="Вход")showLogin();else Logout();}
+if(eid=="sb"||eid=="sb1"){document.forms.sf2.submit();}
+},true);
+
+
+
+ 
+  
+   
+    
+    
+    
+   
+	
+ 
+ 
+  
+	
+	
+	
+
+
+
+
+Авторы
+&nbsp;
+
+
+
+
+
+
+
+if (ge('lft0').offsetWidth > 599) {
+	ge('tyad').style.display="block";
+		window.yaContextCb.push(()=>{
+		Ya.Context.AdvManager.render({
+		    renderTo: 'ty',
+		    blockId: 'R-A-447573-2'
+		  })
+		})
+}
+
+
+
+
+	
+	
+Л. Н. Толстой. Война и мир. Том второй. Часть вторая
+IX
+Билибин находился теперь в качестве дипломатического чиновника при главной квартире армии и хотя на французском языке, с французскими шуточками и оборотами речи, но с исключительно русским бесстрашием перед самоосуждением и самоосмеянием описывал всю кампанию. Билибин писал, что его дипломатическая discr&eacute;tion&nbsp;1 мучила его и что он был счастлив, имея в князе Андрее верного корреспондента, которому он мог изливать всю желчь, накопившуюся в нем при виде того, что творится в армии. Письмо это было старое, еще до Прейсиш-Эйлауского сражения.
+&laquo;Depuis nos grands succ&egrave;s d'Austerlitz vous savez, mon cher Prince, &mdash; писал Билибин, &mdash; que je ne quitte plus les quartiers g&eacute;n&eacute;raux. D&eacute;cid&eacute;ment j'ai pris le go&ucirc;t de la guerre, et bien m'en a pris. Ce que j'ai vu ces trois mois, est incroyable.
+Je commence ab ovo. L'ennemi du genre humain, comme vous savez, s'attaque aux Prussiens. Les Prussiens sont nos fid&egrave;les alli&eacute;s, qui ne nous ont tromp&eacute;s que trois fois depuis trois ans. Nous prenons fait et cause pour eux. Mais il se trouve que l'ennemi du genre humain ne fait nulle attention &agrave; nos beaux discours, et avec sa mani&egrave;re impolie et sauvage se jette sur les Prussiens sans leur donner le temps de finir la parade commenc&eacute;e, en deux tours de main les rosse &agrave; plate couture et va s'installer au palais de Potsdam.
+&bdquo;J'ai le plus vif d&eacute;sir, &mdash; &eacute;crit le Roi de Prusse &agrave; Bonaparte, que V. M. soit accueillie et trait&eacute;e dans mon palais d'une mani&egrave;re, qui lui soit agr&eacute;able et c'est avec empressement, que j'ai pris &agrave; cet effet toutes les mesures que les circonstances me permettaient. Puisse-je avoir r&eacute;ussi!&ldquo; Les g&eacute;n&eacute;raux Prussiens se piquent de politesse envers les Fran&ccedil;ais et mettent bas les armes aux premi&egrave;res sommations.
+Le chef de la garnison de Glogau avec dix mille hommes, demande au Roi de Prusse, ce qu'il doit faire s'il est somm&eacute; de se rendre?.. Tout cela est positif.
+Bref, esp&eacute;rant en imposer seulement par notre attitude militaire, il se trouve que nous voil&agrave; en guerre pour tout de bon, et ce qui plus est, en guerre sur nos fronti&egrave;res avec et pour le Roi de Prusse. Tout est au grand complet, il ne nous manque qu'une petite chose, c'est le g&eacute;n&eacute;ral en chef. Comme il s'est trouv&eacute; que les succ&egrave;s d'Austerlitz auraient pu &ecirc;tre plus d&eacute;cisifs si le g&eacute;n&eacute;ral en chef eut &eacute;t&eacute; moins jeune, on fait la revue des octog&eacute;naires et entre Prosorofsky et Kamensky, on donne la pr&eacute;f&eacute;rence au dernier. Le g&eacute;n&eacute;ral nous arrive en kibik &agrave; la mani&egrave;re Souvoroff, et est accueilli avec des acclamations de joie et de triomphe.
+Le 4 arrive le premier courrier de P&eacute;tersbourg. On apporte les malles dans le cabinet du mar&eacute;chal, qui aime &agrave; faire tout par lui-m&ecirc;me. On m'appelle pour aider &agrave; faire le triage des lettres et prendre celles qui nous sont destin&eacute;es. Le mar&eacute;chal nous regarde faire et attend les paquets qui lui sont adress&eacute;s. Nous cherchons &mdash; il n'y en a point. Le mar&eacute;chal devient impatient, se met lui-m&ecirc;me &agrave; la besogne et trouve des lettres de l'Empereur pour le comte T., pour le prince V. et autres. Alors le voil&agrave; qui se met dans une de ses col&egrave;res bleues. Il jette feu et flamme contre tout le monde, s'empare des lettres, les d&eacute;cachet&eacute; et lit celles de l'Empereur adress&eacute;es &agrave; d'autres. A, так со мною поступают. Мне доверия нет! А, за мной следить велено, хорошо же; подите вон! Et il &eacute;crit le fameux ordre du jour au g&eacute;n&eacute;ral Benigsen&nbsp;2.
+&bdquo;Я ранен, верхом, ездить не могу, следственно и командовать армией. Вы кор д'арме ваш привели разбитый в Пултуск: тут оно открыто, и без дров, и без фуража, потому пособить надо, и так как вчера сами отнеслись к графу Буксгевдену, думать должно о ретираде к нашей границе, что и выполнить сегодня&ldquo;.
+&bdquo;От всех моих поездок, &mdash; &eacute;crit-il &agrave; l'Empereur&nbsp;3, &mdash; получил ссадину от седла, которая сверх прежних перевязок моих совсем мне мешает ездить верхом и командовать такой обширной армией, а потому я командованье оной сложил на старшего по мне генерала, графа Буксгевдена, отослав к нему все дежурство и все принадлежащее к оному, советовав им, если хлеба не будет, ретироваться ближе во внутренность Пруссии, потому что оставалось хлеба только на один день, а у иных полков ничего, как о том дивизионные командиры Остерман и Седморецкий объявили, а у мужиков все съедено; я и сам, пока вылечусь, остаюсь в гошпитале в Остроленке. О числе которого ведомость всеподданнейше подношу, донося, что если армия простоит в нынешнем биваке еще пятнадцать дней, то весной ни одного здорового не останется.
+Увольте старика в деревню, который и так обесславлен остается, что не смог выполнить великого и славного жребия, к которому был избран. Всемилостивейшего дозволения вашего о том ожидать буду здесь, при гошпитале, дабы не играть роль писарскую, а не командирскую при войске. Отлучение меня от армии ни малейшего разглашения не произведет, что ослепший отъехал от армии. Таковых, как я, &mdash; в России тысячи&ldquo;.
+Le mar&eacute;chal se f&acirc;che contre l'Empereur et nous punit tous; n'est-ce pas que c'est logique!
+Voil&agrave; le premier acte. Aux suivants l'int&eacute;r&ecirc;t et le ridicule montent comme de raison. Apr&egrave;s le d&eacute;part du mar&eacute;chal il se trouve que nous sommes en vue de l'ennemi, et qu'il faut livrer bataille. Boukshevden est g&eacute;n&eacute;ral en chef par droit d'anciennet&eacute;, mais le g&eacute;n&eacute;ral Benigsen n'est pas de cet avis; d'autant plus qu'il est lui, avec son corps en vue de l'ennemi, et qu'il veut profiter de l'occasion d'une bataille &bdquo;aus eigener Hand&ldquo; comme disent les Allemands. Il la donne. C'est la bataille de Poultousk qui est cens&eacute;e &ecirc;tre une grande victoire, mais qui a mon avis ne l'est pas du tout. Nous autres p&eacute;kins avons comme vous savez, une tr&egrave;s vilaine habitude de d&eacute;cider du gain ou de la perte d'une bataille. Celui qui s'est retir&eacute; apr&egrave;s la bataille, l'a perdu, voil&agrave; ce que nous disons, et &agrave; titre nous avons perdu la bataille de Poultousk. Bref, nous nous retirons apr&egrave;s la bataille, mais nous envoyons un courrier &agrave; P&eacute;tersbourg, qui porte les nouvelles d'une victoire, et le g&eacute;n&eacute;ral ne c&egrave;de pas le commandement en chef &agrave; Boukshevden, esp&eacute;rant recevoir de P&eacute;tersbourg en reconnaissance de sa victoire le titre de g&eacute;n&eacute;ral en chef. Pendant cet interr&egrave;gne, nous commen&ccedil;ons un plan de manuvres excessivement int&eacute;ressant et original. Notre but ne consiste pas, comme il devrait l'&ecirc;tre, &agrave; &eacute;viter ou &agrave; attaquer l'ennemi; mais uniquement &agrave; &eacute;viter le g&eacute;n&eacute;ral Boukshevden, qui par droit d'anciennet&eacute; serait notre chef. Nous poursuivons ce but avec tant d'&eacute;nergie, que m&ecirc;me en passant une rivi&egrave;re qui n'est pas gu&eacute;&acirc;ble, nous br&ucirc;lons les ponts pour nous s&eacute;parer de notre ennemi, qui, pour le moment, n'est pas Bonaparte, mais Boukshevden. Le g&eacute;n&eacute;ral Boukshevden a manqu&eacute; d'&ecirc;tre attaqu&eacute; et pris par des forces ennemies sup&eacute;rieures &agrave; cause d'une de nos belles manuvres qui nous sauvait de lui. Boukshevden nous poursuit &mdash; nous filons. A peine passe-t-il de notre c&ocirc;te de la rivi&egrave;re, que nous repassons de l'autre, A la fin notre ennemi Boukshevden nous attrappe et s'attaque &agrave; nous. Les deux g&eacute;n&eacute;raux se f&acirc;chent. Il y a m&ecirc;me une provocation en duel de la part de Boukshevden et une attaque d'&eacute;pilepsie de la part de Benigsen. Mais au moment critique le courrier, qui porte la nouvelle de notre victoire de Poultousk, nous apporte de P&eacute;tersbourg notre nomination de g&eacute;n&eacute;ral en chef, et le premier ennemi Boukshevden est enfonc&eacute;: nous pouvons penser au second, &agrave; Bonaparte. Mais ne voil&agrave;-t-il pas qu'&agrave; ce moment se l&egrave;ve devant nous un troisi&egrave;me ennemi, c'est le православное qui demande &agrave; grands cris du pain, de la viande, des souchary, du foin, &mdash; que sais-je! Les magasins sont vides, les chemins impraticables. Le православное se met &agrave; la maraude, et d'une mani&egrave;re dont la derni&egrave;re campagne ne peut vous donner la moindre id&eacute;e. La moiti&eacute; des r&eacute;giments forme des troupes libres, qui parcourent la contr&eacute;e en mettant tout &agrave; feu et &agrave; sang. Les habitants sont ruin&eacute;s de fond en comble, les h&ocirc;pitaux regorgent de malades, et la disette est partout. Deux fois le quartier g&eacute;n&eacute;ral a &eacute;t&eacute; attaqu&eacute; par des troupes de maraudeurs et le g&eacute;n&eacute;ral en chef a &eacute;t&eacute; oblig&eacute; lui-m&ecirc;me de demander un bataillon pour les chasser. Dans une de ces attaques on m'a emport&eacute; ma malle vide et ma robe de chambre. L'Empereur veut donner le droit &agrave; tous les chefs de divisions de fusiller les maraudeurs, mais je crains fort que cela n'oblige une moiti&eacute; de l'arm&eacute;e de fusiller l'autre&raquo;&nbsp;4.
+Князь Андрей сначала читал одними глазами, но потом невольно то, что он читал (несмотря на то, что он знал, насколько должно было верить Билибину), больше и больше начинало занимать его. Дочитав до этого места, он смял письмо и бросил его. Не то, что он прочел в письме, сердило его, но его сердило то, что эта тамошняя, чуждая для него, жизнь могла волновать его. Он закрыл глаза, потер себе лоб рукою, как будто изгоняя всякое участие к тому, что он читал, и прислушался к тому, что делалось в детской. Вдруг ему показался за дверью какой-то странный звук. На него нашел страх, он боялся, не случилось ли чего с ребенком в то время, как он читал письмо. Он на цыпочках подошел к двери детской и отворил ее.
+В ту минуту, как он входил, он увидал, что нянька с испуганным видом спрятала что-то от него и что княжны Марьи уже не было у кроватки.
+&mdash; Мой друг, &mdash; послышался ему сзади отчаянный, как ему показалось, шепот княжны Марьи. Как это часто бывает после долгой бессонницы и долгого волнения, на него нашел беспричинный страх: ему пришло в голову, что ребенок умер. Все, что он видел и слышал, показалось ему подтверждением его страха.
+&laquo;Все кончено&raquo;, &mdash; подумал он, и холодный пот выступил у него на лбу. Он растерянно подошел к кроватке, уверенный, что он найдет ее пустою, что нянька прятала мертвого ребенка. Он раскрыл занавески, и долго его испуганные, разбегавшиеся глаза не могли отыскать ребенка. Наконец он увидал его: румяный мальчик, раскидавшись, лежал поперек кроватки, опустив голову ниже подушки, и во сне чмокал, перебирая губками, и ровно дышал.
+Князь Андрей обрадовался, увидав мальчика, так, как будто бы он уже потерял его. Он нагнулся и, как учила его сестра, губами попробовал, есть ли жар у ребенка. Нежный лоб был влажен, он дотронулся рукой до головы &mdash; даже волосы были мокры: так сильно вспотел ребенок. Не только он не умер, но теперь очевидно было, что кризис совершился и что он выздоровел. Князю Андрею хотелось схватить, смять, прижать к своей груди это маленькое, беспомощное существо; он не смел этого сделать. Он стоял над ним, оглядывая его голову, ручки, ножки, определявшиеся под одеялом. Шорох послышался подле него, и какая-то тень показалась ему под пологом кроватки. Он не оглядывался и, глядя в лицо ребенка, все слушал его ровное дыхание. Темная тень была княжна Марья, которая неслышными шагами подошла к кроватке, подняла полог и опустила его за собою. Князь Андрей, не оглядываясь, узнал ее и протянул к ней руку. Она сжала его руку.
+&mdash; Он вспотел, &mdash; сказал князь Андрей.
+&mdash; Я шла к тебе, чтобы сказать это.
+Ребенок во сне чуть пошевелился, улыбнулся и потерся лбом о подушку.
+Князь Андрей посмотрел на сестру. Лучистые глаза княжны Марьи, в матовом полусвете полога, блестели больше обыкновенного от счастливых слез, которые стояли в них. Княжна Марья потянулась к брату и поцеловала его, слегка зацепив за полог кроватки. Они погрозили друг другу, еще постояли в матовом свете полога, как бы не желая расстаться с этим миром, в котором они втроем были отделены от всего света. Князь Андрей первый, путая волосы о кисею полога, отошел от кроватки. &laquo;Да, это одно, что осталось мне теперь&raquo;, &mdash; сказал он со вздохом.
+
+1
+скромность.2
+Со времени наших блестящих успехов в Аустерлице, вы знаете, мой милый князь, что я не покидаю более главных квартир. Решительно я вошел во вкус войны и тем очень доволен; то, что я видел в эти три месяца, &mdash; невероятно.
+Я начинаю ab ovo. Враг рода человеческого, вам известный, атакует пруссаков. Пруссаки &mdash; наши верные союзники, которые нас обманули только три раза в три года. Мы заступаемся за них. Но, оказывается, что враг рода человеческого не обращает никакого внимания на наши прелестные речи и с своей неучтивой и дикой манерой бросается на пруссаков, не давая им времени кончить их начатый парад, вдребезги разбивает их и поселяется в Потсдамском дворце.
+&laquo;Я очень желаю, &mdash; пишет прусский король Бонапарту, &mdash; чтобы ваше величество были приняты в моем дворце самым приятнейшим для вас образом, и я с особенной заботливостью сделал для того все распоряжения, какие мне позволили обстоятельства. О, если б я достиг цели!&raquo; Прусские генералы щеголяют учтивостью перед французами и сдаются по первому требованию. Начальник гарнизона Глогау, с десятью тысячами, спрашивает у прусского короля, что ему делать. Все это положительно достоверно. Словом, мы думали внушить им только страх нашей военной этитюдой, но кончается тем, что мы вовлечены в войну, на нашей же границе, и, главное, за прусского короля и заодно с ним. Всего у нас в избытке, недостает только маленькой штучки, а именно &mdash; главнокомандующего. Так как оказалось, что успехи Аустерлица могли бы быть решительнее, если бы главнокомандующий был бы не так молод, то делается обзор осьмидесятилетних генералов, и между Прозоровским и Каменским выбирают последнего. Генерал приезжает к нам в кибитке по-суворовски, и его принимают с радостными восклицаниями и большим торжеством.
+4-го приезжает первый курьер из Петербурга. Приносят чемоданы в кабинет фельдмаршала, который любит все делать сам. Меня зовут, чтобы помочь разобрать письма и взять те, которые назначены нам. Фельдмаршал, предоставляя нам это занятие, смотрит на нас и ждет конвертов, адресованных ему. Мы ищем &mdash; но их не оказывается. Фельдмаршал начинает волноваться, сам принимается за работу и находит письма от государя к графу Т., князю В. и другим. Он приходит в сильнейший гнев, выходит из себя, берет письма, распечатывает их и читает те, которые адресованы другим... И пишет знаменитый приказ графу Бенигсену.3
+пишет он императору.4
+Фельдмаршал сердится на государя и наказывает всех нас: это совершенно логично! Вот первое действие комедии. При следующих интерес и забавность возрастают, само собой разумеется. После отъезда фельдмаршала оказывается, что мы в виду неприятеля и необходимо дать сражение. Буксгевден &mdash; главнокомандующий по старшинству, но генерал Бенигсен совсем не того мнения, тем более что он с своим корпусом находится в виду неприятеля и хочет воспользоваться случаем к сражению. Он его и дает. Эта пултуская битва, которая считается великою победой, но которая совсем не такова, по моему мнению. Мы, штатские, имеем, как вы знаете, очень дурную привычку решать вопрос о выигрыше или проигрыше сражения. Тот, кто отступил после сражения, тот проиграл его, вот что мы говорим, и, судя по этому, мы проиграли пултуское сражение. Одним словом, мы отступаем после битвы, но посылаем курьера в Петербург с известием о победе, и генерал Бенигсен не уступает начальствования над армией генералу Буксгевдену, надеясь получить из Петербурга в благодарность за свою победу звание главнокомандующего. Во время этого междуцарствия мы начинаем очень оригинальный и интересный ряд маневров. План наш не состоит более, как бы он должен был состоять, в том, чтобы избегать или атаковать неприятеля, но только в том, чтобы избегать генерала Буксгевдена, который по праву старшинства должен бы быть нашим начальником. Мы преследуем эту цель с такой энергией, что даже переходя реку, на которой нет бродов, мы сжигаем мост, с целью отдалить от себя нашего врага, который в настоящее время не Бонапарт, но Буксгевден. Генерал Буксгевден чуть-чуть не был атакован и взят превосходными неприятельскими силами, вследствие одного из таких маневров, спасавших нас от него. Буксгевден нас преследует &mdash; мы бежим. Только что он перейдет на нашу сторону реки, мы переходим опять на другую. Наконец враг наш Буксгевден ловит нас и атакует. Происходит объяснение. Оба генерала сердятся, и дело доходит почти до дуэли между двумя главнокомандующими. Но, по счастью, в самую критическую ми-нуту курьер, который возил в Петербург известие о пултуской победе, возвращается и привозит нам назначение главнокомандующего, и первый враг &mdash; Буксгевден &mdash; побежден. Мы теперь можем думать о втором враге &mdash; Бонапарте. Но оказывается, что в эту самую минуту возникает перед нами третий враг &mdash; православное, которое громкими возгласами требует хлеба, говядины, сухарей, сена, овса &mdash; и мало ли чего еще! Магазины пусты, дороги непроходимы. Православное начинает грабить, и грабеж доходит до такой степени, о которой последняя кампания не могла вам дать ни малейшего понятия. Половина полков образует вольные команды, которые обходят страну и все предают мечу и пламени. Жители разорены совершенно, больницы завалены больными, и везде голод. Два раза мародеры нападали даже на главную квартиру, и главнокомандующий принужден был взять батальон солдат, чтобы прогнать их. В одно из этих нападений у меня унесли мой пустой чемодан и халат. Государь хочет дать право всем начальникам дивизий расстреливать мародеров, но я очень боюсь, чтоб это не заставило одну половину войска расстреливать другую.VIII90/361Xо тексте/оглавление
+
+
+
+
+
+
+
+ pagecontext="text1";
+
+&copy; Это произведение перешло в общественное достояние. Произведение написано автором, умершим более семидесяти лет назад, и опубликовано прижизненно, либо посмертно, но с момента публикации также прошло более семидесяти лет. Оно может свободно использоваться любым лицом без чьего-либо согласия или разрешения и без выплаты авторского вознаграждения.
+
+
+
+
+
+
+
+ var user = Object();
+user.paid = false;wx=ow(ge('in'));
+displayAd(wx, 610, 'r_top','right-rectangle-stick-1');
+
+
+function gr(e){return e.getBoundingClientRect();}
+
+
+
+
+ 
+  
+	 
+   
+
+   hx=oh(ge('lft'));
+	 displayAd(wx,hx-660,'r_bot','btmad');
+ 
+	
+ 
+
+
+
+
+
+
+
+
+
+Email: otklik@ilibrary.ruО библиотекеРеклама на сайте
+&copy;1996&#151;2022 Алексей Комаров. Подборка&nbsp;произведений, оформление, программирование.
+
+
+
+")
+//-->
+
+(function(w, c) { (w[c] = w[c] || []).push(function() { try { w.yaCounter5179000 = new Ya.Metrika({id:5179000, enableAll: true, webvisor:true}); } catch(e) { } }); })(window, "yandex_metrika_callbacks");
+
+var bscript=document.createElement('script');
+if (lgl==2) bscript.src="/rightbanners_rox3_1.js"; else bscript.src="/rightbanners3_2.js";
+document.head.appendChild(bscript);
+
+function setAd(){
+t_e=ge("text");var ty_e=ge("tyad");
+if(ty_e){if (ow(t_e)>=600)ty_e.style.display="block";else ty_e.style.display="none";}
+}
+function setPoems(){
+t_e=ge("text");
+if(typeof t_e !== 'undefined'){
+var tw=ow(t_e);
+var ss='';
+if(tw>240)for(var i in poems){
+var vls=poems[i].getElementsByClassName("vl");
+var vlim=16;var rsq=0;var lsq=0;var vlmax=0;var invr=0;var invl=0;
+if(vls.lengthvlmax)vlmax=vlw;}
+for(var j=0;jvlmax/3)rsq+=ow(poems[i])-vlw;else invr++;pdl=getComputedStyle(vls[j]).paddingLeft;pdl=parseFloat(pdl.slice(0,-2));if(pdltw)width1=tw-vlmax;
+var pmid='#'+poems[i].id;
+ss+=pmid+' div,'+pmid+' h1,'+pmid+' h2,'+pmid+' h3,'+pmid+' h4,'+pmid+' h5 {margin-left:-'+width1+'px;}'+pmid+' .pmm {padding-left:'+width1+'px;margin:0em}'+pmid+' .pm {padding-left:'+width1+'px}';
+}
+pss=document.createElement('style');
+pss.innerHTML=ss;
+document.querySelector('head').appendChild(pss);
+}
+}
+function cleanRules(){if(typeof t_e !=='undefined'){if(ow(ge("text"))>240)pss.parentNode.removeChild(pss);}}
+tbd_e=ge("tbd");
+bnbg_e=ge("bnbg");
+function setArrows(){
+for(var i in lbs){yf=oh(lbcs[i])/oh(lbs[i])*1.2;xf=1+yf/5;lbs[i].style.transform='scale('+xf+','+yf+')';}
+for(var i in rbs){yf=oh(rbcs[i])/oh(rbs[i])*1.2;xf=1+yf/5;rbs[i].style.transform='scale('+xf+','+yf+')';}
+if(bnbg_e != null)if(gr(tbd_e).bottom
+
+
+

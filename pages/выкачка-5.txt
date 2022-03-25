@@ -1,0 +1,268 @@
+
+
+
+
+
+Л. Н. Толстой. Война и мир. Текст произведения. Том первый. Часть первая. V
+
+
+
+
+
+.hdr {border-bottom:2px solid #7f7f96;background-color:#e6e0d3;background-image:url(/i/dark_bg_oldpaper.gif);background-position-x:right;text-align:right;height:3.6em;position:relative;display:flex;justify-content:flex-end;align-items:flex-end}
+.qson {white-space:nowrap;margin:0em;padding:0.1em 0em;font-size:100%}
+#lmini {display:none;width:4.9em;height:2.5em;position:absolute}
+#lmaxi {width:12em;height:3.6em;position:absolute}
+#lmidi {width:12em;height:3.6em;position:absolute}
+#smg {display:inline-block;width:1em;height:1.2em;vertical-align:middle;margin-bottom:0em}
+.ma {padding:0.5em 1em;border:1px solid #7f7f96;display:inline-block;height:1.2em;border-bottom:0px}
+.l {margin:0em;top:0;left:0;padding:0em;position:relative;width:100%;display:flex;align-items:stretch}
+#lft {padding:1em 2em;}
+.ang0 {position:relative;width:.6em;height:1.2em}
+.ang {position:absolute;border:.6em solid transparent;width:0px;height:0px}
+.la1 {border-right-color:#222;border-left-width:0px}
+.la2 {left:2px;border-right-color:#e3e0d7;border-left-width:0px}
+.ra1 {left:2px;border-left-color:#222;border-right-width:0em;margin-left:0.46em}
+.ra2 {border-left-color:#e3e0d7;border-right-width:0px;margin-left:0.46em}
+.ha {border-top: 2px solid black;margin-top:-1px}
+.me {text-decoration:underline;color:#006}
+.me:hover {cursor:pointer}
+.sb {background-color:#d6d0c3;display:flex;align-items:center;padding:0em 1em;border:1px solid #7f7f96;border-left:0px}
+.sb:hover {cursor:pointer}
+
+
+
+window.yaContextCb=window.yaContextCb||[]
+
+
+
+
+
+
+
+
+
+lgl=1;
+function ge(e){return document.getElementById(e);}
+function ow(e){return e.offsetWidth}
+function oh(e){return e.offsetHeight}
+function showLogin(){var lf=ge("loginFrame");var cw=lf.contentWindow;if(cw.location.pathname!="/loginFrame.phtml"){cw.location.assign("/loginFrame.phtml");}lf.style.display="block";ge("shdw").style.display="block";cw.focus();}
+function Logout(){
+ var r=new XMLHttpRequest();
+ r.open('POST', '/userlogout.phtml', true);
+ r.send();
+ r.onreadystatechange=function() {
+  if (r.readyState === 4) {	
+   if (r.status >= 200 && r.status < 300)
+    document.location.reload(true);
+  }
+ }
+}
+poems=[];lbs=[];lbcs=[];rbs=[];rbcs=[];
+function toggle_sf(){qs_e=ge('qs1');hdr_e=ge('hdr');qi_e=ge('qi1');if (qs_e.className=='qson') {qs_e.className = "qsoff";hdr_e.className="hdr2";qi1.focus()}else{qs_e.className = "qson";hdr_e.className="hdr";}}
+window.addEventListener("click",function(e){
+qs_e=ge('qs1');hdr_e=ge('hdr');qi_e=ge('qi1');thm_e=ge("thm");am1_e=ge("am1");sldr_e=ge("sldr1");
+eid=document.elementFromPoint(e.clientX, e.clientY).id;
+if(am1_e!==null)if(eid!=="am1"&&am1_e.className=="am1min"&&eid!="amm"&&eid!="mmm")am1_e.className="am1";
+if(thm_e!==null)if(eid!=="thm"&&thm_e.className=="thmmin")thm_e.className="thm";
+if(sldr_e!==null){
+	if(eid=="sldr1")showThemes();
+}
+if(eid=="lio"){var m=ge("lio");if(m.innerHTML=="Вход")showLogin();else Logout();}
+if(eid=="sb"||eid=="sb1"){document.forms.sf2.submit();}
+},true);
+
+
+
+ 
+  
+   
+    
+    
+    
+   
+	
+ 
+ 
+  
+	
+	
+	
+
+
+
+
+Авторы
+&nbsp;
+
+
+
+
+
+
+
+if (ge('lft0').offsetWidth > 599) {
+	ge('tyad').style.display="block";
+		window.yaContextCb.push(()=>{
+		Ya.Context.AdvManager.render({
+		    renderTo: 'ty',
+		    blockId: 'R-A-447573-2'
+		  })
+		})
+}
+
+
+
+
+	
+	
+Л. Н. Толстой. Война и мир. Том первый. Часть первая
+V
+Поблагодарив Анну Павловну за ее charmante soir&eacute;e&nbsp;1, гости стали расходиться.
+Пьер был неуклюж. Толстый, выше обыкновенного роста, широкий, с огромными красными руками, он, как говорится, не умел войти в салон и еще менее умел из него выйти, то есть перед выходом сказать что-нибудь особенно приятное. Кроме того, он был рассеян. Вставая, он вместо своей шляпы захватил треугольную шляпу с генеральским плюмажем и держал ее, дергая султан, до тех пор, пока генерал не попросил возвратить ее. Но вся его рассеянность и неуменье войти в салон и говорить в нем выкупались выражением добродушия, простоты и скромности. Анна Павловна повернулась к нему и, с христианскою кротостью выражая прощение за его выходку, кивнула ему и сказала:
+&mdash; Надеюсь увидеть вас еще, но надеюсь тоже, что вы перемените свои мнения, мой милый мсье Пьер, &mdash; сказала она.
+Когда она сказала ему это, он ничего не ответил, только наклонился и показал всем еще раз свою улыбку, которая ничего не говорила, разве только вот что: &laquo;Мнения мнениями, а вы видите, какой я добрый и славный малый&raquo;. И все и Анна Павловна невольно почувствовали это.
+Князь Андрей вышел в переднюю и, подставив плечи лакею, накидывавшему ему плащ, равнодушно прислушивался к болтовне своей жены с князем Ипполитом, вышедшим тоже в переднюю. Князь Ипполит стоял возле хорошенькой беременной княгини и упорно смотрел прямо на нее в лорнет.
+&mdash; Идите, Annette, вы простудитесь, &mdash; говорила маленькая княгиня, прощаясь с Анной Павловной. &mdash; C'est arr&ecirc;t&eacute;&nbsp;2, &mdash; прибавила она тихо.
+Анна Павловна уже успела переговорить с Лизой о сватовстве, которое она затевала между Анатолем и золовкой маленькой княгини.
+&mdash; Я надеюсь на вас, милый друг, &mdash; сказала Анна Павловна тоже тихо, &mdash; вы напишете к ней и скажете мне, comment le p&egrave;re envisagera la chose. Au revoir&nbsp;3, &mdash; и она ушла из передней.
+Князь Ипполит подошел к маленькой княгине и, близко наклоняя к ней свое лицо, стал полушепотом что-то говорить ей.
+Два лакея, один княгинин, другой его, дожидаясь, когда они кончат говорить, стояли с шалью и рединготом и слушали их, непонятный им, французский говор с такими лицами, как будто они понимали, что говорится, но не хотели показывать этого. Княгиня, как всегда, говорила улыбаясь и слушала смеясь.
+&mdash; Я очень рад, что не поехал к посланнику, &mdash; говорил князь Ипполит, &mdash; скука... Прекрасный вечер. Не правда ли, прекрасный?
+&mdash; Говорят, что бал будет очень хорош, &mdash; отвечала княгиня, вздергивая с усиками губку. &mdash; Все красивые женщины общества будут там.
+&mdash; Не все, потому что вас там не будет; не все, &mdash; сказал князь Ипполит, радостно смеясь, и, схватив шаль у лакея, даже толкнул его и стал надевать ее на княгиню. От неловкости или умышленно (никто бы не мог разобрать этого) он долго не отпускал рук, когда шаль уже была надета, и как будто обнимал молодую женщину.
+Она грациозно, но все улыбаясь, отстранилась, повернулась и взглянула на мужа. У князя Андрея глаза были закрыты: так он казался усталым и сонным.
+&mdash; Вы готовы? &mdash; спросил он жену, обходя ее взглядом.
+Князь Ипполит торопливо надел свой редингот, который у него, по-новому, был длиннее пяток, и, путаясь в нем, побежал на крыльцо за княгиней, которую лакей подсаживал в карету.
+&mdash; Princesse, au revoir&nbsp;4, &mdash; крикнул он, путаясь языком так же, как и ногами.
+Княгиня, подбирая платье, садилась в темноте кареты; муж ее оправлял саблю; князь Ипполит, под предлогом прислуживания, мешал всем.
+&mdash; Па-звольте, сударь, &mdash; сухо-неприятно обратился князь Андрей по-русски к князю Ипполиту, мешавшему ему пройти.
+&mdash; Я тебя жду, Пьер, &mdash; ласково и нежно проговорил тот же голос князя Андрея.
+Форейтор тронул, и карета загремела колесами. Князь Ипполит смеялся отрывисто, стоя на крыльце и дожидаясь виконта, которого он обещал довезти до дому.
+&mdash; Eh bien, mon cher, votre petite princesse est tr&egrave;s bien, tr&egrave;s bien, &mdash; сказал виконт, усевшись в карету с Ипполитом. &mdash; Mais tr&egrave;s bien. &mdash; Он поцеловал кончики своих пальцев. &mdash; Et tout &agrave; fait fran&ccedil;aise&nbsp;5.
+Ипполит, фыркнув, засмеялся.
+&mdash; Et savez-vous que vous &ecirc;tes terrible avec votre petit air innocent, &mdash; продолжал виконт. &mdash; Je plains le pauvre mari, ce petit officier qui se donne des airs de prince r&eacute;gnant&nbsp;6.
+Ипполит фыркнул еще и сквозь смех проговорил:
+&mdash; Et vous disiez, que les dames russes ne valaient pas les dames fran&ccedil;aises. Il faut savoir s'y prendre&nbsp;7.
+Пьер, приехав вперед, как домашний человек, прошел в кабинет князя Андрея и тотчас же, по привычке, лег на диван, взял первую попавшуюся с полки книгу (это были Записки Цезаря) и принялся облокотившись, читать ее из середины.
+&mdash; Что ты сделал с mademoiselle Шерер? Она теперь совсем заболеет, &mdash; сказал, входя в кабинет, князь Андрей и потирая маленькие белые ручки.
+Пьер поворотился всем телом, так что диван заскрипел, обернул оживленное лицо к князю Андрею, улыбнулся и махнул рукой.
+&mdash; Нет, этот аббат очень интересен, но только не так понимает дело... По-моему, вечный мир возможен, но я не умею, как это сказать... Но только не политическим равновесием.
+Князь Андрей не интересовался, видимо, этими отвлеченными разговорами.
+&mdash; Нельзя, mon cher&nbsp;8, везде все говорить, что только думаешь. Ну, что ж, ты решился, наконец, на что-нибудь? Кавалергард ты будешь или дипломат? &mdash; спросил князь Андрей после минутного молчания.
+Пьер сел на диван, поджав под себя ноги.
+&mdash; Можете себе представить, я все еще не знаю. Ни то, ни другое мне не нравится.
+&mdash; Но ведь надо на что-нибудь решиться? Отец твой ждет.
+Пьер с десятилетнего возраста был послан с гувернером-аббатом за границу, где он пробыл до двадцатилетнего возраста. Когда он вернулся в Москву, отец отпустил аббата и сказал молодому человеку: &laquo;Теперь ты поезжай в Петербург, осмотрись и выбирай. Я на все согласен. Вот тебе письмо к князю Василью, и вот тебе деньги. Пиши обо всем, я тебе во всем помо&#769;га&raquo;. Пьер уже три месяца выбирал карьеру и ничего не делал. Про этот выбор и говорил ему князь Андрей. Пьер потер себе лоб.
+&mdash; Но он масон должен быть, &mdash; сказал он, разумея аббата, которого он видел на вечере.
+&mdash; Все это бредни, &mdash; остановил его опять князь Андрей, &mdash; поговорим лучше о деле. Был ты в конной гвардии?..
+&mdash; Нет, не был, но вот что мне пришло в голову, и я хотел вам сказать. Теперь война против Наполеона. Ежели б это была война за свободу, я бы понял, я бы первый поступил в военную службу; но помогать Англии и Австрии против величайшего человека в мире... это нехорошо.
+Князь Андрей только пожал плечами на детские речи Пьера. Он сделал вид, что на такие глупости нельзя отвечать; но действительно на этот наивный вопрос трудно было ответить что-нибудь другое, чем то, что ответил князь Андрей.
+&mdash; Ежели бы все воевали только по своим убеждениям, войны бы не было, &mdash; сказал он.
+&mdash; Это-то и было бы прекрасно, &mdash; сказал Пьер.
+Князь Андрей усмехнулся.
+&mdash; Очень может быть, что это было бы прекрасно, но этого никогда не будет...
+&mdash; Ну, для чего вы идете на войну? &mdash; спросил Пьер.
+&mdash; Для чего? Я не знаю. Так надо. Кроме того, я иду... &mdash; Он остановился. &mdash; Я иду потому, что эта жизнь, которую я веду здесь, эта жизнь &mdash; не по мне!
+
+1
+обворожительный вечер.2
+Так решено.3
+как отец посмотрит на дело. До свидания.4
+Княгиня, до свидания.5
+Ну, мой дорогой, ваша маленькая княгиня очень мила. Очень мила. И совсем, совсем француженка.6
+А знаете ли, вы ужасны с вашим невинным видом. Я жалею бедного мужа, этого офицерика, который корчит из себя владетельную особу.7
+А вы говорили, что русские дамы не стоят французских. Надо уметь взяться.8
+мой милый.IV5/361VIо тексте/оглавление
+
+
+
+
+
+
+
+ pagecontext="text1";
+
+&copy; Это произведение перешло в общественное достояние. Произведение написано автором, умершим более семидесяти лет назад, и опубликовано прижизненно, либо посмертно, но с момента публикации также прошло более семидесяти лет. Оно может свободно использоваться любым лицом без чьего-либо согласия или разрешения и без выплаты авторского вознаграждения.
+
+
+
+
+
+
+
+ var user = Object();
+user.paid = false;wx=ow(ge('in'));
+displayAd(wx, 610, 'r_top','right-rectangle-stick-1');
+
+
+function gr(e){return e.getBoundingClientRect();}
+
+
+
+
+ 
+  
+	 
+   
+
+   hx=oh(ge('lft'));
+	 displayAd(wx,hx-660,'r_bot','btmad');
+ 
+	
+ 
+
+
+
+
+
+
+
+
+
+Email: otklik@ilibrary.ruО библиотекеРеклама на сайте
+&copy;1996&#151;2022 Алексей Комаров. Подборка&nbsp;произведений, оформление, программирование.
+
+
+
+")
+//-->
+
+(function(w, c) { (w[c] = w[c] || []).push(function() { try { w.yaCounter5179000 = new Ya.Metrika({id:5179000, enableAll: true, webvisor:true}); } catch(e) { } }); })(window, "yandex_metrika_callbacks");
+
+var bscript=document.createElement('script');
+if (lgl==2) bscript.src="/rightbanners_rox3_1.js"; else bscript.src="/rightbanners3_2.js";
+document.head.appendChild(bscript);
+
+function setAd(){
+t_e=ge("text");var ty_e=ge("tyad");
+if(ty_e){if (ow(t_e)>=600)ty_e.style.display="block";else ty_e.style.display="none";}
+}
+function setPoems(){
+t_e=ge("text");
+if(typeof t_e !== 'undefined'){
+var tw=ow(t_e);
+var ss='';
+if(tw>240)for(var i in poems){
+var vls=poems[i].getElementsByClassName("vl");
+var vlim=16;var rsq=0;var lsq=0;var vlmax=0;var invr=0;var invl=0;
+if(vls.lengthvlmax)vlmax=vlw;}
+for(var j=0;jvlmax/3)rsq+=ow(poems[i])-vlw;else invr++;pdl=getComputedStyle(vls[j]).paddingLeft;pdl=parseFloat(pdl.slice(0,-2));if(pdltw)width1=tw-vlmax;
+var pmid='#'+poems[i].id;
+ss+=pmid+' div,'+pmid+' h1,'+pmid+' h2,'+pmid+' h3,'+pmid+' h4,'+pmid+' h5 {margin-left:-'+width1+'px;}'+pmid+' .pmm {padding-left:'+width1+'px;margin:0em}'+pmid+' .pm {padding-left:'+width1+'px}';
+}
+pss=document.createElement('style');
+pss.innerHTML=ss;
+document.querySelector('head').appendChild(pss);
+}
+}
+function cleanRules(){if(typeof t_e !=='undefined'){if(ow(ge("text"))>240)pss.parentNode.removeChild(pss);}}
+tbd_e=ge("tbd");
+bnbg_e=ge("bnbg");
+function setArrows(){
+for(var i in lbs){yf=oh(lbcs[i])/oh(lbs[i])*1.2;xf=1+yf/5;lbs[i].style.transform='scale('+xf+','+yf+')';}
+for(var i in rbs){yf=oh(rbcs[i])/oh(rbs[i])*1.2;xf=1+yf/5;rbs[i].style.transform='scale('+xf+','+yf+')';}
+if(bnbg_e != null)if(gr(tbd_e).bottom
+
+
+

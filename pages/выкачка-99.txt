@@ -1,0 +1,233 @@
+
+
+
+
+
+Л. Н. Толстой. Война и мир. Текст произведения. Том второй. Часть вторая. XVIII
+
+
+
+
+
+.hdr {border-bottom:2px solid #7f7f96;background-color:#e6e0d3;background-image:url(/i/dark_bg_oldpaper.gif);background-position-x:right;text-align:right;height:3.6em;position:relative;display:flex;justify-content:flex-end;align-items:flex-end}
+.qson {white-space:nowrap;margin:0em;padding:0.1em 0em;font-size:100%}
+#lmini {display:none;width:4.9em;height:2.5em;position:absolute}
+#lmaxi {width:12em;height:3.6em;position:absolute}
+#lmidi {width:12em;height:3.6em;position:absolute}
+#smg {display:inline-block;width:1em;height:1.2em;vertical-align:middle;margin-bottom:0em}
+.ma {padding:0.5em 1em;border:1px solid #7f7f96;display:inline-block;height:1.2em;border-bottom:0px}
+.l {margin:0em;top:0;left:0;padding:0em;position:relative;width:100%;display:flex;align-items:stretch}
+#lft {padding:1em 2em;}
+.ang0 {position:relative;width:.6em;height:1.2em}
+.ang {position:absolute;border:.6em solid transparent;width:0px;height:0px}
+.la1 {border-right-color:#222;border-left-width:0px}
+.la2 {left:2px;border-right-color:#e3e0d7;border-left-width:0px}
+.ra1 {left:2px;border-left-color:#222;border-right-width:0em;margin-left:0.46em}
+.ra2 {border-left-color:#e3e0d7;border-right-width:0px;margin-left:0.46em}
+.ha {border-top: 2px solid black;margin-top:-1px}
+.me {text-decoration:underline;color:#006}
+.me:hover {cursor:pointer}
+.sb {background-color:#d6d0c3;display:flex;align-items:center;padding:0em 1em;border:1px solid #7f7f96;border-left:0px}
+.sb:hover {cursor:pointer}
+
+
+
+window.yaContextCb=window.yaContextCb||[]
+
+
+
+
+
+
+
+
+
+lgl=1;
+function ge(e){return document.getElementById(e);}
+function ow(e){return e.offsetWidth}
+function oh(e){return e.offsetHeight}
+function showLogin(){var lf=ge("loginFrame");var cw=lf.contentWindow;if(cw.location.pathname!="/loginFrame.phtml"){cw.location.assign("/loginFrame.phtml");}lf.style.display="block";ge("shdw").style.display="block";cw.focus();}
+function Logout(){
+ var r=new XMLHttpRequest();
+ r.open('POST', '/userlogout.phtml', true);
+ r.send();
+ r.onreadystatechange=function() {
+  if (r.readyState === 4) {	
+   if (r.status >= 200 && r.status < 300)
+    document.location.reload(true);
+  }
+ }
+}
+poems=[];lbs=[];lbcs=[];rbs=[];rbcs=[];
+function toggle_sf(){qs_e=ge('qs1');hdr_e=ge('hdr');qi_e=ge('qi1');if (qs_e.className=='qson') {qs_e.className = "qsoff";hdr_e.className="hdr2";qi1.focus()}else{qs_e.className = "qson";hdr_e.className="hdr";}}
+window.addEventListener("click",function(e){
+qs_e=ge('qs1');hdr_e=ge('hdr');qi_e=ge('qi1');thm_e=ge("thm");am1_e=ge("am1");sldr_e=ge("sldr1");
+eid=document.elementFromPoint(e.clientX, e.clientY).id;
+if(am1_e!==null)if(eid!=="am1"&&am1_e.className=="am1min"&&eid!="amm"&&eid!="mmm")am1_e.className="am1";
+if(thm_e!==null)if(eid!=="thm"&&thm_e.className=="thmmin")thm_e.className="thm";
+if(sldr_e!==null){
+	if(eid=="sldr1")showThemes();
+}
+if(eid=="lio"){var m=ge("lio");if(m.innerHTML=="Вход")showLogin();else Logout();}
+if(eid=="sb"||eid=="sb1"){document.forms.sf2.submit();}
+},true);
+
+
+
+ 
+  
+   
+    
+    
+    
+   
+	
+ 
+ 
+  
+	
+	
+	
+
+
+
+
+Авторы
+&nbsp;
+
+
+
+
+
+
+
+if (ge('lft0').offsetWidth > 599) {
+	ge('tyad').style.display="block";
+		window.yaContextCb.push(()=>{
+		Ya.Context.AdvManager.render({
+		    renderTo: 'ty',
+		    blockId: 'R-A-447573-2'
+		  })
+		})
+}
+
+
+
+
+	
+	
+Л. Н. Толстой. Война и мир. Том второй. Часть вторая
+XVIII
+Пройдя коридор, фельдшер ввел Ростова в офицерские палаты, состоявшие из трех, с растворенными дверями, комнат. В комнатах этих были кровати; раненые и больные офицеры сидели и лежали на них. Некоторые в больничных халатах ходили по комнатам. Первое лицо, встретившееся Ростову в офицерских палатах, был маленький, худой человек без руки, в колпаке и больничном халате, с закушенной трубочкой ходивший в первой комнате. Ростов, вглядываясь в него, старался вспомнить, где он его видел.
+&mdash; Вот где Бог привел свидеться, &mdash; сказал маленький человек. &mdash; Тушин, Тушин &mdash; помните, довез вас под Шенграбеном? А мне кусочек отрезали, вот... &mdash; сказал он, улыбаясь и указывая на пустой рукав халата. &mdash; Василья Дмитрича Денисова ищете? Сожитель, &mdash; сказал он, узнав, кого нужно было Ростову. &mdash; Здесь, здесь. &mdash; И Тушин повел его в другую комнату, из которой слышался хохот нескольких голосов.
+&laquo;И как они могут не только хохотать, но жить тут?&raquo; &mdash; думал Ростов, все слыша еще этот запах мертвого тела, которого он набрался в солдатском госпитале, и все еще видя вокруг себя эти завистливые взгляды, провожавшие его с обеих сторон, и лицо этого молодого солдата с закаченными глазами.
+Денисов, закрывшись с головой одеялом, спал на постели, несмотря на то, что был двенадцатый час дня.
+&mdash; А! Г'остов! Здог'ово, здог'ово! &mdash; закричал он все тем же голосом, как, бывало, и в полку; но Ростов с грустью заметил, как за этой привычной развязностью и оживленностью какое-то новое, дурное, затаенное чувство проглядывало в выражении лица, в интонациях и словах Денисова.
+Рана его, несмотря на свою ничтожность, все еще не заживала, хотя уже прошло шесть недель, как он был ранен. В лице его была та же бледная опухлость, которая была на всех гошпитальных лицах. Но не это поразило Ростова: его поразило то, что Денисов как будто не рад был ему и неестественно ему улыбался. Денисов не расспрашивал ни про полк, ни про общий ход дела. Когда Ростов говорил про это, Денисов не слушал.
+Ростов заметил даже, что Денисову неприятно было, когда ему напоминали о полке и вообще о той, другой, вольной жизни, которая шла вне госпиталя. Он, казалось, старался забыть ту прежнюю жизнь и интересовался только своим делом с провиантскими чиновниками. На вопрос Ростова, в каком положении было дело, он тотчас достал из-под подушки бумагу, полученную из комиссии, и свой черновой ответ на нее. Он оживился, начав читать свою бумагу, и особенно давал заметить Ростову колкости, которые он в этой бумаге говорил своим врагам. Госпитальные товарищи Денисова, окружившие было Ростова &mdash; вновь прибывшее из вольного света лицо, &mdash; стали понемногу расходиться, как только Денисов стал читать свою бумагу. По их лицам Ростов понял, что все эти господа уже не раз слышали всю эту успевшую им надоесть историю. Только сосед на кровати, толстый улан, сидел на своей койке, мрачно нахмурившись и куря трубку, и маленький Тушин без руки продолжал слушать, неодобрительно покачивая головой. В середине чтения улан перебил Денисова.
+&mdash; А по мне, &mdash; сказал он, обращаясь к Ростову, &mdash; надо просто просить государя о помиловании. Теперь, говорят, награды будут большие, и, верно, простят...
+&mdash; Мне просить государя! &mdash; сказал Денисов голосом, которому он хотел придать прежнюю энергию и горячность, но который звучал бесполезной раздражительностью. &mdash; О чем? Ежели бы я был разбойник, я бы просил милости, а то я сужусь за то, что вывожу на чистую воду разбойников. Пускай судят, я никого не боюсь; я честно служил царю и отечеству, и не крал! И меня разжаловать, и... Слушай, я так прямо и пишу им, вот я пишу: &laquo;ежели бы я был казнокрад...&raquo;
+&mdash; Ловко написано, что и говорить, &mdash; сказал Тушин. &mdash; Да не в том дело, Василий Дмитрич, &mdash; он тоже обратился к Ростову, &mdash; покориться надо, а вот Василий Дмитрич не хочет. Ведь аудитор говорил вам, что дело ваше плохо.
+&mdash; Ну, пускай будет плохо, &mdash; сказал Денисов.
+&mdash; Вам написал аудитор просьбу, &mdash; продолжал Тушин, &mdash; и надо подписать, да вот с ними и отправить. У них, верно (он указал на Ростова), и рука в штабе есть. Уж лучше случая не найдете.
+&mdash; Да ведь я сказал, что подличать не стану, &mdash; перебил Денисов и опять продолжал чтение своей бумаги.
+Ростов не смел уговаривать Денисова, хотя он инстинктом чувствовал, что путь, предлагаемый Тушиным и другими офицерами, был самый верный, и хотя он считал бы себя счастливым, ежели бы мог оказать помощь Денисову: он знал непреклонность воли Денисова и его правдивую горячность.
+Когда кончилось чтение ядовитых бумаг Денисова, продолжавшееся более часа, Ростов ничего не сказал и, в самом грустном расположении духа, в обществе опять собравшихся около него госпитальных товарищей Денисова провел остальную часть дня, рассказывая про то, что он знал, и слушая рассказы других. Денисов мрачно молчал в продолжение всего вечера.
+Поздно вечером Ростов собрался уезжать и спросил Денисова, не будет ли каких поручений.
+&mdash; Да, постой, &mdash; сказал Денисов, оглянулся на офицеров и, достав из-под подушки свои бумаги, пошел к окну, на котором у него стояла чернильница, и сел писать.
+&mdash; Видно, плетью обуха не пег'ешибешь, &mdash; сказал он, отходя от окна и подавая Ростову большой конверт. Это была просьба на имя государя, составленная аудитором, в которой Денисов, ничего не упоминая о винах провиантского ведомства, просил только о помиловании.
+&mdash; Пег'едай, видно... &mdash; Он не договорил и улыбнулся болезненно-фальшивой улыбкой.
+
+XVII99/361XIXо тексте/оглавление
+
+
+
+
+
+
+
+ pagecontext="text1";
+
+&copy; Это произведение перешло в общественное достояние. Произведение написано автором, умершим более семидесяти лет назад, и опубликовано прижизненно, либо посмертно, но с момента публикации также прошло более семидесяти лет. Оно может свободно использоваться любым лицом без чьего-либо согласия или разрешения и без выплаты авторского вознаграждения.
+
+
+
+
+
+
+
+ var user = Object();
+user.paid = false;wx=ow(ge('in'));
+displayAd(wx, 610, 'r_top','right-rectangle-stick-1');
+
+
+function gr(e){return e.getBoundingClientRect();}
+
+
+
+
+ 
+  
+	 
+   
+
+   hx=oh(ge('lft'));
+	 displayAd(wx,hx-660,'r_bot','btmad');
+ 
+	
+ 
+
+
+
+
+
+
+
+
+
+Email: otklik@ilibrary.ruО библиотекеРеклама на сайте
+&copy;1996&#151;2022 Алексей Комаров. Подборка&nbsp;произведений, оформление, программирование.
+
+
+
+")
+//-->
+
+(function(w, c) { (w[c] = w[c] || []).push(function() { try { w.yaCounter5179000 = new Ya.Metrika({id:5179000, enableAll: true, webvisor:true}); } catch(e) { } }); })(window, "yandex_metrika_callbacks");
+
+var bscript=document.createElement('script');
+if (lgl==2) bscript.src="/rightbanners_rox3_1.js"; else bscript.src="/rightbanners3_2.js";
+document.head.appendChild(bscript);
+
+function setAd(){
+t_e=ge("text");var ty_e=ge("tyad");
+if(ty_e){if (ow(t_e)>=600)ty_e.style.display="block";else ty_e.style.display="none";}
+}
+function setPoems(){
+t_e=ge("text");
+if(typeof t_e !== 'undefined'){
+var tw=ow(t_e);
+var ss='';
+if(tw>240)for(var i in poems){
+var vls=poems[i].getElementsByClassName("vl");
+var vlim=16;var rsq=0;var lsq=0;var vlmax=0;var invr=0;var invl=0;
+if(vls.lengthvlmax)vlmax=vlw;}
+for(var j=0;jvlmax/3)rsq+=ow(poems[i])-vlw;else invr++;pdl=getComputedStyle(vls[j]).paddingLeft;pdl=parseFloat(pdl.slice(0,-2));if(pdltw)width1=tw-vlmax;
+var pmid='#'+poems[i].id;
+ss+=pmid+' div,'+pmid+' h1,'+pmid+' h2,'+pmid+' h3,'+pmid+' h4,'+pmid+' h5 {margin-left:-'+width1+'px;}'+pmid+' .pmm {padding-left:'+width1+'px;margin:0em}'+pmid+' .pm {padding-left:'+width1+'px}';
+}
+pss=document.createElement('style');
+pss.innerHTML=ss;
+document.querySelector('head').appendChild(pss);
+}
+}
+function cleanRules(){if(typeof t_e !=='undefined'){if(ow(ge("text"))>240)pss.parentNode.removeChild(pss);}}
+tbd_e=ge("tbd");
+bnbg_e=ge("bnbg");
+function setArrows(){
+for(var i in lbs){yf=oh(lbcs[i])/oh(lbs[i])*1.2;xf=1+yf/5;lbs[i].style.transform='scale('+xf+','+yf+')';}
+for(var i in rbs){yf=oh(rbcs[i])/oh(rbs[i])*1.2;xf=1+yf/5;rbs[i].style.transform='scale('+xf+','+yf+')';}
+if(bnbg_e != null)if(gr(tbd_e).bottom
+
+
+
