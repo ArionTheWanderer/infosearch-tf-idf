@@ -55,12 +55,11 @@ def compute_idf(strings_list):
             if count_l > 0:
                 idf_local[word_l] += 1.0
 
+    idf_returned = {}
     for word_l, v in idf_local.items():
-        if idf_local[word_l] != 0.0:
-            idf_local[word_l] = math.log(n / float(v))
-        else:
-            idf_local[word_l] = 0.0
-    return idf_local
+        idf_returned[word_l] = math.log(n / float(v))
+
+    return idf_returned
 
 
 # подсчет tf-idf-значений слов/токенов
